@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+
+    <TextView
+        android:id="@+id/insta_rate_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/rating_dialog_desc_title2"
+        android:textAppearance="@style/bold"
+        android:textColor="#262626"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/insta_follow_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:lineSpacingExtra="5dp"
+        android:textAppearance="@style/regular"
+        android:textColor="#262626"
+        android:textSize="16sp" />
+
+
+</LinearLayout>

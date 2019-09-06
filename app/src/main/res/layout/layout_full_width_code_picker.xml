@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/countryCodeHolder"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/rlClickConsumer"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/transparent"
+        android:paddingEnd="20dp"
+        android:paddingStart="20dp">
+
+        <LinearLayout
+            android:id="@+id/linear_flag_holder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="@dimen/google_1x"
+            android:layout_marginRight="@dimen/google_1x">
+
+            <RelativeLayout
+                android:id="@+id/linear_flag_border"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/ic_country_border" />
+
+                <ImageView
+                    android:id="@+id/image_flag"
+                    android:layout_width="21dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/flag_us" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <!--</LinearLayout>-->
+        <TextView
+            android:id="@+id/textView_selectedCountry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/linear_flag_holder"
+            android:layout_toLeftOf="@+id/imageView_arrow"
+            android:layout_toRightOf="@+id/linear_flag_holder"
+            android:layout_toStartOf="@+id/imageView_arrow"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="(IN) +91"
+            android:textAppearance="@style/bold"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/imageView_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ccp_down_arrow"
+            android:tint="@android:color/white" />
+    </RelativeLayout>
+</RelativeLayout>

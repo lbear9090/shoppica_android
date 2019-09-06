@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <plurals name="send_time_out">
+        <item quantity="one">Du kan skicka feedback igen om %d sekund.</item>
+        <item quantity="other"> Du kan skicka feedback igen om %d sekunder.</item>
+    </plurals>
+
+    <plurals name="trade_time_out">
+        <item quantity="one"> Du kan skicka ett meddelande igen om %d sekund.</item>
+        <item quantity="other"> Du kan skicka ett meddelande igen om %d sekunder.</item>
+    </plurals>
+
+
+    <plurals name="new_articles">
+        <item quantity="one">1 ny annons har postats sedan ditt förra besök. Titta på den nu!</item>
+        <item quantity="other">%d nya annonser har postats sedan ditt förra besök. Titta på dem nu!</item>
+    </plurals>
+</resources>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="ContentDescription">
+
+
+    <TextView
+        android:id="@+id/contactTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="@string/alert_add_contact"
+        android:textAppearance="@style/bold"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:includeFontPadding="false"
+        app:layout_constraintBottom_toTopOf="@+id/contactInstagramView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <View
+        android:id="@+id/contactInstagramView"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:background="@drawable/bg_box_instagram"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintBottom_toTopOf="@+id/contactWhatsAppView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/contactInstagramTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:gravity="center"
+        android:hint="@string/alert_add_instagram"
+        android:textAppearance="@style/bold"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="14sp"
+        android:includeFontPadding="false"
+        app:layout_constraintBottom_toBottomOf="@+id/contactInstagramView"
+        app:layout_constraintEnd_toEndOf="@+id/contactInstagramView"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/contactInstagramView"
+        app:layout_constraintTop_toTopOf="@+id/contactInstagramView" />
+
+    <View
+        android:id="@+id/contactWhatsAppView"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/bg_box_whatsapp"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/contactWhatsAppTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:gravity="center"
+        android:hint="@string/alert_add_whatsapp"
+        android:textAppearance="@style/bold"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="14sp"
+        android:includeFontPadding="false"
+        app:layout_constraintBottom_toBottomOf="@+id/contactWhatsAppView"
+        app:layout_constraintEnd_toEndOf="@+id/contactWhatsAppView"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/contactWhatsAppView"
+        app:layout_constraintTop_toTopOf="@+id/contactWhatsAppView" />
+
+    <View
+        android:id="@+id/contactEmailView"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_box_email"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/contactWhatsAppView" />
+
+
+    <TextView
+        android:id="@+id/contactEmailTitle"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:gravity="center"
+        android:hint="@string/alert_add_email"
+        android:textAppearance="@style/bold"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="14sp"
+        android:includeFontPadding="false"
+        app:layout_constraintBottom_toBottomOf="@+id/contactEmailView"
+        app:layout_constraintEnd_toEndOf="@+id/contactEmailView"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/contactEmailView"
+        app:layout_constraintTop_toTopOf="@+id/contactEmailView" />
+
+
+</android.support.constraint.ConstraintLayout>

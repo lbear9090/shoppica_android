@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="tab_name">
+        <item>Feed</item>
+        <item>Camera</item>
+        <item>Profile</item>
+    </array>
+
+
+    <string-array name="gender">
+        <item>Vrouwen</item>
+        <item>Mannen</item>
+        <item>Kinderen</item>
+        <item>Unisex</item>
+    </string-array>
+
+
+    <string-array name="condition">
+        <item>Nieuw</item>
+        <item>Zo goed als nieuw</item>
+        <item>Gebruikt</item>
+    </string-array>
+
+    <string-array name="send">
+        <item>Ophalen</item>
+        <item>Verzenden</item>
+        <item>Ophalen &amp; Verzenden</item>
+    </string-array>
+
+    <string-array name="categories">
+        <item>Rugzakken</item>
+        <item>Riemen</item>
+        <item>Telefoon kabels &amp; Opladers</item>
+        <item>Telefoon hoesjes</item>
+        <item>Schoonheidsmiddelen &amp; Makeup</item>
+        <item>Cologne &amp; Parfum</item>
+        <item>Clutch &amp; Avondtassen</item>
+        <item>Crossbody Tassen</item>
+        <item>Mode Rugzakken</item>
+        <item>Handschoenen &amp; Wanten</item>
+        <item>Feest Kleding</item>
+        <item>Hoeden &amp; Petten</item>
+        <item>Koptelefoon &amp; Oortjes</item>
+        <item>Hobo Tassen</item>
+        <item>Juwelen</item>
+        <item>Kinderen &amp; Baby</item>
+        <item>Laptop tassen</item>
+        <item>Laptop Cases</item>
+        <item>ReisGoed</item>
+        <item>Messenger Tassen</item>
+        <item>Huisdier Accessories </item>
+        <item>Draagbare opladers &amp; Powerbanks</item>
+        <item>Schooltassen</item>
+        <item>Sjaals</item>
+        <item>Schoenen</item>
+        <item>Shouder Tassen</item>
+        <item>Sport Schoenen</item>
+        <item>Zonnenbrillen</item>
+        <item>Tablets &amp; E-Reader Hoesjes</item>
+        <item>Paraplu\'s</item>
+        <item>Vintage</item>
+        <item>Portefeuilles</item>
+        <item>Horloges</item>
+        <item>Handboeien</item>
+        <item>Diversen</item>
+    </string-array>
+
+    <string-array name="categories_filter">
+        <item>Rugzakken</item>
+        <item>Riemen</item>
+        <item>Telefoon kabels &amp; Opladers</item>
+        <item>Telefoon hoesjes</item>
+        <item>Schoonheidsmiddelen &amp; Makeup</item>
+        <item>Cologne &amp; Parfum</item>
+        <item>Clutch &amp; Avondtassen</item>
+        <item>Crossbody Tassen</item>
+        <item>Mode Rugzakken</item>
+        <item>Handschoenen &amp; Wanten</item>
+        <item>Feest Kleding</item>
+        <item>Hoeden &amp; Petten</item>
+        <item>Koptelefoon &amp; Oortjes</item>
+        <item>Hobo Tassen</item>
+        <item>Juwelen</item>
+        <item>Kinderen &amp; Baby</item>
+        <item>Laptop tassen</item>
+        <item>Laptop Cases</item>
+        <item>ReisGoed</item>
+        <item>Messenger Tassen</item>
+        <item>Huisdier Accessories </item>
+        <item>Draagbare opladers &amp; Powerbanks</item>
+        <item>Schooltassen</item>
+        <item>Sjaals</item>
+        <item>Schoenen</item>
+        <item>Shouder Tassen</item>
+        <item>Sport Schoenen</item>
+        <item>Zonnenbrillen</item>
+        <item>Tablets &amp; E-Reader Hoesjes</item>
+        <item>Paraplu\'s</item>
+        <item>Vintage</item>
+        <item>Portefeuilles</item>
+        <item>Horloges</item>
+        <item>Handboeien</item>
+        <item>Diversen</item>
+        <item>Geen voorkeur</item>
+    </string-array>
+
+
+    <string-array name="gender_filter">
+        <item>Vrouwen</item>
+        <item>Mannen</item>
+        <item>Kinderen</item>
+        <item>Unisex</item>
+        <item>Geen Voorkeur</item>
+    </string-array>
+
+    <string-array name="condition_filter">
+        <item>Nieuw</item>
+        <item>Zo goed als nieuw</item>
+        <item>Gebruikt</item>
+        <item>Geen Voorkeur</item>
+    </string-array>
+
+
+    <string-array name="color_filter">
+        <item>Wit</item>
+        <item>Zwart</item>
+        <item>Rood</item>
+        <item>Oranje</item>
+        <item>Geel</item>
+        <item>Groen</item>
+        <item>Blauw</item>
+        <item>Paars</item>
+        <item>Bruin</item>
+        <item>Grijs</item>
+        <item>Geen Voorkeur</item>
+    </string-array>
+
+
+    <string-array name="send_filter">
+        <item>Ophalen</item>
+        <item>Verzenden</item>
+        <item>Ophalen &amp; Verzenden</item>
+        <item>Geen Voorkeur</item>
+
+    </string-array>
+
+
+    <string-array name="status">
+        <item>Te Koop</item>
+        <item>Gereserveerd</item>
+        <item>Verkocht</item>
+    </string-array>
+
+</resources>

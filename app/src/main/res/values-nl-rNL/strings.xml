@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--AppName-->
+    <string name="app_name">SHOPP!CA</string>
+    <string name="app_name1">SHOP</string>
+    <string name="app_name2">P!CA</string>
+
+
+    <!--Toolbar Titles-->
+    <string name="toolbar_name">Shoppica</string>
+    <string name="toolbar_name_sell">Artikel Verkopen</string>
+    <string name="toolbar_name_promote">Artikel Promoten</string>
+    <string name="toolbar_name_extend">Artikel Verlengen</string>
+    <string name="toolbar_name_article">Artikel</string>
+    <string name="toolbar_name_view_articles">Bekijk alle %1$d de foto\'s</string>
+
+
+    <!--Action Buttons -->
+    <string name="btn_action_report">Rapporteer</string>
+    <string name="btn_action_feed_back">Verstuur feedback</string>
+    <string name="btn_action_send">Vestuur</string>
+    <string name="btn_action_skip">Overslaan</string>
+    <string name="btn_action_post">Klaar</string>
+    <string name="btn_action_price">%1$s</string>
+    <string name="btn_action_reset">Reset</string>
+    <string name="btn_action_filter">Filteren</string>
+    <string name="btn_action_extend">Verlengen</string>
+    <string name="btn_action_extend_active">Verlengen Actief</string>
+    <string name="btn_action_promote">Promoten</string>
+    <string name="btn_action_delete">Verwijderen</string>
+    <string name="btn_action_status">Status…</string>
+    <string name="btn_action_promote_active">Promoten Actief</string>
+
+    <string name="btn_action_allow">Toestaan</string>
+    <string name="btn_action_profile">Jouw Profiel</string>
+    <string name="btn_action_deny">Afwijzen</string>
+    <string name="btn_action_ok">ok</string>
+    <string name="btn_action_install">Install App</string>
+    <string name="btn_action_logout">uitloggen</string>
+    <string name="btn_action_cancel">Terug</string>
+    <string name="btn_action_rate">Beoordeel</string>
+    <string name="btn_action_follow">Volgen</string>
+    <string name="btn_action_continue">Doorgaan</string>
+    <string name="btn_action_login">Inloggen</string>
+    <string name="btn_action_show">Laten zien</string>
+
+    <string name="btn_action_settings">Instellingen</string>
+    <string name="btn_action_retry">Opnieuw</string>
+    <string name="btn_action_camera">Foto maken</string>
+    <string name="btn_action_understand">Begrepen</string>
+    <string name="btn_action_country">Land kiezen</string>
+    <string name="btn_action_ask_me">Vraag mij</string>
+    <string name="btn_action_share">Delen op Facebook!</string>
+    <string name="btn_action_unavailable">Niet beschikbaar.</string>
+    <string name="btn_action_view_post">Bekijk uw post</string>
+
+    <string name="btn_action_whatsapp">WhatsApp</string>
+    <string name="btn_action_instagram">Instagram</string>
+    <string name="btn_action_email">E-mailadres</string>
+    <string name="btn_action_send_feedback">Vestuur feedback</string>
+    <string name="btn_action_follow_instagram">Volg ons op Instagram!</string>
+
+    <string name="btn_action_back">Terug</string>
+    <string name="btn_action_extended">Verlopen</string>
+
+    <!--Intro Screen -->
+    <string name="intro_title">Welkom op Shoppica!</string>
+    <string name="intro_title_sub">Hier zijn even snel wat handige tips!</string>
+    <string name="intro_search">Dit is uw startpagina. Hier vindt u alle artikelen die te koop zijn aangeboden.</string>
+    <string name="intro_filter">Hiermee kunt u filteren op categorie, kleur, prijs enzovoorts.</string>
+    <string name="intro_camera">Met deze knop kunt u een kledingstuk te koop zetten.</string>
+    <string name="intro_profile">Hier ziet u uw openstaande en opgeslagen kledingstukken.</string>
+
+
+    <!--Different Errors ViewStates -->
+    <string name="state_error_desc">Er is helaas een fout opgetreden, probeer het later nog eens!</string>
+    <string name="state_empty_desc">Geen artikelen gevonden op dit moment, probeer het later nog eens!</string>
+    <string name="state_filter_desc">Geen artikelen gevonden, controleer uw filters en probeer opnieuw!</string>
+    <string name="state_connection_desc">Controleer uw internetverbinding en probeer het nog eens!</string>
+    <string name="state_error_general_desc">Er is een fout opgetreden aan onze kant. Bekijk onze Facebook-pagina voor mogelijke updates.</string>
+
+    <!--Toast Messages -->
+    <string name="toast_notice_sent">Succesvol verzonden!</string>
+    <string name="toast_notice_logout_success">Succesvol uitgelogd!</string>
+    <string name="toast_notice_login_success">Succesvol ingelogd!</string>
+
+    <string name="toast_error_post">Er is helaas een fout opgetreden tijdens het posten, probeer het later nog eens!</string>
+    <string name="toast_error_no_internet_connection">Geen internetverbinding.</string>
+    <string name="toast_error_report_empty">Typ een bericht…</string>
+    <string name="toast_error_report_length">Uw bericht moet minimaal 10 letters lang zijn.</string>
+    <string name="toast_error_intent_null">Er is helaas iets fout gegaan, probeer het later nog eens!</string>
+    <string name="toast_sen_text_copied">Tekst gekopieerd!</string>
+
+    <!--Currency Messages -->
+    <string name="currency_symbol">%1$s</string>
+    <string name="currency_symbol_replace_from">.</string>
+    <string name="currency_symbol_replace_to">,</string>
+
+
+    <!--Snackbar Messages -->
+    <string name="snackbar_notice_favorite_added">Toegevoegd aan uw favorieten!</string>
+    <string name="snackbar_notice_favorite_removed">Verwijderd uit uw favorieten.</string>
+
+    <string name="snackbar_error_country_pick">Vul a.u.b. een land in.</string>
+    <string name="snackbar_error_filter_no_value_changed">U heeft geen filters geselecteerd.</string>
+    <string name="snackbar_error_max_5_images">U kunt maximaal 3 foto\'s kiezen.</string>
+    <string name="snackbar_error_max_5_images2">U kunt maximaal 3 foto\'s per artikel plaatsen.</string>
+    <string name="snackbar_error_connection">U heeft geen internetverbinding op dit moment.</string>
+    <string name="snackbar_error_report">U heeft deze persoon al gerapporteerd.</string>
+    <string name="snackbar_error_report_length">Uw bericht is te lang, probeer het korter te maken.</string>
+    <string name="snackbar_error_contact_yourself">U kunt geen contact met uzelf opnemen.</string>
+    <string name="snackbar_error_unavailable">Niet beschikbaar op dit moment, probeer het later nog eens.</string>
+    <string name="snackbar_error_purchase">Fout opgetreden, probeer het later nog eens.</string>
+    <string name="snackbar_error_ready_purchase">Betalingopties zijn nog aan het laden…</string>
+
+    <!--Spannable Messages -->
+
+    <string name="spannable_follow_us_title">Volg ons</string>
+    <string name="spannable_follow_username">shoppicacom</string>
+    <string name="spannable_follow_us_desc">op Instagram en blijf op de hoogte voor leuke acties!</string>
+
+    <string name="spannable_promote_desc1">Uw artikel is gepromoot en nog</string>
+    <string name="spannable_promote_desc2">actief</string>
+    <string name="spannable_promote_desc3">Verleng uw promotie nu!</string>
+
+    <string name="spannable_extend_desc1">Uw artikel is nog</string>
+    <string name="spannable_extend_desc2">actief</string>
+    <string name="spannable_extend_desc3">Na deze tijd zal uw artikel verwijderd worden.</string>
+
+    <string name="spannable_article_offered_by">Dit artikel wordt aangeboden door</string>
+    <string name="spannable_article_sold_from">en wordt verkocht vanuit</string>
+
+    <!--Settings -->
+    <string name="settings">Instellingen</string>
+
+    <string name="settings_facebook_title">Koppelen met Facebook</string>
+    <string name="settings_facebook_sub_title">Koppel met Facebook om uw kledingstukken te verkopen en andere kledingstukken op te slaan in uw favorieten.</string>
+    <string name="settings_facebook_button_title_on">U bent gekoppeld met Facebook.</string>
+    <string name="settings_facebook_button_title_off">Koppelen met Facebook</string>
+
+    <string name="settings_country_title">Land</string>
+    <string name="settings_country_sub_title">Selecteer het land waar u artikelen wilt kopen en verkopen.</string>
+
+    <string name="settings_contact_title">Contactmethodes</string>
+    <string name="settings_contact_sub_title">Voeg uw contactmethodes toe om te zorgen dat potentiële kopers u kunnen bereiken.</string>
+
+    <string name="settings_location_title">Locatie</string>
+    <string name="settings_location_sub_title">Haal uw huidige locatie op of vul hem zelf in. Wij zetten deze locatie bij uw kledingstukken zodat potentiële kopers weten waar u ongeveer woont. Uw exacte woonadres kunt u zelf met de koper bespreken.</string>
+
+    <string name="settings_trade_safe_title">Veilig handelen</string>
+    <string name="settings_trade_safe_desc">Veilig handelen staat altijd voorop. Vertrouwt u het niet? Vraag dan eerst meer informatie aan deze persoon. Als er iets mis is gegaan, kunt u deze persoon bij ons rapporteren.</string>
+
+    <string name="settings_notifications_title">Notificaties</string>
+    <string name="settings_notifications_desc">Wilt u meldingen ontvangen over het aantal artikelen dat er geplaatst zijn sinds uw laatste bezoek?</string>
+    <string name="settings_notifications_switch_on">Meldingen ontvangen</string>
+    <string name="settings_notifications_switch_off">Geen meldingen ontvangen</string>
+
+    <string name="settings_feedback_title">Feedback</string>
+    <string name="settings_feedback_desc">Wij zijn altijd hard aan het werk om Shoppica te verbeteren. Heeft u leuke
+ideeën of verbeteringen? Laat het ons weten!</string>
+
+    <string name="settings_follow_title">Instagram</string>
+    <string name="settings_follow_desc">Blijf op de hoogte via onze Instagram-pagina voor leuke acties en aanbiedingen!</string>
+
+    <string name="settings_logout">Uitloggen</string>
+    <string name="settings_logout_desc">Weet u zeker dat u wilt uitloggen?</string>
+
+    <string name="settings_version">Huidige versie: %1$s</string>
+
+    <string name="settings_dialog_feed_back_title">Feedback</string>
+    <string name="settings_dialog_feed_back_sub_title">Heeft u verbeteringen of suggesties? Vertel het ons.</string>
+    <string name="settings_dialog_feed_back_hint_message">Typ een bericht…</string>
+
+    <string name="settings_dialog_trade_safe_title">Veilig Handelen</string>
+    <string name="settings_dialog_trade_safe_sub_title">Is er tijdens het handelen iets voorgevallen? Vertel het ons.</string>
+    <string name="settings_dialog_trade_safe_hint_message">Typ een bericht…</string>
+
+    <!--View Article -->
+    <string name="view_article_contact_title">Geïnteresseerd?</string>
+    <string name="view_article_contact_sub_title">Dit artikel wordt aangeboden door %1$s en verkocht vanuit %2$s. %3$s</string>
+    <string name="view_article_contact_sub_title2">Wilt u dit artikel kopen? Neem dan contact op met de verkoper via een van de onderstaande methodes!</string>
+
+    <string name="view_article_contact_option_delivery1">U kunt dit artikel alleen ophalen.</string>
+    <string name="view_article_contact_option_delivery2">U kunt dit artikel alleen laten bezorgen.</string>
+    <string name="view_article_contact_option_delivery3">U kunt ervoor kiezen om het artikel zelf op te halen of te laten bezorgen bij u thuis.</string>
+
+    <string name="view_article_login_fb_title">Inloggen met Facebook</string>
+    <string name="view_article_login_fb_desc">Om artikelen op te slaan in uw favorieten of favorieten op te halen, moet u eerst inloggen met Facebook.</string>
+
+    <string name="view_article_zoom_title">Zoomen</string>
+    <string name="view_article_zoom_desc">Tap op de foto om in en uit te zoomen!</string>
+
+
+    <string name="view_article_condition">Conditie</string>
+    <string name="view_article_sold">Uitverkocht</string>
+    <string name="view_article_brand">Merk</string>
+    <string name="view_article_color">Kleur</string>
+    <string name="view_article_size">Maat</string>
+    <string name="view_article_gender">Geslacht</string>
+    <string name="view_article_delivery">Verzendmethode</string>
+    <string name="view_article_value_empty">-</string>
+
+    <string name="view_article_send_email_title">Shoppica - Interesse in %1$s</string>
+    <string name="view_article_send_email_desc">Hallo %1$s! Ik ben geïnteresseerd in uw %2$s. Het gaat om het volgende artikel: %3$s. Ik hoor graag van u!</string>
+
+    <string name="view_article_whatsapp_send">Hallo %1$s! Ik ben geïnteresseerd in uw %2$s. Het gaat om het volgende artikel: %3$s. Is dit artikel nog beschikbaar?</string>
+
+    <string name="view_article_send_error_whatsapp_title">Fout Opgetreden</string>
+    <string name="view_article_send_error_whatsapp_desc">Het kan zijn dat %1$s zijn telefoonnummer verkeerd heeft ingevuld. Probeer een van de andere contactmethodes als die beschikbaar zijn. Probeer het anders later nog eens!</string>
+
+    <string name="view_article_instagram_send">Hallo %1$s! Ik ben geïnteresseerd in uw %2$s. Het gaat om het volgende artikel: %3$s. Is dit artikel nog beschikbaar?</string>
+
+    <string name="view_article_not_installed_error_whatsapp_title">WhatsApp</string>
+    <string name="view_article_not_installed_error_whatsapp_desc">U heeft nog geen WhatsApp op uw telefoon. Om contact op te nemen met %1$s, moet u eerst deze app installeren.</string>
+    <string name="view_article_not_installed_error_whatsapp_desc2">U heeft nog geen WhatsApp op uw telefoon. Om WhatsApp op te geven als contactmethode, moet u eerste deze app installeren.</string>
+
+    <string name="view_article_share_error_title">Fout Opgetreden</string>
+    <string name="view_article_share_error_desc">Er is helaas iets fout gegaan tijdens het delen, probeer het later nog eens!</string>
+
+    <string name="view_article_not_installed_error_instagram_title">Instagram</string>
+    <string name="view_article_not_installed_error_instagram_desc">U heeft nog geen Intagram op uw telefoon. Om ons te volgen op Instagram, moet u eerst Instagram installeren.</string>
+    <string name="view_article_not_installed_error_instagram_desc2">U heeft nog geen Instagram op uw telefoon. Om contact op te nemen met %1$s, moet u eerst deze app installeren.</string>
+
+    <string name="view_article_instagram_error_title">Fout Opgetreden</string>
+    <string name="view_article_instagram_error_desc">Het lukt momenteel niet om contact met %1$s op te namen via Instagram, probeer een van de andere contactmethodes als deze beschikbaar zijn. Probeer het anders later nog eens!</string>
+
+    <string name="view_article_email_error_title">Fout Opgetreden</string>
+    <string name="view_article_email_error_desc">Het lukt momenteel niet om contact met %1$s op te namen via Email, probeer een van de andere contactmethodes als deze beschikbaar zijn. Probeer het anders later nog eens!</string>
+    <string name="view_article_send_chooser">Stuur een email via…</string>
+
+    <string name="view_activitiy_instagram_explain_title">Instagram</string>
+    <string name="view_activitiy_instagram_explain_desc">Wilt u uitleg over hoe u een bericht moet versturen naar de verkoper via Instagram?</string>
+
+    <string name="view_article_share_text">Ik verkoop deze %1$s voor %2$s! Ben je geïnteresseerd? Laat het me weten! Aangeboden door de Android-app Shoppica.</string>
+    <string name="view_article_share_text_2">Bekijk deze %1$s, aangeboden door %2$s uit %3$s en is te vinden op de Android-app Shoppica.</string>
+
+
+    <string name="view_article_post_views_0">0 x bekeken</string>
+    <string name="view_article_post_views">%1$s x bekeken</string>
+    <string name="view_article_post_time">%1$s geplaatst</string>
+
+    <string name="view_article_dialog_report_option_1">Ongepaste foto\'s</string>
+    <string name="view_article_dialog_report_option_2">Voelt als spam</string>
+    <string name="view_article_dialog_report_option_3">Anders</string>
+
+    <string name="view_article_dialog_report_title">Rapporteer</string>
+    <string name="view_article_dialog_report_sub_title">Is deze persoon u tot last? Vertel ons wat hij deed.</string>
+    <string name="view_article_dialog_report_hint_message">Vertel ons waar u last van heeft…</string>
+
+
+    <!--Extend Article -->
+    <string name="alert_extend_title">Artikel Verlengen</string>
+    <string name="alert_extend_desc">Uw artikel is nog %1$s actief. Na deze tijd zal uw artikel verwijderd worden. Hieronder kunt u uw artikel verlengen. </string>
+
+    <!--Alert Edit Photo -->
+    <string name="alert_add_title">Voeg titel toe</string>
+    <string name="alert_add_title_sub">Beschrijf uw artikel in 3 á 4 woorden.</string>
+    <string name="alert_add_title_hint">Bijvoorbeeld: Witte wollen trui</string>
+
+    <string name="alert_add_brand">Merk</string>
+    <string name="alert_add_brand_sub">Vul het merk van uw artikel in.</string>
+    <string name="alert_add_brand_hint">Bijvoorbeeld: Zara</string>
+
+    <string name="alert_add_color">Kleur</string>
+    <string name="alert_add_color_sub">Vul de kleur van uw artikel in.</string>
+    <string name="alert_add_color_hint">Bijvoorbeeld: Grijs/Zwart</string>
+
+    <string name="alert_add_size">Maat</string>
+    <string name="alert_add_size_sub">Vul de maat van uw artikel in.</string>
+    <string name="alert_add_size_hint">Bijvoorbeeld: M of 38.5 </string>
+
+    <string name="alert_add_gender">Geslacht</string>
+
+    <string name="alert_add_price">Vraagprijs</string>
+    <string name="alert_add_price_sub">Vul hieronder een vraagprijs in.</string>
+    <string name="alert_add_price_hint">Bijvoorbeeld: 25</string>
+
+    <string name="alert_add_category">Categorie</string>
+    <string name="alert_add_condition">Conditie</string>
+    <string name="alert_add_send">Levering: Ophalen</string>
+    <string name="alert_add_contact">Contactmethodes</string>
+
+    <string name="alert_add_whatsapp">WhatsApp toevoegen</string>
+    <string name="alert_add_whatsapp_sub">Vul hieronder uw mobiele nummer in.</string>
+    <string name="alert_add_whatsapp_hint">bv. (0)612345678</string>
+
+    <string name="alert_add_instagram">Instagram toevoegen</string>
+    <string name="alert_add_instagram_sub">Vul hieronder uw instagram gebruikersnaam in.</string>
+    <string name="alert_add_instagram_hint">Bijvoorbeeld: shoppicacom</string>
+
+    <string name="alert_add_email">Emailadres toevoegen</string>
+    <string name="alert_add_email_sub">Vul hieronder uw emailadress in.</string>
+    <string name="alert_add_email_hint">Bijvoorbeeld: voorbeeld@email.com</string>
+
+    <string name="alert_add_location">Locatie</string>
+    <string name="alert_add_location_pick_up">Waar kunnen potentiële verkopers het komen ophalen?</string>
+    <string name="alert_add_current_location">Huidige locatie ophalen</string>
+
+    <string name="alert_add_trade_safe">Iets voorgevallen? Vertel het ons.</string>
+
+    <string name="alert_add_own_location">Zelf een plaats invullen</string>
+    <string name="alert_add_own_location_sub">Vul de naam van uw stad in.</string>
+    <string name="alert_add_own_location_sub_hint">Bijvoorbeeld: Amsterdam</string>
+
+    <string name="alert_category_title">Kies een categorie</string>
+    <string name="alert_category_error_title">Categorie</string>
+    <string name="alert_category_error_desc">Kies a.u.b. een categorie.</string>
+
+    <string name="alert_ask_price_error_title">Vraagprijs</string>
+    <string name="alert_ask_price_error_desc">Geef a.u.b. een vraagprijs op.</string>
+    <string name="alert_ask_price_error_desc2">Uw vraagprijs moet bestaan uit cijfers. Bijv. 19,95</string>
+
+    <string name="alert_article_error_title">Titel</string>
+    <string name="alert_article_error_desc">Voeg a.u.b. een title toe.</string>
+    <string name="alert_article_error_desc2">Uw title is te lang. Probeer het artikel te omschrijven in 3 a 4 woorden.</string>
+
+    <string name="alert_contact_error_title">Contactmethodes</string>
+    <string name="alert_contact_error_desc">Voeg a.u.b. tenminste 1 contactmethode toe.</string>
+
+    <string name="alert_location_error_title">Locatie</string>
+    <string name="alert_location_error_title2">Fout opgetreden.</string>
+    <string name="alert_location_error_desc">Voeg a.u.b. een plaats toe. Bijv. Amsterdam</string>
+    <string name="alert_location_error_desc2">Voor het filteren op afstand hebben wij uw huidige locatie nodig. Huidige locatie nu ophalen?</string>
+    <string name="alert_location_error_desc_3">Uw locatie kon niet worden gevonden, probeer het later nog eens.</string>
+
+    <string name="alert_send_title">Kies een leveringsmethode</string>
+    <string name="alert_color_title">Kies een kleur</string>
+    <string name="alert_gender_title">Voor wie is het artikel?</string>
+    <string name="alert_status_title">Kies een artikel status:</string>
+    <string name="alert_condition_title">Kies een conditie</string>
+
+    <string name="article_send_method">Levering: %1$s</string>
+
+    <!--Alert General Edit Photo & Settings -->
+    <string name="alert_whatsapp_error_title">WhatsApp</string>
+    <string name="alert_whatsapp_error_desc">Uw mobiele nummer moet ten minste 6 cijfers bevatten. Bijvoorbeeld (0)612345678</string>
+
+    <string name="alert_instagram_error_title">Instagram</string>
+    <string name="alert_instagram_error_desc">Uw Instagram gebruikersnaam is niet correct. Controleer uw gebruikersnaam en probeer het nog eens. Bijvoorbeeld shoppicacom</string>
+
+    <string name="alert_delete_title">Artikel Verwijderen</string>
+    <string name="alert_delete_desc">Weet u zeker dat u dit artikel wilt verwijderen?</string>
+
+    <!--Edit Post Share Article -->
+    <string name="share_post_fb_title">Deel uw artikel op Facebook</string>
+    <string name="share_post_fb_desc">Vergroot uw kans op potentiële kopers door uw artikel te delen op Facebook!</string>
+
+    <!--Promote Article -->
+    <string name="promote_post_title">Vergroot uw kansen</string>
+    <string name="promote_post_sub_title">Wilt u dit kledingstuk laten uitlichten, zodat het een grote zichtbaarheid krijgt?</string>
+
+    <string name="promote_option_1_title">Geen</string>
+    <string name="promote_option_1_sub_title">Uitlichting</string>
+
+    <string name="promote_option_2_title">6 uur</string>
+    <string name="promote_option_2_sub_title">Laden…</string>
+
+    <string name="promote_option_3_title">1 dag</string>
+    <string name="promote_option_3_sub_title">Laden…</string>
+
+    <string name="promote_option_4_title">3 dagen</string>
+    <string name="promote_option_4_sub_title">Laden…</string>
+
+    <string name="promote_option_5_title">1 week</string>
+    <string name="promote_option_5_sub_title">Laden…</string>
+
+    <string name="promote_option_6_title">1 maand</string>
+    <string name="promote_option_6_sub_title">Laden…</string>
+
+    <!--Extend Article -->
+    <string name="extend_post_title">Verleng uw Artikel</string>
+    <string name="extend_post_sub_title">Uw artikel is verlopen en niet meer zichtbaar voor andere gebruikers. Verleng nu en maak uw artikel weer zichtbaar! </string>
+
+    <string name="extend_option_1_title">Geen</string>
+    <string name="extend_option_1_sub_title">Verlenging</string>
+
+    <string name="extend_option_2_title">1 week</string>
+    <string name="extend_option_2_sub_title">Laden…</string>
+
+    <string name="extend_option_3_title">1 maand</string>
+    <string name="extend_option_3_sub_title">Laden…</string>
+
+    <string name="extend_option_4_title">3 maanden</string>
+    <string name="extend_option_4_sub_title">Laden…</string>
+
+    <string name="extend_option_5_title">6 maanden</string>
+    <string name="extend_option_5_sub_title">Laden…</string>
+
+    <string name="extend_option_6_title">1 jaar</string>
+    <string name="extend_option_6_sub_title">Laden…</string>
+
+
+    <!-- Photo Options -->
+    <string name="option_camera">Foto maken met camera</string>
+    <string name="option_gallery">Foto kiezen uit gallerij</string>
+
+
+    <!-- Filter Options -->
+    <string name="filter_article_title">Filter</string>
+    <string name="filter_article_gender">Geslacht</string>
+    <string name="filter_article_category">Categorie</string>
+    <string name="filter_article_condition">Conditie</string>
+    <string name="filter_article_color">Kleur</string>
+    <string name="filter_article_send">Levering</string>
+    <string name="filter_article_price_title">Prijs</string>
+    <string name="filter_article_price">Alle prijzen</string>
+    <string name="filter_article_price_value">%1$s %2$d - %3$s %4$d</string>
+    <string name="filter_distance_title">Afstand</string>
+    <string name="filter_article_distance">Alle afstanden</string>
+    <string name="filter_article_distance_value">%1$d km</string>
+
+
+    <!-- Alert Permissions -->
+    <string name="alert_default_permission_title">Permission</string>
+    <string name="alert_default_permission_denied_title">Permission Denied</string>
+    <string name="alert_camera_permission_never_desc">U heeft uw camera-toestemming voor ons geweigerd. U kunt dit aanpassen in [Instellingen] -> [Permissies]</string>
+    <string name="alert_camera_permission_desc">Camera-toestemming is nodig om foto\'s en videos te maken.</string>
+
+    <string name="alert_gallery_permission_desc">Opslag-toestemming is nodig om foto\'s op te slaan.</string>
+    <string name="alert_gallery_permission_never_desc">U heeft uw opslag-toestemming voor ons geweigerd. U kunt dit aanpassen in [Instellingen] -> [Permissies]</string>
+
+    <string name="alert_location_permission_never_desc">U heeft uw locatie-toestemming voor ons geweigerd. U kunt dit aanpassen in [Instellingen] -> [Permissies]</string>
+    <string name="alert_location_permission_desc">Locatie-toestemming is nodig om uw locatie op te halen.</string>
+
+    <!-- Facebook Login Explain -->
+    <string name="login_explain_facebook_desc1">Koppel a.u.b uw Facebook-account aan onze app zodat wij uw artikelen kunnen opslaan.</string>
+    <string name="login_explain_facebook_desc2">Wij zullen nooit uw gegevens delen met derde partijen en nooit iets posten zonder uw toestemming.</string>
+
+    <!-- Camera Explain -->
+    <string name="explain_camera_desc">Dan is het nu tijd om uw eerste kledingstuk te verkopen!</string>
+    <string name="explain_camera_desc1">Probeer uw kledingstuk zo neer te leggen dat het in het midden van het scherm staat en maak vervolgens een of meerdere foto\'s.</string>
+    <string name="explain_camera_desc2">Als u tevreden bent over uw foto(s), kunt u doorgaan met de omschrijving van het artikel.</string>
+    <string name="explain_camera_desc3"> That\'s it!</string>
+
+    <!-- Country Explain -->
+    <string name="explain_country_desc">Waar verblijft u?</string>
+    <string name="explain_country_desc1">Selecteer a.u.b het land waar u uw kleren verkoopt. Dit is dan ook het land waar gezocht zal worden op te koop staande artikelen.</string>
+    <string name="explain_country_desc2">Uw keuze kunt u altijd aanpassen in uw instellingen.</string>
+
+    <!-- Alert General -->
+    <string name="alert_error_fb_register_title">Registreren mislukt</string>
+    <string name="alert_error_network_title">Fout Opgetreden</string>
+    <string name="alert_error_title">Fout opgetreden</string>
+    <string name="alert_error_desc">Er is helaas iets fout gegaan, probeer het later nog eens!</string>
+    <string name="alert_error_desc2">Er is iets fout gegaan, kijk of u alle velden goed heeft ingevuld en probeer het nog eens!</string>
+    <string name="alert_error_internet_facebook_desc">U heeft momenteel geen internet. Een internetverbinding is vereist om te registreren met Facebook.</string>
+
+    <string name="alert_error_fb_register_desc_0">Shoppica heeft wat problemen met het registreren van Facebook. Hier zijn mogelijk wat redenen:</string>
+    <string name="alert_error_fb_register_desc_1">- Uw geregistreerde informatie is niet meer geldig op uw Facebook-app. Probeer te kijken of het nog allemaal klopt.</string>
+    <string name="alert_error_fb_register_desc_2">- De tijd op uw telefoon is verkeerd en kan effect hebben op het registratie-process van Facebook. Als dit zo is, kunt u de tijd aanpassen in de instellingen van uw telefoon. </string>
+    <string name="alert_error_fb_register_desc_3">- U heeft een Messenger app, maar niet de Facebook app. Het downloaden van de Facebook-app kan dit probleem verhelpen.</string>
+
+
+    <!-- Facebook Login Info-->
+    <string name="facebook_app_id">222026065252479</string>
+    <string name="facebook_protocol_scheme">fb222026065252479</string>
+
+    <!-- pager Separator-->
+    <string name="pager_bullet_separator" formatted="false">%s / %s</string>
+
+    <!-- Alert Progress -->
+    <string name="alert_progress_payment_success">Succesvol betaald…</string>
+    <string name="alert_progress_uploading">Bezig met posten…</string>
+    <string name="alet_progress_searching">locatie ophalen…</string>
+    <string name="alert_progress_check_connection">Verbinding checken…</string>
+    <string name="alert_progress_uploading_success">Succesvol gepost!</string>
+    <string name="alert_progress_promoted_success">Succesvol gepromoot!</string>
+
+    <!-- Tab Names -->
+    <string name="tab_feed_1">Trending</string>
+    <string name="tab_feed_2">Nieuw</string>
+    <string name="tab_feed_3">Uitgelicht</string>
+
+    <string name="tab_profile_1">Mijn Artikelen</string>
+    <string name="tab_profile_2">Favorieten</string>
+
+    <!-- Emoji Drawable Coordinates -->
+    <string name="u1f60e_left_shade_start">M12.45,53.96 C12.05,53.88,11.63,54.01,11.34,54.3 C11.05,54.59,10.92,55,11,55.41 C14.02,70.43,23.36,74.45,23.76,74.61 C23.91,74.67,24.07,74.7,24.23,74.7 C24.66,74.7,25.08,74.47,25.31,74.07 L33.27,59.71 C33.46,59.37,33.47,58.95,33.31,58.6 C33.14,58.25,32.82,57.99,32.43,57.91 L12.45,53.96 Z</string>
+    <string name="u1f60e_left_shade_end">M35.45,58.56 C34.05,59.88,28.34,76.01,28.24,76.8 C28.04,76.8,27.91,76.9,28.5,77.9C35.02,79,43.36,77,44.36,76.1 C44.61,76,44.9,75.74,45.9,75C48.2,72.17,48.81,71.61,49.8,69.17 L50.5,67.87C50.7,67.17,50.9,67,51.5,65 C51,60,44.82,61.3,47.43,61.05L35.45,58.56 Z</string>
+    <string name="u1f60e_right_shade_start">M89.09,60.54 C88.79,60.17,88.31,60.02,87.85,60.13 L75.42,63.14C74.83,63.28,74.44,63.83,74.49,64.43 C74.51,64.74,75.18,72.11,81.66,75.47C81.84,75.56,82.03,75.61,82.23,75.61 C82.37,75.61,82.5,75.59,82.63,75.54C82.95,75.43,83.21,75.19,83.34,74.89 L89.26,61.83C89.46,61.4,89.39,60.89,89.09,60.54 Z</string>
+    <string name="u1f60e_right_shade_end">M120.09,54.54 C119.79,54.17,119.31,54.02,118.85,54.13 L106.42,57.14C102.83,67.28,101.24,68.83,97.83,78.43 C97.83,78.74,104.18,79.11,108.66,74.47C110.84,73.16,109.03,73.61,109.23,73.61 C109.37,74.61,113.5,69.9,113.63,69.54C113.95,69.33,114.21,68.8,114.34,68.89 L120.26,55.83C120.46,55.4,120.39,54.89,120.09,54.54 Z</string>
+
+
+
+    <!-- Rating Dialog -->
+    <string name="rating_dialog_rate_title">Hoe zou u ons beoordelen?</string>
+    <string name="rating_dialog_form_submit">Verzenden</string>
+    <string name="rating_dialog_form_cancel">Terug</string>
+    <string name="rating_dialog_form_positive">Misschien later</string>
+    <string name="rating_dialog_form_hint">Vertel ons wat u tegenvalt, dan gaan we er aan werken!</string>
+
+    <string name="rating_dialog_experience">Hoe was u ervaring met ons?</string>
+    <string name="rating_dialog_maybe_later">Misschien later</string>
+    <string name="rating_dialog_never">Nooit</string>
+    <string name="rating_dialog_feedback_title">Feedback</string>
+    <string name="rating_dialog_submit">Verzenden</string>
+    <string name="rating_dialog_cancel">Annuleren</string>
+    <string name="rating_dialog_suggestions">Vertel ons wat beter kan, dan gaan we er aan werken!</string>
+
+    <string name="rating_dialog_desc_title">Houdt u van onze app?</string>
+    <string name="rating_dialog_desc_title2">Volg ons op Instagram!</string>
+    <string name="rating_dialog_desc_rate">Wij houden van kleren, dus besloten wij om een app te maken gefocust op tweedehands kleren voor iedereen.</string>
+    <string name="rating_dialog_desc_rate2">We zijn een jonge startup en elke positieve beoordeling telt. Als er problemen, feedback of updates zijn die u in de app wilt zien, laat het ons dan weten!</string>
+
+    <!-- Favorites Fragment -->
+    <string name="state_empty_no_favorites_login">Om uw favorieten te kunnen bekijken, moet u ingelogd zijn met Facebook.</string>
+    <string name="state_empty_no_favorites">U heeft op dit moment nog geen favorieten.</string>
+
+    <!-- OwnPosts Fragment -->
+    <string name="state_empty_no_own_posts_login">Om uw eigen posts te bekijken, moet u ingelogd zijn met Facebook.</string>
+    <string name="state_empty_no_own_posts">U heeft op dit moment nog geen eigen posts. Maak vandaag uw eerste post!</string>
+
+    <!-- FeedAdapter -->
+    <string name="adapter_location_article_away_1km"> &lt; 1 km</string>
+    <string name="adapter_location_article_away"> %1$d km</string>
+    <string name="adapter_reserved">Gereserveerd</string>
+
+
+    <!-- Notifications -->
+    <string name="notification_title_type_0">Artikel bijna verlopen.</string>
+    <string name="notification_desc_type_0">Uw %1$s verloopt bijna en zal daarna niet meer zichtbaar zijn, verleng uw artikel nu!</string>
+    <string name="notification_title_type_1">Promotie bijna verlopen</string>
+    <string name="notification_desc_type_1">De promotie van %1$s verloopt bijna en zal daarna niet meer uitgelicht zijn, verleng de promotie van uw artikel nu!</string>
+    <string name="notification_new_article_title">Nieuwe Artikelen</string>
+
+    <!-- Country Picker -->
+    <string name="search_hint">Zoek…</string>
+    <string name="no_result_found">Geen resultaten gevonden</string>
+    <string name="select_country">Selecteer een land</string>
+
+    <!-- Spannable Times -->
+    <string name="spannable_active_minute_ago">actief voor 1 minuut</string>
+    <string name="spannable_active_minutes_ago">actief voor %1$d minuten</string>
+    <string name="spannable_active_hour_ago">actief voor 1 uur</string>
+    <string name="spannable_active_hours_ago">actief voor %1$d uur</string>
+    <string name="spannable_active_day_ago">actief voor 1 dag</string>
+    <string name="spannable_active_days_ago">actief voor %1$d dagen</string>
+
+    <string name="spannable_time_minute">minuut</string>
+    <string name="spannable_time_and">and</string>
+    <string name="spannable_time_minutes">minuten</string>
+    <string name="spannable_time_hour">uur</string>
+    <string name="spannable_time_hours">uren</string>
+    <string name="spannable_time_day">dag</string>
+    <string name="spannable_time_days">dagen</string>
+    <string name="spannable_time_month">maand</string>
+    <string name="spannable_time_months">maanden</string>
+    <string name="spannable_time_year">jaar</string>
+    <string name="spannable_time_years">jaren</string>
+
+    <string name="spannable_time_ago_minute">1 minuut geleden</string>
+    <string name="spannable_time_ago_minutes">minuten geleden</string>
+    <string name="spannable_time_ago_hour">1 uur geleden</string>
+    <string name="spannable_time_ago_hours">uur geleden</string>
+    <string name="spannable_time_ago_yesterday">gisteren</string>
+    <string name="spannable_time_ago_days">dagen geleden</string>
+
+    <!-- Spannable Times -->
+    <string name="highLight">uitgelicht</string>
+</resources>

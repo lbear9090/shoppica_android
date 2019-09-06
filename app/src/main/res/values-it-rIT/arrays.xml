@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="tab_name">
+        <item>Feed</item>
+        <item>Fotocamera</item>
+        <item>Profilo</item>
+    </array>
+
+    <string-array name="gender">
+        <item>Donna</item>
+        <item>Uomo</item>
+        <item>Bambino</item>
+        <item>Unisex</item>
+    </string-array>
+
+    <string-array name="condition">
+        <item>Nuovo</item>
+        <item>Come nuovo</item>
+        <item>Usato</item>
+    </string-array>
+
+    <string-array name="send">
+        <item>Ritira articolo</item>
+        <item>Consegna articolo</item>
+        <item>Ritiro &amp; Consegna</item>
+    </string-array>
+
+    <string-array name="categories">
+        <item>Zaini</item>
+        <item>Cinture</item>
+        <item>Cavi per cellulari &amp; Caricabatterie</item>
+        <item>Custodie per cellulari</item>
+        <item>Cosmetici &amp; Trucchi</item>
+        <item>Colonie &amp; Profumi</item>
+        <item>Pochette &amp; Borse da sera</item>
+        <item>Borse a tracolla</item>
+        <item>Zaini fashion</item>
+        <item>Guanti &amp; Muffole</item>
+        <item>Abiti eleganti</item>
+        <item>Cappelli &amp; Berretti</item>
+        <item>Cuffie &amp; Auricolari</item>
+        <item>Borse hobo</item>
+        <item>Gioielli</item>
+        <item>Accessori per bambini &amp; Accessori per neonati</item>
+        <item>Borse per portatili</item>
+        <item>Custodie per portatili</item>
+        <item>Bagagli</item>
+        <item>Postine</item>
+        <item>Accessori per animali </item>
+        <item>Caricabatterie portatili &amp; Powerbank</item>
+        <item>Cartelle</item>
+        <item>Sciarpe &amp; Stole</item>
+        <item>Scarpe</item>
+        <item>Borse a spalla</item>
+        <item>Scarpe sportive</item>
+        <item>Occhiali da sole &amp; Occhiali da vista</item>
+        <item>Custodie per tablet &amp; Custodie per E-Reader</item>
+        <item>Ombrelli</item>
+        <item>Vintage</item>
+        <item>Portafogli</item>
+        <item>Orologi</item>
+        <item>Braccialetti</item>
+        <item>Varie</item>
+    </string-array>
+
+    <string-array name="categories_filter">
+        <item>Zaini</item>
+        <item>Cinture</item>
+        <item>Cavi per cellulari &amp; Caricabatterie</item>
+        <item>Custodie per cellulari</item>
+        <item>Cosmetici &amp; Trucchi</item>
+        <item>Colonie &amp; Profumi</item>
+        <item>Pochette &amp; Borse da sera</item>
+        <item>Borse a tracolla</item>
+        <item>Zaini fashion</item>
+        <item>Guanti &amp; Muffole</item>
+        <item>Abiti eleganti</item>
+        <item>Cappelli &amp; Berretti</item>
+        <item>Cuffie &amp; Auricolari</item>
+        <item>Borse hobo</item>
+        <item>Gioielli</item>
+        <item>Accessori per bambini &amp; Accessori per neonati</item>
+        <item>Borse per portatili</item>
+        <item>Custodie per portatili</item>
+        <item>Bagagli</item>
+        <item>Postine</item>
+        <item>Accessori per animali </item>
+        <item>Caricabatterie portatili &amp; Powerbank</item>
+        <item>Cartelle</item>
+        <item>Sciarpe &amp; Stole</item>
+        <item>Scarpe</item>
+        <item>Borse a spalla</item>
+        <item>Scarpe sportive</item>
+        <item>Occhiali da sole &amp; Occhiali da vista</item>
+        <item>Custodie per tablet &amp; Custodie per E-Reader</item>
+        <item>Ombrelli</item>
+        <item>Vintage</item>
+        <item>Portafogli</item>
+        <item>Orologi</item>
+        <item>Braccialetti</item>
+        <item>Varie</item>
+    </string-array>
+
+
+    <string-array name="gender_filter">
+        <item>Donna</item>
+        <item>Uomo</item>
+        <item>Bambino</item>
+        <item>Unisex</item>
+        <item>Nessuna preferenza</item>
+    </string-array>
+
+    <string-array name="condition_filter">
+        <item>Nuovo</item>
+        <item>Come nuovo</item>
+        <item>Usato</item>
+    </string-array>
+
+
+    <string-array name="color_filter">
+        <item>Bianco</item>
+        <item>Nero</item>
+        <item>Rosso</item>
+        <item>Arancione</item>
+        <item>Giallo</item>
+        <item>Verde</item>
+        <item>Blu</item>
+        <item>Viola</item>
+        <item>Marrone</item>
+        <item>Grigio</item>
+        <item> Nessuna preferenza </item>
+    </string-array>
+
+
+    <string-array name="send_filter">
+        <item>Ritira articolo</item>
+        <item>Consegna articolo</item>
+        <item>Ritiro &amp; Consegna</item>
+        <item> Nessuna preferenza </item>
+
+    </string-array>
+
+
+    <string-array name="status">
+        <item>In vendita</item>
+        <item>Prenotato</item>
+        <item>Venduto</item>
+    </string-array>
+
+
+</resources>

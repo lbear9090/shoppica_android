@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <plurals
+        name="send_time_out">
+        <item quantity="one">%d以内に再度フィードバックを送ることが可能です。</item>
+        <item quantity="other">%d以内に再度フィードバックを送ることが可能です。 </item>
+    </plurals>
+
+    <plurals
+        name="trade_time_out">
+        <item quantity="one">%d以内に再度メッセージが送信可能です。</item>
+        <item quantity="other">%d以内に再度メッセージが送信可能です。</item>
+    </plurals>
+
+
+    <plurals
+        name="new_articles">
+        <item quantity="one">あなたの最後の訪問以来１つの新しい記事が追加されました。今すぐチェックしてください！ </item>
+        <item quantity="other">あなたの最後の訪問以来%d つの新しい記事が追加されました。今すぐチェックしてください！</item>
+    </plurals>
+</resources>

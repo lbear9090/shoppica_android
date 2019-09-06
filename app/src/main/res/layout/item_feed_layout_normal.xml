@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:paddingBottom="-20dp"
+    android:foreground="@drawable/feed_ripple"
+    app:cardCornerRadius="4dp"
+    tools:ignore="ContentDescription">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/parentContsraint"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/article_photo"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/txt_article_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:paddingLeft="7dp"
+            android:paddingTop="5dp"
+            android:paddingRight="7dp"
+            android:paddingBottom="5dp"
+            android:text="@string/view_article_sold"
+            android:textAllCaps="true"
+            android:textAppearance="@style/semiBold"
+            android:textColor="@color/light_font"
+            android:textSize="14sp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="@+id/article_photo"
+            app:layout_constraintTop_toTopOf="@+id/article_photo" />
+
+        <ImageView
+            android:id="@+id/articleMultiplePhotos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_multi_images"
+            android:visibility="gone"
+            app:layout_constraintEnd_toStartOf="@+id/articleMore"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/articleMore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:paddingBottom="5dp"
+            android:paddingEnd="12dp"
+            android:paddingStart="12dp"
+            android:paddingTop="5dp"
+            android:src="@drawable/ic_more"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/article_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:drawablePadding="5dp"
+            android:drawableStart="@drawable/ic_feed_location"
+            android:includeFontPadding="false"
+            android:singleLine="true"
+            android:textAppearance="@style/semiBold"
+            android:textColor="#949ba9"
+            android:textSize="11sp"
+            app:layout_constraintEnd_toEndOf="@+id/article_photo"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="@+id/article_photo"
+            app:layout_constraintTop_toBottomOf="@+id/article_photo" />
+
+        <TextView
+            android:id="@+id/article_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="12dp"
+            android:drawablePadding="5dp"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:singleLine="true"
+            android:textAppearance="@style/rock"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="@+id/article_photo"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="@+id/article_photo"
+            app:layout_constraintTop_toBottomOf="@+id/article_location" />
+
+        <TextView
+            android:id="@+id/article_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="4dp"
+            android:drawablePadding="5dp"
+            android:includeFontPadding="false"
+            android:paddingBottom="18dp"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:singleLine="true"
+            android:textAppearance="@style/extraBold"
+            android:textColor="@color/colorAccent"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="@+id/article_photo"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="@+id/article_photo"
+            app:layout_constraintTop_toBottomOf="@+id/article_title" />
+
+
+        <TextView
+            android:id="@+id/article_reserved"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:drawablePadding="5dp"
+            android:drawableStart="@drawable/ic_reserved"
+            android:includeFontPadding="false"
+            android:paddingBottom="10dp"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:singleLine="true"
+            android:textAllCaps="true"
+            android:text="@string/adapter_reserved"
+            android:textAppearance="@style/boldItalic"
+            android:textColor="#e0af9a"
+            android:textSize="9sp"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="@+id/article_photo"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="@+id/article_photo"
+            app:layout_constraintTop_toBottomOf="@+id/article_price" />
+
+
+        <ImageView
+            android:id="@+id/article_sponsored"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            app:layout_constraintVertical_bias="0.5"
+            app:layout_constraintTop_toBottomOf="@+id/article_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:src="@drawable/ic_sponsored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </android.support.constraint.ConstraintLayout>
+
+
+</android.support.v7.widget.CardView>

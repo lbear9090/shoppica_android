@@ -1,0 +1,557 @@
+<resources>
+
+    <!--AppName-->
+    <string name="app_name">SHOPP!CA</string>
+    <string name="app_name1">SHOP</string>
+    <string name="app_name2">P!CA</string>
+
+
+    <!--Toolbar Titles-->
+    <string name="toolbar_name">Shoppica</string>cxx
+    <string name="toolbar_name_sell">商品を売る</string>
+    <string name="toolbar_name_promote">商品をプロモーションにかける</string>
+    <string name="toolbar_name_extend">商品を延長する</string>
+    <string name="toolbar_name_article">商品</string>
+    <string name="toolbar_name_view_articles">%1$d 枚全ての写真を見る</string>
+
+
+    <!--Action Buttons -->
+    <string name="btn_action_report">報告する</string>
+    <string name="btn_action_feed_back">フィードバックを送る</string>
+    <string name="btn_action_send">送る</string>
+    <string name="btn_action_skip">スキップ</string>
+    <string name="btn_action_post">投稿する</string>
+    <string name="btn_action_price">%1$s</string>
+    <string name="btn_action_reset">リセット</string>
+    <string name="btn_action_filter">フィルター</string>
+    <string name="btn_action_extend">延長する</string>
+    <string name="btn_action_extend_active">延長実行中</string>
+    <string name="btn_action_promote">プロモーションにかける</string>
+    <string name="btn_action_delete">消す</string>
+    <string name="btn_action_status">ステータス…</string>
+    <string name="btn_action_promote_active">プロモーション実行中</string>
+
+    <string name="btn_action_allow">許可する</string>
+    <string name="btn_action_profile">あなたのプロフィール</string>
+    <string name="btn_action_deny">拒否する</string>
+    <string name="btn_action_ok">OK</string>
+    <string name="btn_action_install">アプリをインストールする</string>
+    <string name="btn_action_logout">ログアウト</string>
+    <string name="btn_action_cancel">戻る</string>
+    <string name="btn_action_rate">評価する</string>
+    <string name="btn_action_follow">フォローする</string>
+    <string name="btn_action_continue">続ける</string>
+    <string name="btn_action_login">ログイン</string>
+    <string name="btn_action_show">提示する</string>
+
+    <string name="btn_action_settings">設定</string>
+    <string name="btn_action_retry">リトライする</string>
+    <string name="btn_action_camera">写真を撮る</string>
+    <string name="btn_action_understand">了承</string>
+    <string name="btn_action_country">国を選ぶ</string>
+    <string name="btn_action_ask_me">質問をしてください</string>
+    <string name="btn_action_share"> Facebookでシェアする！</string>
+    <string name="btn_action_unavailable">利用不可です。</string>
+    <string name="btn_action_view_post">あなたの投稿を見る</string>
+
+    <string name="btn_action_whatsapp">WhatsApp</string>
+    <string name="btn_action_instagram">Instagram</string>
+    <string name="btn_action_email">Eメール</string>
+    <string name="btn_action_send_feedback">フィードバックを送る</string>
+    <string name="btn_action_follow_instagram">Instagram!を是非フォローしてください！</string>
+
+    <string name="btn_action_back">戻る</string>
+    <string name="btn_action_extended">期限切れ</string>
+
+    <!--Intro Screen -->
+    <string name="intro_title">Shoppica!へようこそ！</string>
+    <string name="intro_title_sub">いくつかの簡単で役に立つコツです！</string>
+    <string name="intro_search"> ここでトレンド入りしている、又はプロモーションを受けている販売中の商品が見つかります。</string>
+    <string name="intro_filter"> ここで商品をカテゴリー、色、ブランド、価格等によってフィルターにかけることができます。</string>
+    <string name="intro_camera"> ここではあなたのアイテムの写真を撮ってshoppicaで販売するためにアップすることができます。</string>
+    <string name="intro_profile"> ここであなたのアカウントを管理し、お気に入りに追加したり、掲載中の商品を見ることができます。</string>
+
+
+    <!--Different Errors ViewStates -->
+    <string name="state_error_desc">申し訳ございません！エラーが発生しました。後でもう一度お試しください！
+</string>
+    <string name="state_empty_desc">現在商品は見つかりませんでした。後でもう一度お試しください！</string>
+    <string name="state_filter_desc">現在商品は見つかりませんでした。フィルターの設定を確認して、後でもう一度お試しください！</string>
+    <string name="state_connection_desc">インターネットの接続を確認して後でもう一度お試しください。Please check your internet connection and try again.</string>
+    <string name="state_error_general_desc">こちらに何らかの不具合がありました！私たちのFacebookで最新情報を確認してください。</string>
+
+    <!--Toast Messages -->
+    <string name="toast_notice_sent">正常に送信完了！</string>
+    <string name="toast_notice_logout_success">正常にログアウト完了！</string>
+    <string name="toast_notice_login_success">正常にログイン完了！</string>
+
+    <string name="toast_error_post">申し訳ございません！投稿中にエラーが発生しました。後でもう一度お試しください！</string>
+    <string name="toast_error_no_internet_connection">インターネット接続がありません。</string>
+    <string name="toast_error_report_empty">メッセージを書いてください…</string>
+    <string name="toast_error_report_length">あなたのメッセージは最低１０文字の長さが必要です。</string>
+    <string name="toast_error_intent_null">申し訳ございません！エラーが発生しました。後でもう一度お試しください！
+</string>
+    <string name="toast_sen_text_copied">テキストがコピーされました！</string>
+
+    <!--Currency Messages -->
+    <string name="currency_symbol">%1$s</string>
+    <string name="currency_symbol_replace_from">,</string>
+    <string name="currency_symbol_replace_to">.</string>
+
+
+    <!--Snackbar Messages -->
+    <string name="snackbar_notice_favorite_added">お気に入りに追加されました！</string>
+    <string name="snackbar_notice_favorite_removed">お気に入りから外されました。</string>
+
+    <string name="snackbar_error_country_pick">国を入力して下さい。</string>
+    <string name="snackbar_error_filter_no_value_changed">現在どのフィルターも選ばれていません。</string>
+    <string name="snackbar_error_max_5_images">最大５枚の写真を選べます。</string>
+    <string name="snackbar_error_max_5_images2">商品１つにつき最大５枚の写真を追加することができます。</string>
+    <string name="snackbar_error_connection">現在インターネット接続がありません。</string>
+    <string name="snackbar_error_report">あなたはすでにこの人物を報告しています。</string>
+    <string name="snackbar_error_report_length">メッセージが長すぎます。短くしてください。</string>
+    <string name="snackbar_error_contact_yourself">あなた自身に連絡することはできません。</string>
+    <string name="snackbar_error_unavailable">現在利用不可です。後でもう一度お試しください。</string>
+    <string name="snackbar_error_purchase">申し訳ございません！エラーが発生しました。後でもう一度お試しください！</string>
+    <string name="snackbar_error_ready_purchase">支払いオプションを読み込んでいます...</string>
+
+    <!--Spannable Messages -->
+
+    <string name="spannable_follow_us_title">フォローして</string>
+    <string name="spannable_follow_username">shoppicacom</string>
+    <string name="spannable_follow_us_desc">Instagramで最新のセールとプロモーション情報に追いつくために！</string>
+
+    <string name="spannable_promote_desc1">あなたの商品はプロモーションされていて</string>
+    <string name="spannable_promote_desc2">実行中</string>
+    <string name="spannable_promote_desc3">プロモーションを今すぐ延長！</string>
+
+    <string name="spannable_extend_desc1">あなたの商品は未だに</string>
+    <string name="spannable_extend_desc2">有効</string>
+    <string name="spannable_extend_desc3">この後、あなたの商品は期限が切れます。</string>
+
+    <string name="spannable_article_offered_by">によってあなたの商品は提供されていて</string>
+    <string name="spannable_article_sold_from">から販売されている</string>
+
+    <!--Settings -->
+    <string name="settings">設定</string>
+
+    <string name="settings_facebook_title">Facebookに繋げる</string>
+    <string name="settings_facebook_sub_title">Facebookに繋げてあなたの商品を投稿し販売し、他の商品をお気に入りに追加してください。</string>
+    <string name="settings_facebook_button_title_on">あなたはFacebookに繋がっています。</string>
+    <string name="settings_facebook_button_title_off">Facebookに繋げる</string>
+
+    <string name="settings_country_title">国</string>
+    <string name="settings_country_sub_title">商品を売買したい国を選んでください。</string>
+
+    <string name="settings_contact_title">連絡方法</string>
+    <string name="settings_contact_sub_title">購入希望者がいた場合あなたに連絡できるように連絡方法を追加してください。</string>
+
+    <string name="settings_location_title">場所</string>
+    <string name="settings_location_sub_title">現在位置を自動もしくはマニュアルで入力してください。買ってくれるかもしれない人たちがだいたいのあなたの位置を知れるように場所情報を商品に追加します。購入者があなたに連絡を取れば、正確な位置について話すかはあなた次第です。</string>
+
+    <string name="settings_trade_safe_title">安全な買い物</string>
+    <string name="settings_trade_safe_desc">安全な買い物が最優先です。何か不審に思うことはありますか？まずは購入者もしくは販売者にさらなる情報を求めましょう。万が一問題が起これば、その該当者をこちらに報告してください。</string>
+
+    <string name="settings_notifications_title">通知</string>
+    <string name="settings_notifications_desc">あなたの最後の訪問から投稿された商品の数についての通知を希望しますか？</string>
+    <string name="settings_notifications_switch_on">通知を受ける</string>
+    <string name="settings_notifications_switch_off">通知を受けない</string>
+
+    <string name="settings_feedback_title">Feedback</string>
+    <string name="settings_feedback_desc">私たちは常にShoppicaの改善を目指して努力しています。フィードバックや提案があれば、是非私たちに知らせてください！</string>
+
+    <string name="settings_follow_title">Instagram</string>
+    <string name="settings_follow_desc">Instagramをフォローして最新情報やプロモーション情報を逃さないようにしましょう！</string>
+
+    <string name="settings_logout">ログアウト</string>
+    <string name="settings_logout_desc">本当にログアウトを希望しますか？</string>
+
+    <string name="settings_version">現在のバージョン:%1$s</string>
+
+    <string name="settings_dialog_feed_back_title">フィードバック</string>
+    <string name="settings_dialog_feed_back_sub_title">何か提案はありますか？ぜひ教えてください。</string>
+    <string name="settings_dialog_feed_back_hint_message">メッセージを書いてください...</string>
+
+    <string name="settings_dialog_trade_safe_title">安全な買い物</string>
+    <string name="settings_dialog_trade_safe_sub_title">何か問題が起こりましたか？関係者を報告してください。.</string>
+    <string name="settings_dialog_trade_safe_hint_message"/>メッセージを書いてください...
+
+    <!--View Article -->
+    <string name="view_article_contact_title">気になりますか？</string>
+    <string name="view_article_contact_sub_title">この商品は%1$s によって%2$s. %3$sから販売されています。</string>
+    <string name="view_article_contact_sub_title2">この商品を購入希望ですか？販売者に以下の連絡方法から選択して連絡してください！</string>
+
+    <string name="view_article_contact_option_delivery1">この商品は販売者の位置からのみ受け取りが可能です。</string>
+    <string name="view_article_contact_option_delivery2">販売者がこの商品をあなたの元へ発送します。</string>
+    <string name="view_article_contact_option_delivery3">商品を販売者の住所にて受け取りするかあなたの元へ発送させるか選択することができます。</string>
+
+    <string name="view_article_login_fb_title">Facebookでログインしてください。</string>
+    <string name="view_article_login_fb_desc">商品をお気に入りに登録するには、Facebookでログインしてください。</string>
+
+    <string name="view_article_zoom_title">ズーム</string>
+    <string name="view_article_zoom_desc">写真をタップして拡大、拡小してください。</string>
+
+
+    <string name="view_article_condition">状態</string>
+    <string name="view_article_brand">ブランド</string>
+    <string name="view_article_color">色</string>
+    <string name="view_article_size">サイズ</string>
+    <string name="view_article_gender">性別</string>
+    <string name="view_article_delivery">発送</string>
+    <string name="view_article_value_empty">-</string>
+
+    <string name="view_article_send_email_title">Shoppica - %1$sが気になっています。</string>
+    <string name="view_article_send_email_desc">%1$sさん、こんにちは！私はあなたの%2$sが気になっています。あなたの商品は%3$sで見つけました：%3$s。お返事をください！ありがとうございます！</string>
+
+    <string name="view_article_whatsapp_send">%1$sさん、こんにちは！私はあなたの%2$sが気になっています。あなたの商品はこちらで見つけました：%3$s。お返事をください！ありがとうございます！</string>
+
+    <string name="view_article_send_error_whatsapp_title">エラー発生</string>
+    <string name="view_article_send_error_whatsapp_desc">%1$sが電話番号を打ち間違えた可能性があります。他の連絡手段を試してみてください。そうでなければ、あとでもう一度お試しください。</string>
+
+    <string name="view_article_instagram_send">%1$sさん、こんにちは！私はあなたの%2$sが気になっています。あなたの商品はこちらで見つけました：%3$s。お返事をください！ありがとうございます！</string>
+
+    <string name="view_article_not_installed_error_whatsapp_title">WhatsApp</string>
+    <string name="view_article_not_installed_error_whatsapp_desc">あなたの携帯電話にWhatsAppはインストールされていないようです。 %1$s にこの方法で連絡を取るには、まず WhatsAppをインストールしてください。</string>
+    <string name="view_article_not_installed_error_whatsapp_desc2">あなたの携帯電話にWhatsAppはインストールされていないようです。WhatsAppを連絡方法に追加するには、まずInstagramをインストールしてください</string>
+
+    <string name="view_article_share_error_title">エラー発生</string>
+    <string name="view_article_share_error_desc">投稿中に何らかの問題が発生しました。あとでもう一度お試しください！</string>
+
+    <string name="view_article_not_installed_error_instagram_title">Instagram</string>
+    <string name="view_article_not_installed_error_instagram_desc">あなたの携帯電話にはInstagramはインストールされていないようです。 %1$s にこの方法で連絡を取るには、まず Instagramをインストールしてください。</string>
+    <string name="view_article_not_installed_error_instagram_desc2">あなたの携帯電話にはInstagramはインストールされていないようです。Instagramを連絡方法に追加するには、まずInstagramをインストールしてください。</string>
+
+    <string name="view_article_instagram_error_title">エラー発生</string>
+    <string name="view_article_instagram_error_desc">t%1$s にInstagramを通しての連絡に失敗しました為、他の連絡方法をお試しください。そうでなければ、あとでもう一度お試しください。</string>
+
+    <string name="view_article_email_error_title">エラー発生</string>
+    <string name="view_article_email_error_desc">t%1$s にEメールを通しての連絡に失敗しました為、他の連絡方法をお試しください。そうでなければ、あとでもう一度お試しください。</string>
+    <string name="view_article_send_chooser">…からメールを送信</string>
+
+    <string name="view_activitiy_instagram_explain_title">Instagram</string>
+    <string name="view_activitiy_instagram_explain_desc">Instagramを通して販売者にメッセージを送信する為の説明を希望しますか？</string>
+
+    <string name="view_article_share_text">%1$sを%2$sで売ります！気になったら教えてください！アンドロイドアプリ Shoppicaによる提供。</string>
+    <string name="view_article_share_text_2">%2$sからの%3$sによって提供されているこの%1$s をアンドロイドアプリ Shoppicaで是非チェックしてくだい！.</string>
+
+    <string name="view_article_post_views_0">0 閲覧数</string>
+    <string name="view_article_post_views">%1$s 閲覧数</string>
+    <string name="view_article_post_time">%1$s</string>
+
+    <string name="view_article_dialog_report_option_1">不適切な写真</string>
+    <string name="view_article_dialog_report_option_2">スパムのように感じる</string>
+    <string name="view_article_dialog_report_option_3">その他</string>
+
+    <string name="view_article_dialog_report_title">レポート</string>
+    <string name="view_article_dialog_report_sub_title">この人物があなたに迷惑をかけていますか？この人が何をしたかを教えてください。</string>
+    <string name="view_article_dialog_report_hint_message">あなたが何に悩んでいるかを教えてください…</string>
+
+    <!--Extend Article -->
+    <string name="alert_extend_title">商品を延長する</string>
+    <string name="alert_extend_desc">あなたの商品は%1$s以内に期限が切れます。一旦期限が切れると、商品は削除されます。下から商品の延長が可能です。</string>
+
+    <!--Alert Edit Photo -->
+    <string name="alert_add_title">商品にタイトルを追加する</string>
+    <string name="alert_add_title_sub">あなたの商品を３〜４語以内で表現してください。</string>
+    <string name="alert_add_title_hint">例：白いセーター</string>
+
+    <string name="alert_add_brand">ブランド</string>
+    <string name="alert_add_brand_sub">あなたの商品のブランドを入力してください。</string>
+    <string name="alert_add_brand_hint">例　Zara</string>
+
+    <string name="alert_add_color">色</string>
+    <string name="alert_add_color_sub">あなたの商品の色を入力してください。</string>
+    <string name="alert_add_color_hint">例　赤</string>
+
+    <string name="alert_add_size">サイズ</string>
+    <string name="alert_add_size_sub">あなたの商品のサイズを入力してください。</string>
+    <string name="alert_add_size_hint">例　S, XL</string>
+
+    <string name="alert_add_gender">性別</string>
+
+    <string name="alert_add_price">価格</string>
+    <string name="alert_add_price_sub">あなたの商品の価格を入力してください。</string>
+    <string name="alert_add_price_hint">例　25</string>
+
+    <string name="alert_add_category">カテゴリー</string>
+    <string name="alert_add_condition">状態</string>
+    <string name="alert_add_send">発送：受取</string>
+    <string name="alert_add_contact">連絡方法</string>
+
+    <string name="alert_add_whatsapp">Add WhatsApp</string>
+    <string name="alert_add_whatsapp_sub">あなたの携帯番号を入力してください。</string>
+    <string name="alert_add_whatsapp_hint">e.g. 1012345678</string>
+
+    <string name="alert_add_instagram">Add Instagram</string>
+    <string name="alert_add_instagram_sub">あなたのInstagramのユーザーネームを入力してください。</string>
+    <string name="alert_add_instagram_hint">例：Shoppicacom</string>
+
+    <string name="alert_add_email">Eメールを追加する</string>
+    <string name="alert_add_email_sub">あなたのEメールアドレスを入力してください。</string>
+    <string name="alert_add_email_hint">例：example@email.com</string>
+
+    <string name="alert_add_location">場所</string>
+    <string name="alert_add_location_pick_up">購入者がいた場合、どこで商品を受け取れますか？</string>
+    <string name="alert_add_current_location">現在位置情報を取得する</string>
+
+    <string name="alert_add_trade_safe">何か問題がありましたか？教えてください。</string>
+
+    <string name="alert_add_own_location">手動で位置を入力する</string>
+    <string name="alert_add_own_location_sub">あなたの市の名前を入力してください。</string>
+    <string name="alert_add_own_location_sub_hint">例：ニューヨーク</string>
+
+    <string name="alert_category_title">カテゴリーを選ぶ</string>
+    <string name="alert_category_error_title">カテゴリー</string>
+    <string name="alert_category_error_desc">カテゴリーを選んでください。</string>
+
+    <string name="alert_ask_price_error_title">価格</string>
+    <string name="alert_ask_price_error_desc">価格を入力してください。</string>
+    <string name="alert_ask_price_error_desc2"/>
+    価格には数字と小数点のみ使用することができます。例：20.95
+    <string name="alert_article_error_title">タイトル</string>
+    <string name="alert_article_error_desc">タイトルを入力してください。</string>
+    <string name="alert_article_error_desc2">タイトルが長すぎます。最大４語でタイトルを入力してください。</string>
+
+    <string name="alert_contact_error_title">連絡方法</string>
+    <string name="alert_contact_error_desc">最低１つの連絡方法を入力してください。</string>
+
+    <string name="alert_location_error_title">位置</string>
+    <string name="alert_location_error_title2">エラー発生</string>
+    <string name="alert_location_error_desc">位置情報を入力してください。例：ニューヨーク</string>
+    <string name="alert_location_error_desc2">位置情報によってフィルターをかけるには、あなたの端末の位置情報が必要です。今すぐ位置情報を見つけますか？</string>
+    <string name="alert_location_error_desc_3">あなたの位置情報が見つかりませんでした。またあとでお試しください。</string>
+
+    <string name="alert_send_title">発送方法を選ぶ</string>
+    <string name="alert_color_title">色を選ぶ</string>
+    <string name="alert_gender_title">商品の性別を選ぶ</string>
+    <string name="alert_status_title">商品のステータスを選ぶ：</string>
+    <string name="alert_condition_title">状態を選ぶ</string>
+
+    <string name="article_send_method">発送：%1$s</string>
+
+    <!--Alert General Edit Photo & Settings -->
+    <string name="alert_whatsapp_error_title">WhatsApp</string>
+    <string name="alert_whatsapp_error_desc">あなたの携帯電話番号は数字のみを含み最低１０文字の長さである必要があります。例：1012345678</string>
+
+    <string name="alert_instagram_error_title">Instagram</string>
+    <string name="alert_instagram_error_desc">あなたのInstagramのユーザーネームが不正確です。もう一度ユーザーネームを確認して入力してください。例：Shoppicacom</string>
+
+    <string name="alert_delete_title">商品を削除する</string>
+    <string name="alert_delete_desc">本当にこの商品を削除していいですか？</string>
+
+    <!--Edit Post Share Article -->
+    <string name="share_post_fb_title">商品をFacebookでシェアしましょう</string>
+    <string name="share_post_fb_desc">商品をFacebookでシェアして購入の確率を高めましょう！</string>
+
+    <!--Promote Article -->
+    <string name="promote_post_title">購入の確率を高める</string>
+    <string name="promote_post_sub_title">より多くの人に見られるように商品をプロモーションにかけますか？</string>
+
+    <string name="promote_option_1_title">いいえ</string>
+    <string name="promote_option_1_sub_title">プロモーションにかける</string>
+
+    <string name="promote_option_2_title">６時間</string>
+    <string name="promote_option_2_sub_title">ロード中…</string>
+
+    <string name="promote_option_3_title">1日</string>
+    <string name="promote_option_3_sub_title">ロード中…</string>
+
+    <string name="promote_option_4_title">3日</string>
+    <string name="promote_option_4_sub_title">ロード中…</string>
+
+    <string name="promote_option_5_title">一週間</string>
+    <string name="promote_option_5_sub_title">ロード中…</string>
+
+    <string name="promote_option_6_title">1月</string>
+    <string name="promote_option_6_sub_title">ロード中…</string>
+
+    <!--Extend Article -->
+    <string name="extend_post_title">商品を延長する</string>
+    <string name="extend_post_sub_title">あなたの商品は期限が切れ他のユーザーには見えなくなりました。もう一度見えるようにするには延長してください。</string>
+
+    <string name="extend_option_1_title">いいえ</string>
+    <string name="extend_option_1_sub_title">延長</string>
+
+    <string name="extend_option_2_title">１週間</string>
+    <string name="extend_option_2_sub_title">ロード中…</string>
+
+    <string name="extend_option_3_title">１ヶ月</string>
+    <string name="extend_option_3_sub_title">ロード中…</string>
+
+    <string name="extend_option_4_title">３ヶ月</string>
+    <string name="extend_option_4_sub_title">ロード中…</string>
+
+    <string name="extend_option_5_title">６ヶ月</string>
+    <string name="extend_option_5_sub_title">ロード中…</string>
+
+    <string name="extend_option_6_title">１年</string>
+    <string name="extend_option_6_sub_title">ロード中…</string>
+
+
+    <!-- Photo Options -->
+    <string name="option_camera">カメラで写真を撮る</string>
+    <string name="option_gallery">ギャラリーから写真を選ぶ</string>
+
+
+    <!-- Filter Options -->
+    <string name="filter_article_title">フィルター</string>
+    <string name="filter_article_gender">性別</string>
+    <string name="filter_article_category">カテゴリー</string>
+    <string name="filter_article_condition">状態</string>
+    <string name="filter_article_color">色</string>
+    <string name="filter_article_send">発送</string>
+    <string name="filter_article_price_title">価格</string>
+    <string name="filter_article_price">すべての価格</string>
+    <string name="filter_article_price_value">%1$s %2$d - %3$s %4$d</string>
+    <string name="filter_distance_title">距離</string>
+    <string name="filter_article_distance">すべての距離</string>
+    <string name="filter_article_distance_value">%1$d マイル</string>
+
+
+    <!-- Alert Permissions -->
+    <string name="alert_default_permission_title">アクセス許可</string>
+    <string name="alert_default_permission_denied_title">アクセス拒否</string>
+    <string name="alert_camera_permission_never_desc">カメラのアクセスが拒否されました。「設定」-&gt;「アクセス許可」から変更してください。</string>
+    <string name="alert_camera_permission_desc">カメラへのアクセス許可が写真とビデオを撮るのに必要です。</string>
+
+    <string name="alert_gallery_permission_desc">保存アクセス許可が写真とビデオを保存するのに必要です。</string>
+    <string name="alert_gallery_permission_never_desc">保存アクセスが拒否されました。「設定」-&gt;「アクセス許可」から変更してください。</string>
+
+    <string name="alert_location_permission_never_desc">位置情報へのアクセスが拒否されました。「設定」-&gt;「アクセス許可」から変更してください。</string>
+    <string name="alert_location_permission_desc">位置情報へのアクセス許可があなたの現在位置をを取得するのに必要です。</string>
+
+    <!-- Facebook Login Explain -->
+    <string name="login_explain_facebook_desc1">あなたの商品を保存できるようにFacebookに繋げてください。</string>
+    <string name="login_explain_facebook_desc2">あなたの許可なしにあなたの情報を第三者に共有したり何かを投稿することは決してありません。</string>
+
+    <!-- Camera Explain -->
+    <string name="explain_camera_desc">最初の商品を売ってみましょう！</string>
+    <string name="explain_camera_desc1">画面の中央にくるように商品を置いてください。１枚、もしくは数枚の写真を撮ってください。</string>
+    <string name="explain_camera_desc2">満足のいく写真が撮れたら、次のページへ移行して商品を説明してください。.</string>
+    <string name="explain_camera_desc3"> これで完了です！</string>
+
+    <!-- Country Explain -->
+    <string name="explain_country_desc">あなたはどこにいますか？</string>
+    <string name="explain_country_desc1">あなたが商品を売る際にいる国を選択してください。ここで選択した国はあなたが購入を希望する際に出てくる商品がある国にもなります。.</string>
+    <string name="explain_country_desc2">これはいつでも設定から変更が可能です。</string>
+
+    <!-- Alert General -->
+    <string name="alert_error_fb_register_title">登録失敗</string>
+    <string name="alert_error_network_title">エラー発生</string>
+    <string name="alert_error_title">エラー発生</string>
+    <string name="alert_error_desc">何らかの問題が発生！後でもう一度お試しください！</string>
+    <string name="alert_error_desc2">何らかの問題が発生！もう一度情報を確認して後でもう一度お試しください！
+</string>
+    <string name="alert_error_internet_facebook_desc">あなたは現在インターネットに接続されていません。Facebookに繋げるにはインターネット接続が必要です。</string>
+
+    <string name="alert_error_fb_register_desc_0">ShoppicaではFacebookとの接続の際に問題が発生しています。これらが考えられる原因です： </string>
+    <string name="alert_error_fb_register_desc_1">- 登録されている情報がFacebookのアプリ内で無効になっている場合。これが原因かどうか確認してください。</string>
+    <string name="alert_error_fb_register_desc_2">- 携帯電話の時間が間違っており、登録のプロセスに影響を与えている場合。これが原因の場合、携帯電話の設定から変更が可能です。</string>
+    <string name="alert_error_fb_register_desc_3">- Facebookのアプリをインストールしていない場合。インストールしてまたお試しください。</string>
+
+
+    <!-- Facebook Login Info-->
+    <string name="facebook_app_id">222026065252479</string>
+    <string name="facebook_protocol_scheme">fb222026065252479</string>
+
+    <!-- pager Separator-->
+    <string name="pager_bullet_separator" formatted="false">%s / %s</string>
+
+    <!-- Alert Progress -->
+    <string name="alert_progress_payment_success">支払い成功…</string>
+    <string name="alert_progress_uploading">投稿中…</string>
+    <string name="alet_progress_searching">位置情報取得中…</string>
+    <string name="alert_progress_check_connection">接続確認中…</string>
+    <string name="alert_progress_uploading_success">投稿成功！</string>
+    <string name="alert_progress_promoted_success">プロモーション成功！</string>
+
+    <!-- Tab Names -->
+    <string name="tab_feed_1">ドレンド入り中</string>
+    <string name="tab_feed_2">新しい</string>
+    <string name="tab_feed_3">プロモーション中</string>
+
+    <string name="tab_profile_1">私の商品</string>
+    <string name="tab_profile_2">お気に入り</string>
+
+    <!-- Emoji Drawable Coordinates -->
+    <string name="u1f60e_left_shade_start">M12.45,53.96 C12.05,53.88,11.63,54.01,11.34,54.3 C11.05,54.59,10.92,55,11,55.41 C14.02,70.43,23.36,74.45,23.76,74.61 C23.91,74.67,24.07,74.7,24.23,74.7 C24.66,74.7,25.08,74.47,25.31,74.07 L33.27,59.71 C33.46,59.37,33.47,58.95,33.31,58.6 C33.14,58.25,32.82,57.99,32.43,57.91 L12.45,53.96 Z</string>
+    <string name="u1f60e_left_shade_end">M35.45,58.56 C34.05,59.88,28.34,76.01,28.24,76.8 C28.04,76.8,27.91,76.9,28.5,77.9C35.02,79,43.36,77,44.36,76.1 C44.61,76,44.9,75.74,45.9,75C48.2,72.17,48.81,71.61,49.8,69.17 L50.5,67.87C50.7,67.17,50.9,67,51.5,65 C51,60,44.82,61.3,47.43,61.05L35.45,58.56 Z</string>
+    <string name="u1f60e_right_shade_start">M89.09,60.54 C88.79,60.17,88.31,60.02,87.85,60.13 L75.42,63.14C74.83,63.28,74.44,63.83,74.49,64.43 C74.51,64.74,75.18,72.11,81.66,75.47C81.84,75.56,82.03,75.61,82.23,75.61 C82.37,75.61,82.5,75.59,82.63,75.54C82.95,75.43,83.21,75.19,83.34,74.89 L89.26,61.83C89.46,61.4,89.39,60.89,89.09,60.54 Z</string>
+    <string name="u1f60e_right_shade_end">M120.09,54.54 C119.79,54.17,119.31,54.02,118.85,54.13 L106.42,57.14C102.83,67.28,101.24,68.83,97.83,78.43 C97.83,78.74,104.18,79.11,108.66,74.47C110.84,73.16,109.03,73.61,109.23,73.61 C109.37,74.61,113.5,69.9,113.63,69.54C113.95,69.33,114.21,68.8,114.34,68.89 L120.26,55.83C120.46,55.4,120.39,54.89,120.09,54.54 Z</string>
+
+
+
+    <!-- Rating Dialog -->
+    <string name="rating_dialog_rate_title">私たちをどう評価しますか？</string>
+    <string name="rating_dialog_form_submit">送る</string>
+    <string name="rating_dialog_form_cancel">戻る</string>
+    <string name="rating_dialog_form_positive">また後で</string>
+    <string name="rating_dialog_form_hint">あなたが良いと思うところと良くないと思うところを教えてください。改善に努めます！</string>
+
+    <string name="rating_dialog_experience">今のところの経験はいかがですか？</string>
+    <string name="rating_dialog_maybe_later">また後で</string>
+    <string name="rating_dialog_never">しない</string>
+    <string name="rating_dialog_feedback_title">フィードバック</string>
+    <string name="rating_dialog_submit">送信</string>
+    <string name="rating_dialog_cancel">キャンセル</string>
+    <string name="rating_dialog_suggestions">アプリの改善できる点を教えてください。努力します！</string>
+
+    <string name="rating_dialog_desc_title">私たちのアプリが気に入りましたか？</string>
+    <string name="rating_dialog_desc_title2">Instagramでフォローしてください!</string>
+    <string name="rating_dialog_desc_rate">私たちは買い物と服飾品が大好きです！自分の服やアクセサリーを素早く売買するのは今までとても大変でした。そこで私たちはその問題を解決するためにこのアプリを作りました！</string>
+    <string name="rating_dialog_desc_rate2">Play Storeでこのアプリを評価すると無料で１年間あなたの商品にプロモーションを受けるチャンスを獲得できます！</string>
+
+    <!-- Favorites Fragment -->
+    <string name="state_empty_no_favorites_login">お気に入りを閲覧するには、Facebookでログインしてください。</string>
+    <string name="state_empty_no_favorites">現在お気に入りはありません。</string>
+
+    <!-- OwnPosts Fragment -->
+    <string name="state_empty_no_own_posts_login">あなたの商品を閲覧するには、Facebookでログインしてください。</string>
+    <string name="state_empty_no_own_posts">現在あなたの商品はありません。今すぐ売りに出しましょう！</string>
+
+    <!-- FeedAdapter -->
+    <string name="adapter_location_article_away_1km"> &lt; 1 マイル</string>
+    <string name="adapter_location_article_away"> %1$d マイル</string>
+    <string name="adapter_reserved">予約済</string>
+
+    <!-- Notifications -->
+    <string name="notification_title_type_0">Article almost expired.</string>
+    <string name="notification_desc_type_0">Your %1$s has almost expired! Extend it now for it to remain visible for everyone!</string>
+    <string name="notification_title_type_1">Promotion almost ended.</string>
+    <string name="notification_desc_type_1">The promotion of your %1$s has almost ended. Extend your promotion now to make sure you stay on top!</string>
+    <string name="notification_new_article_title">New Articles</string>
+
+
+    <!-- Country Picker -->
+    <string name="search_hint">検索…</string>
+    <string name="no_result_found">結果が見つかりません</string>
+    <string name="select_country">国を選ぶ</string>
+
+    <!-- Spannable Times -->
+    <string name="spannable_active_minute_ago">１分間有効</string>
+    <string name="spannable_active_minutes_ago"> %1$d 分間有効</string>
+    <string name="spannable_active_hour_ago"> 1時間有効</string>
+    <string name="spannable_active_hours_ago"> %1$d時間有効</string>
+    <string name="spannable_active_day_ago"> 1 日有効</string>
+    <string name="spannable_active_days_ago"> %1$d 日有効</string>
+
+    <string name="spannable_time_minute">分</string>
+    <string name="spannable_time_and">と</string>
+    <string name="spannable_time_minutes">分</string>
+    <string name="spannable_time_hour">時間</string>
+    <string name="spannable_time_hours">時間</string>
+    <string name="spannable_time_day">日</string>
+    <string name="spannable_time_days">日</string>
+    <string name="spannable_time_month">月</string>
+    <string name="spannable_time_months">月</string>
+    <string name="spannable_time_year">年</string>
+    <string name="spannable_time_years">年</string>
+
+    <string name="spannable_time_ago_minute">１分前</string>
+    <string name="spannable_time_ago_minutes">分前</string>
+    <string name="spannable_time_ago_hour">１時間前</string>
+    <string name="spannable_time_ago_hours">時間前</string>
+    <string name="spannable_time_ago_yesterday">昨日</string>
+    <string name="spannable_time_ago_days">日前</string>
+
+</resources>

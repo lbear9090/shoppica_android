@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackgroundFragment"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:paddingBottom="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/into_empty_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_empty"
+            android:layout_gravity="center"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/into_desc_empty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="45dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="45dp"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:lineSpacingExtra="5dp"
+            android:textAppearance="@style/regular"
+            android:textColor="#8c99ac"
+            android:textSize="15sp" />
+
+
+        <Button
+            android:id="@+id/into_btn_empty"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/into_btn_empty"
+            android:paddingEnd="35dp"
+            android:paddingLeft="35dp"
+            android:paddingRight="35dp"
+            android:includeFontPadding="false"
+            android:paddingStart="35dp"
+            android:textAllCaps="true"
+            android:visibility="visible"
+            android:textAppearance="@style/bold"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

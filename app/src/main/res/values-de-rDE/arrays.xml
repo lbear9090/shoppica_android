@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <array name="tab_name">
+        <item>Feed</item>
+        <item>Kamera</item>
+        <item>Profil</item>
+    </array>
+
+
+    <string-array name="gender">
+        <item>Frauen</item>
+        <item>Männer</item>
+        <item>Kinder</item>
+        <item>Unisex</item>
+    </string-array>
+
+
+    <string-array name="condition">
+        <item>Neu</item>
+        <item>Gut wie neu</item>
+        <item>Gebraucht</item>
+    </string-array>
+
+    <string-array name="send">
+        <item>Abholen</item>
+        <item>Liefern</item>
+        <item>Abholen &amp; Liefern</item>
+    </string-array>
+
+    <string-array name="categories">
+        <item>Rucksäcke</item>
+        <item>Gürtel</item>
+        <item>Handykabel &amp; Ladegeräte</item>
+        <item>Handyhülle</item>
+        <item>Kosmetik &amp; Schminken</item>
+        <item>Cologne &amp; Parfum</item>
+        <item>Clutch &amp; Abendtaschen</item>
+        <item>Umhängetaschen</item>
+        <item>Mode-Rucksäcke</item>
+        <item>Handschuhe</item>
+        <item>Partybekleidung</item>
+        <item>Hüte &amp; Mützen</item>
+        <item>Headsets &amp; Kopfhörer</item>
+        <item>Hobo-Taschen</item>
+        <item>Schmuck</item>
+        <item>Kinder &amp; Baby</item>
+        <item>Laptop Taschen</item>
+        <item>Laptop Hülle</item>
+        <item>Reisegepäck</item>
+        <item>Kuriertaschen</item>
+        <item>Tierzubehör</item>
+        <item>Tragbare Ladegeräte &amp; Powerbanken</item>
+        <item>Schulranzen</item>
+        <item>Schals &amp; Tücher</item>
+        <item>Shuhe</item>
+        <item>Umhängetasche</item>
+        <item>Sportschuhe &amp; Sneakers</item>
+        <item>Sonnenbrille &amp; Brillen</item>
+        <item>Tablet &amp; eBook Zubehör</item>
+        <item>Regenschirme</item>
+        <item>Vintage Mode</item>
+        <item>Geldbörsen &amp; Etuis</item>
+        <item>Armbanduhren</item>
+        <item>Armbänder</item>
+		<item>Krawatten</item>
+        <item>Sonstige Accessoires</item>
+    </string-array>
+
+    <string-array name="categories_filter">
+        <item>Rucksäcke</item>
+        <item>Gürtel</item>
+        <item>Handykabel &amp; Ladegeräte</item>
+        <item>Handyhülle</item>
+        <item>Kosmetik &amp; Schminken</item>
+        <item>Cologne &amp; Parfum</item>
+        <item>Clutch &amp; Abendtaschen</item>
+        <item>Umhängetaschen</item>
+        <item>Mode-Rucksäcke</item>
+        <item>Handschuhe</item>
+        <item>Partybekleidung</item>
+        <item>Hüte &amp; Mützen</item>
+        <item>Headsets &amp; Kopfhörer</item>
+        <item>Hobo-Taschen</item>
+        <item>Schmuck</item>
+        <item>Kinder &amp; Baby</item>
+        <item>Laptop Taschen</item>
+        <item>Laptop Hülle</item>
+        <item>Reisegepäck</item>
+        <item>Kuriertaschen</item>
+        <item>Tierzubehör</item>
+        <item>Tragbare Ladegeräte &amp; Powerbanken</item>
+        <item>Schulranzen</item>
+        <item>Schals &amp; Tücher</item>
+        <item>Shuhe</item>
+        <item>Umhängetasche</item>
+        <item>Sportschuhe &amp; Sneakers</item>
+        <item>Sonnenbrille &amp; Brillen</item>
+        <item>Tablet &amp; eBook Zubehör</item>
+        <item>Regenschirme</item>
+        <item>Vintage Mode</item>
+        <item>Geldbörsen &amp; Etuis</item>
+        <item>Armbanduhren</item>
+        <item>Armbänder</item>
+		<item>Krawatten</item>
+        <item>Sonstige Accessoires</item>
+        <item>Keine Präferenz</item>
+    </string-array>
+
+
+    <string-array name="gender_filter">
+        <item>Frauen</item>
+        <item>Männer</item>
+        <item>Kinder</item> 
+		<item>Unisex</item>
+        <item>Keine Präferenz</item>
+    </string-array>
+
+    <string-array name="condition_filter">
+        <item>Neu</item>
+        <item>Gut wie neu</item>
+        <item>Gebraucht</item>
+        <item>Keine Präferenz</item>
+    </string-array>
+
+
+    <string-array name="color_filter">
+        <item>Weiß</item>
+        <item>Schwarz</item>
+        <item>Rot</item>
+        <item>Orange</item>
+        <item>Gelb</item>
+        <item>Grün</item>
+        <item>Blau</item>
+        <item>Lila</item>
+        <item>Braun</item>
+        <item>Grau</item>
+        <item>Keine Präferenz</item>
+    </string-array>
+
+
+    <string-array name="send_filter">
+        <item>Abholen</item>
+        <item>Liefern</item>
+        <item>Abholen &amp; Liefern</item>
+        <item>Keine Präferenz</item>
+
+    </string-array>
+
+
+    <string-array name="status">
+        <item>Zu Verkaufen</item>
+        <item>Reserviert</item>
+        <item>Verkauft</item>
+    </string-array>
+
+
+</resources>

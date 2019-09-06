@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--AppName-->
+    <string name="app_name">SHOPP!CA</string>
+    <string name="app_name1">SHOP</string>
+    <string name="app_name2">P!CA</string>
+
+
+    <!--Toolbar Titles-->
+    <string name="toolbar_name">Shoppica</string>
+    <string name="toolbar_name_sell">Vendi articolo</string>
+    <string name="toolbar_name_promote">Promuovi articolo</string>
+    <string name="toolbar_name_extend">Estendi articolo</string>
+    <string name="toolbar_name_article">Articolo</string>
+    <string name="toolbar_name_view_articles">Vedi tutte le %1$d foto</string>
+
+
+    <!--Action Buttons -->
+    <string name="btn_action_report">Segnala</string>
+    <string name="btn_action_feed_back">Invia feedback</string>
+    <string name="btn_action_send">Invia</string>
+    <string name="btn_action_skip">Salta</string>
+    <string name="btn_action_post">Pubblica</string>
+    <string name="btn_action_price">%1$s</string>
+    <string name="btn_action_reset">Azzera</string>
+    <string name="btn_action_filter">Filtra</string>
+    <string name="btn_action_extend">Estendi</string>
+    <string name="btn_action_extend_active">Estensione attiva</string>
+    <string name="btn_action_promote">Promuovi</string>
+    <string name="btn_action_delete">Elimina</string>
+    <string name="btn_action_status">Stato…</string>
+    <string name="btn_action_promote_active">Promozione attiva</string>
+
+    <string name="btn_action_allow">consenti</string>
+    <string name="btn_action_profile">Il tuo profilo</string>
+    <string name="btn_action_deny">nega</string>
+    <string name="btn_action_ok">OK</string>
+    <string name="btn_action_install">Installa App</string>
+    <string name="btn_action_logout">Esci</string>
+    <string name="btn_action_cancel">Indietro</string>
+    <string name="btn_action_rate">Vota</string>
+    <string name="btn_action_follow">Segui</string>
+    <string name="btn_action_continue">Continua</string>
+    <string name="btn_action_login">Accedi</string>
+    <string name="btn_action_show">Mostra</string>
+
+    <string name="btn_action_settings">Impostazioni</string>
+    <string name="btn_action_retry">Riprova</string>
+    <string name="btn_action_camera">Scatta foto</string>
+    <string name="btn_action_understand">Ho capito</string>
+    <string name="btn_action_country">Scegli paese</string>
+    <string name="btn_action_ask_me">chiedi</string>
+    <string name="btn_action_share">Condividi su Facebook!</string>
+    <string name="btn_action_unavailable">Non disponibile.</string>
+    <string name="btn_action_view_post">Visualizza il tuo post</string>
+
+    <string name="btn_action_whatsapp">WhatsApp</string>
+    <string name="btn_action_instagram">Instagram</string>
+    <string name="btn_action_email">E-mail</string>
+    <string name="btn_action_send_feedback">Invia feedback</string>
+    <string name="btn_action_follow_instagram">Seguici su Instagram!</string>
+
+    <string name="btn_action_back">Indietro</string>
+    <string name="btn_action_extended">Scaduto</string>
+
+    <!--Intro Screen -->
+    <string name="intro_title">Benvenuto su Shoppica!</string>
+    <string name="intro_title_sub">Ecco alcuni consigli rapidi e utili!</string>
+    <string name="intro_search"> Qui troverai tutti gli accessori nuovi, di tendenza e in promozione che sono in vendita.</string>
+    <string name="intro_filter"> Qui puoi filtrare gli articoli per categoria, colore, marca, prezzo ecc.</string>
+    <string name="intro_camera"> Qui puoi fotografare i tuoi articoli e metterli in vendita su Shoppica.</string>
+    <string name="intro_profile"> Qui puoi gestire il tuo account, salvare gli articoli tra i preferiti e vedere gli articoli in lista.</string>
+
+
+    <!--Different Errors ViewStates -->
+    <string name="state_error_desc">Siamo spiacenti! Si è verificato un errore. Riprova più tardi!</string>
+    <string name="state_empty_desc">In questo momento non è stato trovato nessun articolo. Riprova più tardi!</string>
+    <string name="state_filter_desc">Non è stato trovato nessun articolo. Controlla le impostazioni dei filtri e riprova.</string>
+    <string name="state_connection_desc">Controlla la tua connessione internet e riprova.</string>
+    <string name="state_error_general_desc">Qualcosa è andato storto da parte nostra! Controlla la nostra pagina Facebook per gli aggiornamenti.</string>
+
+    <!--Toast Messages -->
+    <string name="toast_notice_sent">Inviato correttamente!</string>
+    <string name="toast_notice_logout_success">Disconnessione avvenuta con successo!</string>
+    <string name="toast_notice_login_success">Accesso eseguito correttamente!</string>
+
+    <string name="toast_error_post">Siamo spiacenti! Si è verificato un errore durante la pubblicazione. Riprova più tardi!</string>
+    <string name="toast_error_no_internet_connection">Nessuna connessione a internet.</string>
+    <string name="toast_error_report_empty">Scrivi un messaggio…</string>
+    <string name="toast_error_report_length">Il tuo messaggio deve essere lungo almeno 10 caratteri.</string>
+    <string name="toast_error_intent_null">Siamo spiacenti! Si è verificato un errore. Riprova più tardi!</string>
+    <string name="toast_sen_text_copied">Testo copiato!</string>
+
+    <!--Currency Messages -->
+    <string name="currency_symbol">%1$s</string>
+    <string name="currency_symbol_replace_from">,</string>
+    <string name="currency_symbol_replace_to">.</string>
+
+
+    <!--Snackbar Messages -->
+    <string name="snackbar_notice_favorite_added">Aggiunto ai preferiti!</string>
+    <string name="snackbar_notice_favorite_removed">Rimosso dai preferiti.</string>
+
+    <string name="snackbar_error_country_pick">Inserire un paese.</string>
+    <string name="snackbar_error_filter_no_value_changed">Attualmente non è selezionato nessun filtro.</string>
+    <string name="snackbar_error_max_5_images">Si possono scegliere al massimo 5 immagini.</string>
+    <string name="snackbar_error_max_5_images2">Si possono aggiungere al massimo 5 immagini per ciascun articolo.</string>
+    <string name="snackbar_error_connection">Attualmente non sei connesso a internet.</string>
+    <string name="snackbar_error_report">Hai già segnalato questa persona.</string>
+    <string name="snackbar_error_report_length">Il messaggio è troppo lungo. Prova ad accorciarlo.</string>
+    <string name="snackbar_error_contact_yourself">Non puoi contattare te stesso.</string>
+    <string name="snackbar_error_unavailable">Attualmente non disposnibile. Riprova più tardi.</string>
+    <string name="snackbar_error_purchase">Siamo spiacenti! Si è verificato un errore. Riprova più tardi!</string>
+    <string name="snackbar_error_ready_purchase">Caricamento delle opzioni di pagamento in corso…</string>
+
+    <!--Spannable Messages -->
+
+    <string name="spannable_follow_us_title">Seguici</string>
+    <string name="spannable_follow_username">shoppicacom</string>
+    <string name="spannable_follow_us_desc">su Instagram per rimanere aggiornato sulle ultime offerte e promozioni!</string>
+
+    <string name="spannable_promote_desc1">Il tuo articolo è in promozione e</string>
+    <string name="spannable_promote_desc2">attivo</string>
+    <string name="spannable_promote_desc3">Estendi la tua promozione ora!</string>
+
+    <string name="spannable_extend_desc1">Il tuo articolo è ancora</string>
+    <string name="spannable_extend_desc2">attivo</string>
+    <string name="spannable_extend_desc3">Allo scadere del tempo, il tuo articolo scadrà.</string>
+
+    <string name="spannable_article_offered_by">Questo articolo è offerto da</string>
+    <string name="spannable_article_sold_from">ed è venduto da</string>
+
+    <!--Settings -->
+    <string name="settings">Impostazioni</string>
+
+    <string name="settings_facebook_title">Collegati a Facebook</string>
+    <string name="settings_facebook_sub_title">Collegati a Facebook per pubblicare e vendere i tuoi articoli e salvare altri articoli tra i preferiti.</string>
+    <string name="settings_facebook_button_title_on">Sei collegato a Facebook.</string>
+    <string name="settings_facebook_button_title_off">Collegati a Facebook</string>
+
+    <string name="settings_country_title">Paese</string>
+    <string name="settings_country_sub_title">Seleziona il paese in cui vendere e da cui comprare articoli.</string>
+
+    <string name="settings_contact_title">Modalità di contatto</string>
+    <string name="settings_contact_sub_title">Aggiungi le modalità di contatto per assicurarti che i potenziali clienti possano contattarti.</string>
+
+    <string name="settings_location_title">Posizione</string>
+    <string name="settings_location_sub_title">Consentici di ottenere la tua posizione attuale o inseriscila manualmente. Aggiungeremo la posizione ai tuoi articoli in vendita in modo che i potenziali clienti sappiano approssimativamente in quale zona vivi. Sarai tu a comunicare la tua posizione esatta (indirizzo) all\'acquirente quando ti contatterà.</string>
+
+    <string name="settings_trade_safe_title">Shopping sicuro</string>
+    <string name="settings_trade_safe_desc">La sicurezza dello shopping deve sempre essere al primo posto. Hai qualche sospetto? Chiedi all\'acquirente o al venditore ulteriori informazioni prima di procedere. Se qualcosa va storto, segnalaci la persona interessata.</string>
+
+    <string name="settings_notifications_title">Notifiche</string>
+    <string name="settings_notifications_desc">Vuoi ricevere le notifiche sulla quantità di articoli pubblicati dalla tua ultima visita?</string>
+    <string name="settings_notifications_switch_on">Ricevi le notifiche</string>
+    <string name="settings_notifications_switch_off">Non ricevere le notifiche</string>
+
+    <string name="settings_feedback_title">Feedback</string>
+    <string name="settings_feedback_desc">Lavoriamo sempre duramente per migliorare Shoppica. Hai qualche feedback o suggerimento? Comunicacelo!</string>
+
+    <string name="settings_follow_title">Instagram</string>
+    <string name="settings_follow_desc">Rimani aggiornato con gli ultimi aggiornamenti e le promozioni seguendoci su Instagram!</string>
+
+    <string name="settings_logout">Esci</string>
+    <string name="settings_logout_desc">Sei sicuro di voler uscire?</string>
+
+    <string name="settings_version">Versione attuale: %1$s</string>
+
+    <string name="settings_dialog_feed_back_title">Feedback</string>
+    <string name="settings_dialog_feed_back_sub_title">Hai qualche suggerimento da darci? Comunicacelo.</string>
+    <string name="settings_dialog_feed_back_hint_message">Scrivi un messaggio…</string>
+
+    <string name="settings_dialog_trade_safe_title">Shopping sicuro</string>
+    <string name="settings_dialog_trade_safe_sub_title">Qualcosa è andato storto? Segnalaci le persone interessate.</string>
+    <string name="settings_dialog_trade_safe_hint_message">Scrivi un messaggio…</string>
+
+    <!--View Article -->
+    <string name="view_article_contact_title">Sei interessato?</string>
+    <string name="view_article_contact_sub_title">Questo articolo è venduto da %1$s da %2$s. %3$s</string>
+    <string name="view_article_contact_sub_title2">Vuoi comprare questo articolo? Contatta l\'acquirente usando una delle modalità di contatto seguenti!</string>
+
+    <string name="view_article_contact_option_delivery1">Puoi solo ritirare questo articolo presso il venditore.</string>
+    <string name="view_article_contact_option_delivery2">Il venditore ti spedirà questo articolo.</string>
+    <string name="view_article_contact_option_delivery3">Puoi scegliere di ritirare questo articolo presso il venditore o fartelo spedire.</string>
+
+    <string name="view_article_login_fb_title">Accedi tramite Facebook</string>
+    <string name="view_article_login_fb_desc">Per salvare gli articoli tra i preferitit, accedi tramite Facebook.</string>
+
+    <string name="view_article_zoom_title">Zoom</string>
+    <string name="view_article_zoom_desc">Tocca la foto per avvicinare e allontanare lo zoom!</string>
+
+
+    <string name="view_article_condition">Condizione</string>
+    <string name="view_article_brand">Marca</string>
+    <string name="view_article_color">Colore</string>
+    <string name="view_article_size">Taglia</string>
+    <string name="view_article_gender">Genere</string>
+    <string name="view_article_delivery">Spedizione</string>
+    <string name="view_article_value_empty">-</string>
+
+    <string name="view_article_send_email_title">Shoppica - Interessato a %1$s</string>
+    <string name="view_article_send_email_desc">Ciao %1$s! Sono interessato al tuo %2$s. Ho trovato il tuo articolo qui: %3$s. Ricontattami! Grazie!</string>
+
+    <string name="view_article_whatsapp_send">Ciao %1$s! Sono interessato al tuo %2$s. Ho trovato il tuo articolo qui: %3$s. Ricontattami! Grazie!</string>
+
+    <string name="view_article_send_error_whatsapp_title">Si è verificato un errore</string>
+    <string name="view_article_send_error_whatsapp_desc">È possibile che %1$s abbia inserito male il suo numero di telefono. Prova una delle altre modalità di contatto. Altrimenti, riprova più tardi.</string>
+
+    <string name="view_article_instagram_send">Ciao %1$s! Sono interessato al tuo %2$s. Ho trovato il tuo articolo qui: %3$s. Ricontattami! Grazie!</string>
+
+    <string name="view_article_not_installed_error_whatsapp_title">WhatsApp</string>
+    <string name="view_article_not_installed_error_whatsapp_desc">Sembra che WhatsApp non sia installato sul tuo telefono. Per contattare %1$s usando questa modalità, installa prima WhatsApp.</string>
+    <string name="view_article_not_installed_error_whatsapp_desc2">Sembra che WhatsApp non sia installato sul tuo telefono. Per aggiungere WhatsApp come modalità di contatto, installa prima WhatsApp.</string>
+
+    <string name="view_article_share_error_title">Si è verificato un errore</string>
+    <string name="view_article_share_error_desc">Qualcosa è andato storto durante la condivisione del post. Riprova più tardi!</string>
+
+    <string name="view_article_not_installed_error_instagram_title">Instagram</string>
+    <string name="view_article_not_installed_error_instagram_desc">Sembra che Instagram non sia installato sul tuo telefono. Per contattare %1$s usando questa modalità, installa prima Instagram.</string>
+    <string name="view_article_not_installed_error_instagram_desc2">Sembra che Instagram non sia installato sul tuo telefono. Per aggiungere Instagram come modalità di contatto, installa prima Instagram</string>
+
+    <string name="view_article_instagram_error_title">Si è verificato un errore</string>
+    <string name="view_article_instagram_error_desc">Non è stato possibile contattare %1$s tramite Instagram, prova un\'altra modalità di contatto. Altrimenti, riprova più tardi.</string>
+
+    <string name="view_article_email_error_title">Si è verificato un errore</string>
+    <string name="view_article_email_error_desc">Non è stato possibile contattare %1$s tramite e-mail, prova un\'altra modalità di contatto. Altrimenti, riprova più tardi.</string>
+    <string name="view_article_send_chooser">Invia e-mail da…</string>
+
+    <string name="view_activitiy_instagram_explain_title">Instagram</string>
+    <string name="view_activitiy_instagram_explain_desc">Vuoi una spiegazione su come inviare messaggi al venditore tramite Instagram?</string>
+
+    <string name="view_article_share_text">Sto vendendo il mio %1$s a %2$s! Sei interessato? Fammi sapere! Un prodotto dall\'app Android Shoppica.</string>
+    <string name="view_article_share_text_2">Guarda questo %1$s offerto da %2$s da %3$s e disponibile sull\'app Android Shoppica.</string>
+
+    <string name="view_article_post_views_0">0 visite</string>
+    <string name="view_article_post_views">%1$s visite</string>
+    <string name="view_article_post_time">%1$s</string>
+
+    <string name="view_article_dialog_report_option_1">Foto inappropriata</string>
+    <string name="view_article_dialog_report_option_2">Potrebbe essere spam</string>
+    <string name="view_article_dialog_report_option_3">Altro</string>
+
+    <string name="view_article_dialog_report_title">Segnala</string>
+    <string name="view_article_dialog_report_sub_title">Questa persona ti importuna? Spiegaci cos\'ha fatto.</string>
+    <string name="view_article_dialog_report_hint_message">Dicci cosa ti infastidisce…</string>
+
+    <!--Extend Article -->
+    <string name="alert_extend_title">Estendi articolo</string>
+    <string name="alert_extend_desc">Il tuo articolo scadrà tra %1$s. Una volta scaduto, l\'articolo sarà eliminato. Puoi estendere il tuo articolo di seguito. </string>
+
+    <!--Alert Edit Photo -->
+    <string name="alert_add_title">Aggiungi un titolo all\'articolo</string>
+    <string name="alert_add_title_sub">Descrivi il tuo articolo in 3 o 4 parole.</string>
+    <string name="alert_add_title_hint">Ad esempio: Felpa bianca</string>
+
+    <string name="alert_add_brand">Marca</string>
+    <string name="alert_add_brand_sub">Inserisci la marca del tuo articolo.</string>
+    <string name="alert_add_brand_hint">Ad esempio Zara</string>
+
+    <string name="alert_add_color">Colore</string>
+    <string name="alert_add_color_sub">Inserisci il colore del tuo articolo.</string>
+    <string name="alert_add_color_hint">Ad esempio Rosso</string>
+
+    <string name="alert_add_size">Taglia</string>
+    <string name="alert_add_size_sub">Inserisci la taglia del tuo articolo.</string>
+    <string name="alert_add_size_hint">Ad esempio S, XL</string>
+
+    <string name="alert_add_gender">Genere</string>
+
+    <string name="alert_add_price">Prezzo</string>
+    <string name="alert_add_price_sub">Inserisci il prezzo del tuo articolo.</string>
+    <string name="alert_add_price_hint">Ad esempio 25</string>
+
+    <string name="alert_add_category">Categoria</string>
+    <string name="alert_add_condition">Condizione</string>
+    <string name="alert_add_send">Spedizione: Ritiro</string>
+    <string name="alert_add_contact">Modalità di contatto</string>
+
+    <string name="alert_add_whatsapp">Add WhatsApp</string>
+    <string name="alert_add_whatsapp_sub">Inserisci il tuo numero di cellulare.</string>
+    <string name="alert_add_whatsapp_hint">e.g. 1012345678</string>
+
+    <string name="alert_add_instagram">Add Instagram</string>
+    <string name="alert_add_instagram_sub">Inserisci il tuo nome utente di Instagram.</string>
+    <string name="alert_add_instagram_hint">Ad esempio: Shoppicacom</string>
+
+    <string name="alert_add_email">Aggiungi Email</string>
+    <string name="alert_add_email_sub">Inserisci il tuo indirizzo e-mail.</string>
+    <string name="alert_add_email_hint">Ad esempio: esempio@email.com</string>
+
+    <string name="alert_add_location">Posizione</string>
+    <string name="alert_add_location_pick_up">Dove possono ritirare l\'articolo i potenziali acquirenti?</string>
+    <string name="alert_add_current_location">Ottieni posizione attuale</string>
+
+    <string name="alert_add_trade_safe">È successo qualcosa? Dicci cosa è successo.</string>
+
+    <string name="alert_add_own_location">Inserisci la posizione manualmente</string>
+    <string name="alert_add_own_location_sub">Inserisci il nome della tua città.</string>
+    <string name="alert_add_own_location_sub_hint">Ad esempio: New York</string>
+
+    <string name="alert_category_title">Scegli una categoria</string>
+    <string name="alert_category_error_title">Categoria</string>
+    <string name="alert_category_error_desc">Scegli una categoria.</string>
+
+    <string name="alert_ask_price_error_title">Prezzo</string>
+    <string name="alert_ask_price_error_desc">Inserisci un prezzo.</string>
+    <string name="alert_ask_price_error_desc2">Il prezzo può contenere solo numeri e un punto. Ad esempio: 20,95</string>
+
+    <string name="alert_article_error_title">Titolo</string>
+    <string name="alert_article_error_desc">Inserisci un titolo.</string>
+    <string name="alert_article_error_desc2">Il titolo è troppo lungo. Inserisci un titolo di 4 parole al massimo.</string>
+
+    <string name="alert_contact_error_title">Modalità di contatto</string>
+    <string name="alert_contact_error_desc">Inserisci almeno 1 modalità di contatto.</string>
+
+    <string name="alert_location_error_title">Posizione</string>
+    <string name="alert_location_error_title2">Si è verificato un errore</string>
+    <string name="alert_location_error_desc">Inserisci una posizione. Ad esempio: New York</string>
+    <string name="alert_location_error_desc2">Per applicare il filtro in base alla posizione abbiamo bisogno della posizione del tuo dispositivo. Trovare la posizione ora?</string>
+    <string name="alert_location_error_desc_3">Impossibile trovare la tua posizione. Riprova più tardi.</string>
+
+    <string name="alert_send_title">Scegli una modalità di spedizione</string>
+    <string name="alert_color_title">Scegli un colore</string>
+    <string name="alert_gender_title">Scegli il genere dell\'articolo</string>
+    <string name="alert_status_title">Scegli lo stato del tuo articolo</string>
+    <string name="alert_condition_title">Scegli una condizione</string>
+
+    <string name="article_send_method">Spedizione: %1$s</string>
+
+    <!--Alert General Edit Photo & Settings -->
+    <string name="alert_whatsapp_error_title">WhatsApp</string>
+    <string name="alert_whatsapp_error_desc">Il tuo numero di cellulare può contenere solo numeri e non deve superare i 10 caratteri. Ad esempio: 1012345678</string>
+
+    <string name="alert_instagram_error_title">Instagram</string>
+    <string name="alert_instagram_error_desc">Il tuo nome utente Instagram è errato. Controlla il tuo nome utente e riprova. Ad esempio: Shoppicacom</string>
+
+    <string name="alert_delete_title">Elimina articolo</string>
+    <string name="alert_delete_desc">Sicuro di voler eliminare questo articolo?</string>
+
+    <!--Edit Post Share Article -->
+    <string name="share_post_fb_title">Condividi il tuo articolo su Facebook</string>
+    <string name="share_post_fb_desc">Aumenta le tue possibilità di vendere il tuo articolo condividendolo su Facebook!</string>
+
+    <!--Promote Article -->
+    <string name="promote_post_title">Aumenta le tue possibilità di vendita</string>
+    <string name="promote_post_sub_title">Vuoi promuovere il tuo articolo in modo che abbia maggiore visibilità?</string>
+
+    <string name="promote_option_1_title">No</string>
+    <string name="promote_option_1_sub_title">Promozione</string>
+
+    <string name="promote_option_2_title">6 ore</string>
+    <string name="promote_option_2_sub_title">Caricamento in corso…</string>
+
+    <string name="promote_option_3_title">1 giorno</string>
+    <string name="promote_option_3_sub_title">Caricamento in corso…</string>
+
+    <string name="promote_option_4_title">3 giorni</string>
+    <string name="promote_option_4_sub_title">Caricamento in corso…</string>
+
+    <string name="promote_option_5_title">1 settimana</string>
+    <string name="promote_option_5_sub_title">Caricamento in corso…</string>
+
+    <string name="promote_option_6_title">1 mese</string>
+    <string name="promote_option_6_sub_title">Caricamento in corso…</string>
+
+    <!--Extend Article -->
+    <string name="extend_post_title">Estendi i tuoi articoli</string>
+    <string name="extend_post_sub_title">Il tuo articolo è scaduto e non è più visibile agli altri utenti. Estendilo ora e rendilo nuovamente visibile!</string>
+
+    <string name="extend_option_1_title">No</string>
+    <string name="extend_option_1_sub_title">Estensione</string>
+
+    <string name="extend_option_2_title">1 settimana</string>
+    <string name="extend_option_2_sub_title">Caricamento in corso…</string>
+
+    <string name="extend_option_3_title">1 mese</string>
+    <string name="extend_option_3_sub_title">Caricamento in corso…</string>
+
+    <string name="extend_option_4_title">3 mesi</string>
+    <string name="extend_option_4_sub_title">Caricamento in corso…</string>
+
+    <string name="extend_option_5_title">6 mesi</string>
+    <string name="extend_option_5_sub_title">Caricamento in corso…</string>
+
+    <string name="extend_option_6_title">1 anno</string>
+    <string name="extend_option_6_sub_title">Caricamento in corso…</string>
+
+
+    <!-- Photo Options -->
+    <string name="option_camera">Scatta una foto con la fotocamera</string>
+    <string name="option_gallery">Scegli una foto dalla galleria</string>
+
+
+    <!-- Filter Options -->
+    <string name="filter_article_title">Filtra</string>
+    <string name="filter_article_gender">Genere</string>
+    <string name="filter_article_category">Categoria</string>
+    <string name="filter_article_condition">Condizione</string>
+    <string name="filter_article_color">Colore</string>
+    <string name="filter_article_send">Spedizione</string>
+    <string name="filter_article_price_title">Prezzo</string>
+    <string name="filter_article_price">Qualsiasi prezzo</string>
+    <string name="filter_article_price_value">%1$s %2$d - %3$s %4$d</string>
+    <string name="filter_distance_title">Distanza</string>
+    <string name="filter_article_distance">Qualsiasi distanza</string>
+    <string name="filter_article_distance_value">%1$d miglia</string>
+
+
+    <!-- Alert Permissions -->
+    <string name="alert_default_permission_title">Autorizzazione</string>
+    <string name="alert_default_permission_denied_title">Autorizzazione negata</string>
+    <string name="alert_camera_permission_never_desc">Hai negato l\'accesso alla fotocamera. Modifica la tua scelta su [Impostazioni] -> [Autorizzazioni]</string>
+    <string name="alert_camera_permission_desc">È richiesto l\'accesso alla fotocamera per scattare foto e video.</string>
+
+    <string name="alert_gallery_permission_desc">È richiesto l\'accesso alla memoeria per salvare foto e video.</string>
+    <string name="alert_gallery_permission_never_desc">Hai negato l\'accesso alla memoria. Modifica la tua scelta su [Impostazioni] -> [Autorizzazioni]</string>
+
+    <string name="alert_location_permission_never_desc">Hai negato l\'accesso alla posizione. Modifica la tua scelta su [Impostazioni] -> [Autorizzazioni]</string>
+    <string name="alert_location_permission_desc">È richiesto l\'accesso alla posizione per ottenere la tua posizione.</string>
+
+    <!-- Facebook Login Explain -->
+    <string name="login_explain_facebook_desc1">Collegati al tuo account Facebook per salvare i tuoi articoli.</string>
+    <string name="login_explain_facebook_desc2">Non condivideremo mai le tue informazioni con terzi e non pubblicheremo mai nulla senza il tuo consenso.</string>
+
+    <!-- Camera Explain -->
+    <string name="explain_camera_desc">È il momento di vendere il tuo primo articolo!</string>
+    <string name="explain_camera_desc1">Prova a posizionare il tuo articolo in modo che sia al centro dello schermo. Scatta una o più foto.</string>
+    <string name="explain_camera_desc2">Quando sei soddisfatto delle tue foto, continua alla pagina successiva dove puoi descrivere il tuo articolo.</string>
+    <string name="explain_camera_desc3"> Finito!</string>
+
+    <!-- Country Explain -->
+    <string name="explain_country_desc">Dove ti trovi?</string>
+    <string name="explain_country_desc1">Seleziona il paese dal quale vendi i tuoi articoli. Sarà anche il paese in cui cercheremo gli articoli attualmente in vendita.</string>
+    <string name="explain_country_desc2">Puoi modificarlo in qualsiasi momento dalle impostazioni.</string>
+
+    <!-- Alert General -->
+    <string name="alert_error_fb_register_title">La registrazione non è andata a buon fine</string>
+    <string name="alert_error_network_title">Si è verificato un errore</string>
+    <string name="alert_error_title">Si è verificato un errore</string>
+    <string name="alert_error_desc">Qualcosa è andato storto! Riprova più tardi!</string>
+    <string name="alert_error_desc2">Qualcosa è andato storto! Controlla le tue informazioni e riprova!</string>
+    <string name="alert_error_internet_facebook_desc">Attualmente non sei connesso a internet. Occorre una connessione a internet per collegarti a Facebook.</string>
+
+    <string name="alert_error_fb_register_desc_0">Shoppica ha riscontrato un problema durante il collegamento a Facebook. Ecco alcuni possibili motivi:</string>
+    <string name="alert_error_fb_register_desc_1">- Le informazioni Uw registrate non sono più valide nella tua app di Facebook. Controlla se è questo il motivo.</string>
+    <string name="alert_error_fb_register_desc_2">- L\'orario sul tuo telefono è errato e può influire sul processo di registrazione. In tal caso, puoi modificare questa impostazione sulle impostazioni del tuo telefono.</string>
+    <string name="alert_error_fb_register_desc_3">- L\'app di Facebook non è installata. Installarla e riprovare.</string>
+
+
+    <!-- Facebook Login Info-->
+    <string name="facebook_app_id">222026065252479</string>
+    <string name="facebook_protocol_scheme">fb222026065252479</string>
+
+    <!-- pager Separator-->
+    <string name="pager_bullet_separator" formatted="false">%s / %s</string>
+
+    <!-- Alert Progress -->
+    <string name="alert_progress_payment_success">Pagamento avvenuto con successo…</string>
+    <string name="alert_progress_uploading">Pubblicazione in corso…</string>
+    <string name="alet_progress_searching">Ottenimento della posizione in corso…</string>
+    <string name="alert_progress_check_connection">Controllo della connessione in corso…</string>
+    <string name="alert_progress_uploading_success">Pubblicazione avvenuta con successo!</string>
+    <string name="alert_progress_promoted_success">Promozione avvenuta con successo!</string>
+
+    <!-- Tab Names -->
+    <string name="tab_feed_1">Di tendenza</string>
+    <string name="tab_feed_2">Nuovo</string>
+    <string name="tab_feed_3">In promozione</string>
+
+    <string name="tab_profile_1">I miei articoli</string>
+    <string name="tab_profile_2">Preferiti</string>
+
+    <!-- Emoji Drawable Coordinates -->
+    <string name="u1f60e_left_shade_start">M12.45,53.96 C12.05,53.88,11.63,54.01,11.34,54.3 C11.05,54.59,10.92,55,11,55.41 C14.02,70.43,23.36,74.45,23.76,74.61 C23.91,74.67,24.07,74.7,24.23,74.7 C24.66,74.7,25.08,74.47,25.31,74.07 L33.27,59.71 C33.46,59.37,33.47,58.95,33.31,58.6 C33.14,58.25,32.82,57.99,32.43,57.91 L12.45,53.96 Z</string>
+    <string name="u1f60e_left_shade_end">M35.45,58.56 C34.05,59.88,28.34,76.01,28.24,76.8 C28.04,76.8,27.91,76.9,28.5,77.9C35.02,79,43.36,77,44.36,76.1 C44.61,76,44.9,75.74,45.9,75C48.2,72.17,48.81,71.61,49.8,69.17 L50.5,67.87C50.7,67.17,50.9,67,51.5,65 C51,60,44.82,61.3,47.43,61.05L35.45,58.56 Z</string>
+    <string name="u1f60e_right_shade_start">M89.09,60.54 C88.79,60.17,88.31,60.02,87.85,60.13 L75.42,63.14C74.83,63.28,74.44,63.83,74.49,64.43 C74.51,64.74,75.18,72.11,81.66,75.47C81.84,75.56,82.03,75.61,82.23,75.61 C82.37,75.61,82.5,75.59,82.63,75.54C82.95,75.43,83.21,75.19,83.34,74.89 L89.26,61.83C89.46,61.4,89.39,60.89,89.09,60.54 Z</string>
+    <string name="u1f60e_right_shade_end">M120.09,54.54 C119.79,54.17,119.31,54.02,118.85,54.13 L106.42,57.14C102.83,67.28,101.24,68.83,97.83,78.43 C97.83,78.74,104.18,79.11,108.66,74.47C110.84,73.16,109.03,73.61,109.23,73.61 C109.37,74.61,113.5,69.9,113.63,69.54C113.95,69.33,114.21,68.8,114.34,68.89 L120.26,55.83C120.46,55.4,120.39,54.89,120.09,54.54 Z</string>
+
+
+
+    <!-- Rating Dialog -->
+    <string name="rating_dialog_rate_title">Che voto ci dai?</string>
+    <string name="rating_dialog_form_submit">Invia</string>
+    <string name="rating_dialog_form_cancel">Indietro</string>
+    <string name="rating_dialog_form_positive">Forse più tardi</string>
+    <string name="rating_dialog_form_hint">Dicci cosa non ti piace e lavoreremo per risolverlo!</string>
+
+    <string name="rating_dialog_experience">Com\'è stata la tua esperienza finora?</string>
+    <string name="rating_dialog_maybe_later">Forse più tardi</string>
+    <string name="rating_dialog_never">Mai</string>
+    <string name="rating_dialog_feedback_title">Feedback</string>
+    <string name="rating_dialog_submit">Invia</string>
+    <string name="rating_dialog_cancel">Annulla</string>
+    <string name="rating_dialog_suggestions">Dicci come migliorare la nostra app e ci lavoreremo!</string>
+
+    <string name="rating_dialog_desc_title">Ti piace la nostra app?</string>
+    <string name="rating_dialog_desc_title2">Seguici su Instagram!</string>
+    <string name="rating_dialog_desc_rate">Amiamo lo shopping e amiamo gli accessori. È sempre stato noioso comprare e vendere rapidamente i tuoi vestiti o accessori usati. Quindi abbiamo deciso di creare questa app per risolvere il problema!</string>
+    <string name="rating_dialog_desc_rate2">Dacci un voto sul Play Store per avere la possibilità di vendere un\'iscrizione annuale per promuovere i tuoi articoli gratuitamente! </string>
+
+    <!-- Favorites Fragment -->
+    <string name="state_empty_no_favorites_login">Accedi a Facebook per vedere i tuoi preferiti.</string>
+    <string name="state_empty_no_favorites">Attualmente non ci sono preferiti.</string>
+
+    <!-- OwnPosts Fragment -->
+    <string name="state_empty_no_own_posts_login">Accedi a Facebook per vedere i tuoi articoli.</string>
+    <string name="state_empty_no_own_posts">Ancora non ci sono articoli. Vendine uno ora!</string>
+
+    <!-- FeedAdapter -->
+    <string name="adapter_location_article_away_1km"> &lt; 1 miglio</string>
+    <string name="adapter_location_article_away"> %1$d miglia</string>
+    <string name="adapter_reserved">Prenotato</string>
+
+    <!-- Notifications -->
+    <string name="notification_title_type_0">Article almost expired.</string>
+    <string name="notification_desc_type_0">Your %1$s has almost expired! Extend it now for it to remain visible for everyone!</string>
+    <string name="notification_title_type_1">Promotion almost ended.</string>
+    <string name="notification_desc_type_1">The promotion of your %1$s has almost ended. Extend your promotion now to make sure you stay on top!</string>
+    <string name="notification_new_article_title">New Articles</string>
+
+
+    <!-- Country Picker -->
+    <string name="search_hint">Cerca…</string>
+    <string name="no_result_found">Nessun risultato</string>
+    <string name="select_country">Scegli un paese</string>
+
+    <!-- Spannable Times -->
+    <string name="spannable_active_minute_ago">attivo per 1 minuto</string>
+    <string name="spannable_active_minutes_ago">attivo per %1$d minuti</string>
+    <string name="spannable_active_hour_ago">attivo per 1 ora</string>
+    <string name="spannable_active_hours_ago">attivo per %1$d ore</string>
+    <string name="spannable_active_day_ago">attivo per 1 giorno</string>
+    <string name="spannable_active_days_ago">attivo per %1$d giorni</string>
+
+    <string name="spannable_time_minute">minuto</string>
+    <string name="spannable_time_and">e</string>
+    <string name="spannable_time_minutes">minuti</string>
+    <string name="spannable_time_hour">ora</string>
+    <string name="spannable_time_hours">ore</string>
+    <string name="spannable_time_day">giorno</string>
+    <string name="spannable_time_days">giorni</string>
+    <string name="spannable_time_month">mese</string>
+    <string name="spannable_time_months">mesi</string>
+    <string name="spannable_time_year">anno</string>
+    <string name="spannable_time_years">anni</string>
+
+    <string name="spannable_time_ago_minute">un minuto fa</string>
+    <string name="spannable_time_ago_minutes">minuti fa</string>
+    <string name="spannable_time_ago_hour">un\'ora fa</string>
+    <string name="spannable_time_ago_hours">ore fa</string>
+    <string name="spannable_time_ago_yesterday">ieri</string>
+    <string name="spannable_time_ago_days">giorni fa</string>
+
+</resources>

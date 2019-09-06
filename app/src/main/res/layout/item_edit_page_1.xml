@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="ContentDescription">
+
+
+    <View
+        android:id="@+id/articlePriceView"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/bg_box"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintBottom_toTopOf="@+id/articleSendView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:src="@drawable/ic_edit_plus"
+        app:layout_constraintBottom_toBottomOf="@id/articlePriceView"
+        app:layout_constraintEnd_toEndOf="@+id/articlePriceView"
+        app:layout_constraintTop_toTopOf="@+id/articlePriceView" />
+
+
+    <TextView
+        android:id="@+id/articlePriceTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:hint="@string/alert_add_price"
+        android:textAppearance="@style/bold"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:includeFontPadding="false"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/articlePriceView"
+        app:layout_constraintEnd_toEndOf="@+id/articlePriceView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/articlePriceView"
+        app:layout_constraintTop_toTopOf="@+id/articlePriceView" />
+
+
+    <View
+        android:id="@+id/articleSendView"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/bg_box"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:src="@drawable/ic_edit_dropdown"
+        app:layout_constraintBottom_toBottomOf="@id/articleSendView"
+        app:layout_constraintEnd_toEndOf="@+id/articleSendView"
+        app:layout_constraintTop_toTopOf="@+id/articleSendView" />
+
+    <TextView
+        android:id="@+id/articleSendTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:hint="@string/alert_add_send"
+        android:textAppearance="@style/bold"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:includeFontPadding="false"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/articleSendView"
+        app:layout_constraintEnd_toEndOf="@+id/articleSendView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/articleSendView"
+        app:layout_constraintTop_toTopOf="@+id/articleSendView" />
+
+
+    <View
+        android:id="@+id/articleGenderView"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        app:layout_constraintEnd_toStartOf="@+id/articleCategoryView"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:focusable="true"
+        android:clickable="true"
+        android:background="@drawable/bg_box"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/articleSendView" />
+
+    <ImageView
+        android:id="@+id/genderDropDown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:src="@drawable/ic_edit_dropdown"
+        app:layout_constraintBottom_toBottomOf="@id/articleGenderView"
+        app:layout_constraintEnd_toEndOf="@+id/articleGenderView"
+        app:layout_constraintTop_toTopOf="@+id/articleGenderView" />
+
+    <TextView
+        android:id="@+id/articleGenderTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:hint="@string/alert_add_gender"
+        android:textAppearance="@style/bold"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:includeFontPadding="false"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/articleGenderView"
+        app:layout_constraintEnd_toStartOf="@+id/genderDropDown"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/articleGenderView"
+        app:layout_constraintTop_toTopOf="@+id/articleGenderView" />
+
+
+    <View
+        android:id="@+id/articleCategoryView"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:focusable="true"
+        android:clickable="true"
+        app:layout_constraintStart_toEndOf="@+id/articleGenderView"
+        android:background="@drawable/bg_box"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/articleSendView" />
+
+    <ImageView
+        android:id="@+id/categoryDropDown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:src="@drawable/ic_edit_dropdown"
+        app:layout_constraintBottom_toBottomOf="@id/articleCategoryView"
+        app:layout_constraintEnd_toEndOf="@+id/articleCategoryView"
+        app:layout_constraintTop_toTopOf="@+id/articleCategoryView" />
+
+    <TextView
+        android:id="@+id/articleCategoryTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:hint="@string/alert_add_category"
+        android:textAppearance="@style/bold"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:ellipsize="end"
+        android:includeFontPadding="false"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/articleCategoryView"
+        app:layout_constraintEnd_toStartOf="@+id/categoryDropDown"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/articleCategoryView"
+        app:layout_constraintTop_toTopOf="@+id/articleCategoryView" />
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- inset is used to remove border from top, it can remove border from any other side-->
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:insetLeft="-0.75dp">
+    <shape xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/rectangle">
+        <stroke
+            android:width="2dp"
+            android:color="@color/tabsProfileColorSelected" />
+
+        <corners
+            android:bottomRightRadius="4dp"
+            android:topRightRadius="4dp" />
+
+        <solid android:color="@color/tabsProfileColorSelected" />
+    </shape>
+</inset>

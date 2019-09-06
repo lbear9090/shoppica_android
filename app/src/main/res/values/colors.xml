@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#f0f0f0</color>
+    <color name="colorAccent">#dd2b14</color>
+    <color name="colorAccentPressed">#d92008</color>
+
+    <color name="colorFilterPressed">#80dd2b14</color>
+    <color name="colorPresentPressed">#809E5AD2</color>
+
+    <color name="colorTabUnselected">#d0d7e1</color>
+    <color name="colorTabselected">#E6d0d7e1</color>
+    <color name="colorTabIndicator">#000000</color>
+    <color name="colorBackgroundFragment">#e5e8ec</color>
+    <color name="colorBackgroundEdit">#eef0f3</color>
+
+    <color name="colorForwardNormal">#dd2b14</color>
+    <color name="colorForwardPressed">#d92008</color>
+
+    <color name="colorBackNormal">#d0d7e1</color>
+    <color name="colorBackPressed">#bac3d0</color>
+
+    <color name="colorIntroPrimaryBg">#dd2b14</color>
+    <color name="colorIntroPrimaryDarkBg">#d92008</color>
+
+    <color name="colorFacebookPrimaryBg">#dd2b14</color>
+    <color name="colorFacebookPrimaryDarkBg">#d92008</color>
+
+    <color name="colorCameraPrimaryBg">#7b32c6</color>
+    <color name="colorCameraPrimaryDarkBg">#6f2db2</color>
+
+    <color name="colorWhatsappNormal">#33a746</color>
+    <color name="colorWhatsappPressed">#279a3a</color>
+
+    <color name="colorMessengerNormal">#4850be</color>
+    <color name="colorMessengerPressed">#3c44ae</color>
+
+    <color name="colorFilterResetBtnNormal">#dd2b14</color>
+    <color name="colorFilterResetBtnPressed">#d92008</color>
+
+    <color name="colorFilterBtnNormal">#ffffff</color>
+    <color name="colorFilterBtnPressed">#e8eff9</color>
+    <color name="colorFilterBackground">#CC233d5f</color>
+    <color name="colorFilterTextColor">#dd2b14</color>
+
+    <color name="colorEmailNormal">#3989f7</color>
+    <color name="colorEmailPressed">#2a7ceb</color>
+
+    <color name="colorExtendNormal">#3989f7</color>
+    <color name="colorExtendPressed">#1c70e4</color>
+
+    <color name="colorPromoteNormal">#aa6edc</color>
+    <color name="colorPromotePressed">#9556ca</color>
+
+    <color name="colorStatusNormal">#ea5179</color>
+    <color name="colorStatusPressed">#da3863</color>
+
+    <color name="colorProgressText">#768190</color>
+
+    <color name="colorTextShadow">#337bde</color>
+
+    <color name="colorTextSubTitle">#768190</color>
+
+    <color name="colorLayer">#1A4f5969</color>
+
+    <color name="colorIntroExplainText">#d8e9ff</color>
+
+    <color name="colorReserved">#ddba14</color>
+    <color name="white">#ffffff</color>
+    <color name="whitePressed">#f5f6f8</color>
+    <color name="white_30">#4Dffffff</color>
+    <color name="white_50">#80ffffff</color>
+    <color name="white_85">#42ffffff</color>
+    <color name="black">#000000</color>
+    <color name="black_15">#26000000</color>
+    <color name="black_30">#4D000000</color>
+    <color name="black_50">#80000000</color>
+    <color name="yellow">#ffee52</color>
+    <color name="transparent">#00FFFFFF</color>
+
+    <color name="light_font">#fbfbfb</color>
+    <color name="grey_font">#ff9e9e9e</color>
+    <color name="text_shadow">#7F000000</color>
+    <color name="text_shadow_white">#FFFFFF</color>
+
+    <color name="alertColorText">#282838</color>
+    <color name="alertCancelBtn">#d3d3d3</color>
+
+    <color name="tabsProfileColorSelected">#dd2b14</color>
+    <color name="gray13">#ffababab</color>
+    <color name="into_dialog_report_btn_color">#fd5068</color>
+    <color name="into_dialog_report_btn_color_pressed">#f3415a</color>
+
+    <color name="into_dialog_feed_back_btn_color">#3989f7</color>
+    <color name="into_dialog_feed_back_btn_color_pressed">#2a7ceb</color>
+
+    <color name="into_dialog_safe_btn_color">#ea5179</color>
+    <color name="into_dialog_safe_btn_color_pressed">#da3863</color>
+
+    <color name="grey_500">#9E9E9E</color>
+    <color name="grey_200">#EEEEEE</color>
+    <color name="grey_400">#BDBDBD</color>
+    <color name="accent">#ec2045</color>
+
+    <color name="test">#221224</color>
+    <color name="defaultContentColor">@android:color/black</color>
+    <color name="defaultBorderFlagColor">@android:color/transparent</color>
+    <color name="pressed_bg">#64b7b7b7</color>
+</resources>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="tab_name">
+        <item>主页</item>
+        <item>相机</item>
+        <item>简介</item>
+    </array>
+
+
+    <string-array name="gender">
+        <item>女士</item>
+        <item>男士</item>
+        <item>儿童</item>
+        <item>男女皆宜</item>
+    </string-array>
+
+
+    <string-array name="condition">
+        <item>全新</item>
+        <item>次新</item>
+        <item>已使用</item>
+    </string-array>
+
+    <string-array name="send">
+        <item>自取商品</item>
+        <item>配送商品</item>
+        <item>自取&amp;配送</item>
+    </string-array>
+
+    <string-array name="categories">
+        <item>双肩包</item>
+        <item>皮带</item>
+        <item>手机线&amp;充电器</item>
+        <item>手机壳</item>
+        <item>化妆品&amp;彩妆 &amp; </item>
+        <item>古龙水&amp;香水</item>
+        <item>手包&amp;晚宴包</item>
+        <item>斜挎包</item>
+        <item>时尚双肩包</item>
+        <item>手套&amp;连指手套</item>
+        <item>派对着装</item>
+        <item>带沿帽&amp;便帽</item>
+        <item>头戴式耳机&amp;耳机</item>
+        <item>新月包</item>
+        <item>珠宝</item>
+        <item>儿童&amp;婴儿饰品</item>
+        <item>电脑包</item>
+        <item>电脑保护套</item>
+        <item>皮箱</item>
+        <item>邮差包</item>
+        <item>宠物饰品</item>
+        <item>便携充电器&amp;移动电源</item>
+        <item>肩背书包</item>
+        <item>围巾&amp;披肩</item>
+        <item>鞋子</item>
+        <item>挎包</item>
+        <item>运动鞋</item>
+        <item>太阳镜&amp;隐形眼镜</item>
+        <item>平板电脑&amp;电子阅读器保护壳</item>
+        <item>雨伞</item>
+        <item>美酒</item>
+        <item>钱包</item>
+        <item>手表</item>
+        <item>手镯</item>
+        <item>杂项</item>
+    </string-array>
+
+    <string-array name="categories_filter">
+        <item>双肩包</item>
+        <item>皮带</item>
+        <item>手机线&amp;充电器</item>
+        <item>手机壳</item>
+        <item>化妆品&amp;彩妆 &amp; </item>
+        <item>古龙水&amp;香水</item>
+        <item>手包&amp;晚宴包</item>
+        <item>斜挎包</item>
+        <item>时尚双肩包</item>
+        <item>手套&amp;连指手套</item>
+        <item>派对着装</item>
+        <item>带沿帽&amp;便帽</item>
+        <item>头戴式耳机&amp;耳机</item>
+        <item>新月包</item>
+        <item>珠宝</item>
+        <item>儿童&amp;婴儿饰品</item>
+        <item>电脑包</item>
+        <item>电脑保护套</item>
+        <item>皮箱</item>
+        <item>邮差包</item>
+        <item>宠物饰品</item>
+        <item>便携充电器&amp;移动电源</item>
+        <item>肩背书包</item>
+        <item>围巾&amp;披肩</item>
+        <item>鞋子</item>
+        <item>挎包</item>
+        <item>运动鞋</item>
+        <item>太阳镜&amp;隐形眼镜</item>
+        <item>平板电脑&amp;电子阅读器保护壳</item>
+        <item>雨伞</item>
+        <item>美酒</item>
+        <item>钱包</item>
+        <item>手表</item>
+        <item>手镯</item>
+        <item>杂项</item>
+    </string-array>
+
+
+    <string-array name="gender_filter">
+        <item>女士</item>
+        <item>男士</item>
+        <item>儿童</item>
+        <item>男女皆宜</item>
+        <item>无偏好</item>
+    </string-array>
+
+    <string-array name="condition_filter">
+        <item>全新</item>
+        <item>次新</item>
+        <item>已使用</item>
+    </string-array>
+
+
+    <string-array name="color_filter">
+        <item>白色</item>
+        <item>黑色</item>
+        <item>红色</item>
+        <item>橙色</item>
+        <item>黄色</item>
+        <item>绿色</item>
+        <item>蓝色</item>
+        <item>紫色</item>
+        <item>褐色</item>
+        <item>灰色</item>
+        <item>无偏好</item>
+    </string-array>
+
+
+    <string-array name="send_filter">
+        <item>自取</item>
+        <item>配送</item>
+        <item>自取&amp;配送</item>
+        <item>无偏好</item>
+
+    </string-array>
+
+
+    <string-array name="status">
+        <item>待售</item>
+        <item>预留</item>
+        <item>售罄</item>
+    </string-array>
+
+</resources>

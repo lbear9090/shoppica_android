@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorIntroPrimaryBg"
+    tools:ignore="ContentDescription">
+
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="35dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:lineSpacingExtra="10dp"
+        android:text="Welcome to..."
+        android:textAppearance="@style/bold"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/introLogo"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/text1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:src="@drawable/ic_intro_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <ImageView
+        android:id="@+id/introSearchIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:src="@drawable/ic_intro_home"
+        app:layout_constraintTop_toBottomOf="@+id/introLogo" />
+
+
+    <TextView
+        android:id="@+id/introSearchText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="20dp"
+        android:includeFontPadding="false"
+        android:lineSpacingExtra="8dp"
+        android:text="@string/intro_search"
+        android:textAppearance="@style/regular"
+        android:textColor="@color/colorIntroExplainText"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/introSearchIcon"
+        app:layout_constraintBottom_toBottomOf="@+id/introSearchIcon"
+        app:layout_constraintTop_toTopOf="@+id/introSearchIcon"
+        app:layout_constraintEnd_toEndOf="parent"
+ />
+
+    <ImageView
+        android:id="@+id/introFilterIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:src="@drawable/ic_intro_filter"
+        app:layout_constraintTop_toBottomOf="@+id/introSearchIcon" />
+
+
+    <TextView
+        android:id="@+id/introFilterText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="20dp"
+        android:includeFontPadding="false"
+        android:lineSpacingExtra="8dp"
+        android:text="@string/intro_filter"
+        android:textAppearance="@style/regular"
+        android:textColor="@color/colorIntroExplainText"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/introFilterIcon"
+        app:layout_constraintBottom_toBottomOf="@+id/introFilterIcon"
+        app:layout_constraintTop_toTopOf="@+id/introFilterIcon"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <ImageView
+        android:id="@+id/introCameraIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:src="@drawable/ic_intro_camera"
+        app:layout_constraintTop_toBottomOf="@+id/introFilterIcon" />
+
+
+    <TextView
+        android:id="@+id/introCameraText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="20dp"
+        android:includeFontPadding="false"
+        android:lineSpacingExtra="8dp"
+        android:text="@string/intro_camera"
+        android:textAppearance="@style/regular"
+        android:textColor="@color/colorIntroExplainText"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/introCameraIcon"
+        app:layout_constraintBottom_toBottomOf="@+id/introCameraIcon"
+        app:layout_constraintTop_toTopOf="@+id/introCameraIcon"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <ImageView
+        android:id="@+id/introProfileIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:src="@drawable/ic_intro_profile"
+        app:layout_constraintTop_toBottomOf="@+id/introCameraIcon" />
+
+
+    <TextView
+        android:id="@+id/introProfileText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="20dp"
+        android:includeFontPadding="false"
+        android:lineSpacingExtra="8dp"
+        android:text="@string/intro_profile"
+        android:textAppearance="@style/regular"
+        android:textColor="@color/colorIntroExplainText"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/introProfileIcon"
+        app:layout_constraintBottom_toBottomOf="@+id/introProfileIcon"
+        app:layout_constraintTop_toTopOf="@+id/introProfileIcon"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <ImageButton
+        android:id="@+id/btnContinue"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="55dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginLeft="46dp"
+        android:layout_marginRight="46dp"
+        android:layout_marginStart="46dp"
+        android:background="@drawable/btn_circle"
+        android:drawablePadding="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="ContentDescription" />
+
+
+    <TextView
+        android:id="@+id/btnContinueText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/ic_register_forward"
+        android:drawablePadding="15dp"
+        android:gravity="center"
+        android:text="@string/btn_action_understand"
+        android:textAllCaps="true"
+        android:textAppearance="@style/bold"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/btnContinue"
+        app:layout_constraintLeft_toLeftOf="@+id/btnContinue"
+        app:layout_constraintRight_toRightOf="@+id/btnContinue"
+        app:layout_constraintTop_toBottomOf="@+id/btnContinue" />
+
+</android.support.constraint.ConstraintLayout>

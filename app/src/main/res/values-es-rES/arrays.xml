@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="tab_name">
+        <item>Listado</item>
+        <item>Cámara</item>
+        <item>Perfil</item>
+    </array>
+
+
+    <string-array name="gender">
+        <item>Mujeres</item>
+        <item>Hombres</item>
+        <item>Niños/as</item>
+        <item>Unisex</item>
+    </string-array>
+
+
+    <string-array name="condition">
+        <item>Nuevo</item>
+        <item>Como nuevo</item>
+        <item>Usado</item>
+    </string-array>
+
+    <string-array name="send">
+        <item>Recogida</item>
+        <item>Entrega</item>
+        <item>Recogida y entrega</item>
+    </string-array>
+
+    <string-array name="categories">
+        <item>Mochilas</item>
+        <item>Cinturones</item>
+        <item>Cables para móvil y Cargadores</item>
+        <item>Fundas para móvil</item>
+        <item>Cosméticos y Maquillaje</item>
+        <item>Colonia y Perfumes</item>
+        <item>Bolsos de mano y de noche</item>
+        <item>Bandoleras</item>
+        <item>Mochilas a la moda</item>
+        <item>Guantes y Mitones</item>
+        <item>Ropa de fiesta</item>
+        <item>Sombreros y Gorras</item>
+        <item>Auriculares</item>
+        <item>Bolsos hobo</item>
+        <item>Joyas</item>
+        <item>Accesorios para Niños y Bebés</item>
+        <item>Bolsas para Portátil</item>
+        <item>Fundas para Portátil</item>
+        <item>Equipaje</item>
+        <item>Bolsos messenger</item>
+        <item>Accesorios para Mascotas</item>
+        <item>Cargadores portátiles y Powerbanks</item>
+        <item>Bolsos satchel</item>
+        <item>Bufandas y Chales</item>
+        <item>Zapatos</item>
+        <item>Bandoleras de hombro</item>
+        <item>Zapatillas deportivas</item>
+        <item>Gafas de sol y Gafas</item>
+        <item>Fundas para Tabletas y E-Readers</item>
+        <item>Paraguas</item>
+        <item>Vintage</item>
+        <item>Billeteras</item>
+        <item>Relojes</item>
+        <item>Bolsos con pulsera</item>
+        <item>Miscelánea</item>
+    </string-array>
+
+    <string-array name="categories_filter">
+        <item>Mochilas</item>
+        <item>Cinturones</item>
+        <item>Cables para móvil y Cargadores</item>
+        <item>Fundas para móvil</item>
+        <item>Cosméticos y Maquillaje</item>
+        <item>Colonia y Perfumes</item>
+        <item>Bolsos de mano y de noche</item>
+        <item>Bandoleras</item>
+        <item>Mochilas a la moda</item>
+        <item>Guantes y Mitones</item>
+        <item>Ropa de fiesta</item>
+        <item>Sombreros y Gorras</item>
+        <item>Auriculares</item>
+        <item>Bolsos hobo</item>
+        <item>Joyas</item>
+        <item>Accesorios para Niños y Bebés</item>
+        <item>Bolsas para Portátil</item>
+        <item>Fundas para Portátil</item>
+        <item>Equipaje</item>
+        <item>Bolsos messenger</item>
+        <item>Accesorios para Mascotas</item>
+        <item>Cargadores portátiles y Powerbanks</item>
+        <item>Bolsos satchel</item>
+        <item>Bufandas y Chales</item>
+        <item>Zapatos</item>
+        <item>Bandoleras de hombro</item>
+        <item>Zapatillas deportivas</item>
+        <item>Gafas de sol y Gafas</item>
+        <item>Fundas para Tabletas y E-Readers</item>
+        <item>Paraguas</item>
+        <item>Vintage</item>
+        <item>Billeteras</item>
+        <item>Relojes</item>
+        <item>Bolsos con pulsera</item>
+        <item>Miscelánea</item>
+    </string-array>
+
+
+    <string-array name="gender_filter">
+        <item>Mujeres</item>
+        <item>Hombres</item>
+        <item>Niños/as</item>
+        <item>Unisex</item>
+        <item>Sin Preferencia</item>
+    </string-array>
+
+    <string-array name="condition_filter">
+        <item>Nuevo</item>
+        <item>Como nuevo</item>
+        <item>Usado</item>
+    </string-array>
+
+
+    <string-array name="color_filter">
+        <item>Blanco</item>
+        <item>Negro</item>
+        <item>Rojo</item>
+        <item>Naranja</item>
+        <item>Amarillo</item>
+        <item>Verde</item>
+        <item>Azul</item>
+        <item>Lila</item>
+        <item>Marrón</item>
+        <item>Gris</item>
+        <item>No Preference</item>
+    </string-array>
+
+
+    <string-array name="send_filter">
+        <item>Recogida</item>
+        <item>Entrega</item>
+        <item>Recogida y entrega</item>
+        <item>No Preference</item>
+
+    </string-array>
+
+
+    <string-array name="status">
+        <item>A la Venta</item>
+        <item>Reservado</item>
+        <item>Vendido</item>
+    </string-array>
+
+
+</resources>

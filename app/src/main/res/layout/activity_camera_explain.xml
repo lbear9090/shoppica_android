@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorCameraPrimaryBg"
+    tools:ignore="ContentDescription">
+
+
+    <ImageView
+        android:id="@+id/camera_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/ic_camera_explain"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:paddingTop="18dp"
+        android:paddingBottom="18dp"
+        android:paddingEnd="14dp"
+        android:paddingStart="14dp"
+        android:src="@drawable/ic_fb_back"
+        app:layout_constraintBottom_toBottomOf="@+id/camera_icon"
+        app:layout_constraintEnd_toStartOf="@+id/camera_icon"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/camera_icon" />
+
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="35dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:lineSpacingExtra="10dp"
+        android:text="@string/explain_camera_desc"
+        android:textAppearance="@style/bold"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/camera_icon" />
+
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="35dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:lineSpacingExtra="10dp"
+        android:text="@string/explain_camera_desc1"
+        android:textAppearance="@style/regular"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text1" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="35dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:lineSpacingExtra="10dp"
+        android:text="@string/explain_camera_desc2"
+        android:textAppearance="@style/regular"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text2" />
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="35dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:lineSpacingExtra="10dp"
+        android:text="@string/explain_camera_desc3"
+        android:textAppearance="@style/boldItalic"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text3" />
+
+
+
+    <ImageButton
+        android:id="@+id/btnContinue"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="55dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginLeft="46dp"
+        android:layout_marginRight="46dp"
+        android:layout_marginStart="46dp"
+        android:background="@drawable/btn_circle_camera"
+        android:drawablePadding="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="ContentDescription" />
+
+
+    <TextView
+        android:id="@+id/btnContinueText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/ic_register_forward"
+        android:drawablePadding="15dp"
+        android:gravity="center"
+        android:text="@string/btn_action_camera"
+        android:textAllCaps="true"
+        android:textAppearance="@style/bold"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/btnContinue"
+        app:layout_constraintLeft_toLeftOf="@+id/btnContinue"
+        app:layout_constraintRight_toRightOf="@+id/btnContinue"
+        app:layout_constraintTop_toBottomOf="@+id/btnContinue" />
+
+</android.support.constraint.ConstraintLayout>

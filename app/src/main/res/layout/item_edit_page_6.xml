@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:ignore="ContentDescription">
+
+    <TextView
+        android:id="@+id/chancesTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:includeFontPadding="false"
+        android:text="@string/share_post_fb_title"
+        android:textAppearance="@style/bold"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/chancesSubTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+       />
+
+    <TextView
+        android:id="@+id/chancesSubTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="80dp"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:lineSpacingExtra="8dp"
+        android:text="@string/share_post_fb_desc"
+        android:textAppearance="@style/medium"
+        android:textColor="#768190"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+ />
+
+    <View
+        android:id="@+id/sharePostView"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/bg_box_email"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chancesSubTitle" />
+
+
+    <TextView
+        android:id="@+id/sharePostText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:gravity="center"
+        android:hint="@string/btn_action_share"
+        android:textAppearance="@style/bold"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:includeFontPadding="false"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/sharePostView"
+        app:layout_constraintEnd_toEndOf="@+id/sharePostView"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/sharePostView"
+        app:layout_constraintTop_toTopOf="@+id/sharePostView" />
+
+
+
+</android.support.constraint.ConstraintLayout>

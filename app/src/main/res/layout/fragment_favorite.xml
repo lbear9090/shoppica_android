@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackgroundFragment"
+    tools:ignore="ContentDescription">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/refresh"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.kennyc.view.MultiStateView
+            android:id="@+id/multi_state"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:msv_emptyView="@layout/view_multi_state_empty"
+            app:msv_errorView="@layout/view_multi_state_error"
+            app:msv_loadingView="@layout/view_multi_state_loading"
+            app:msv_viewState="content">
+
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recycler_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clipToPadding="false"
+                    android:overScrollMode="never"
+                    android:paddingBottom="4dp"
+                    android:paddingEnd="4dp"
+                    android:paddingStart="4dp"
+                    android:paddingTop="4dp"
+                    android:scrollbars="none" />
+
+        </com.kennyc.view.MultiStateView>
+
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+
+</android.support.constraint.ConstraintLayout>

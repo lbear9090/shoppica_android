@@ -1,0 +1,109 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="FacebookExplain" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorFacebookPrimaryBg</item>
+        <item name="colorPrimaryDark">@color/colorFacebookPrimaryDarkBg</item>
+        <item name="colorAccent">@color/colorFacebookPrimaryBg</item>
+
+
+    </style>
+
+    <style name="CameraExplain" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorCameraPrimaryBg</item>
+        <item name="colorPrimaryDark">@color/colorCameraPrimaryDarkBg</item>
+        <item name="colorAccent">@color/colorCameraPrimaryBg</item>
+    </style>
+
+    <style name="into_tab_layout" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorHeight">0dp</item>
+        <item name="tabPaddingStart">0dp</item>
+        <item name="tabPaddingEnd">0dp</item>
+        <item name="tabGravity">fill</item>
+        <item name="tabMode">fixed</item>
+    </style>
+
+    <style name="into_progress_style" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/colorProgressText</item>
+        <item name="android:textAppearance">@style/regular</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/insta_slide_up</item>
+        <item name="android:windowExitAnimation">@anim/insta_slide_down</item>
+    </style>
+
+    <style name="CustomDialog">
+        <item name="android:windowCloseOnTouchOutside">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowMinWidthMajor">95%</item>
+        <item name="android:windowMinWidthMinor">95%</item>
+    </style>
+
+
+    <style name="regular" parent="android:TextAppearance">
+        <!-- Custom Attr-->
+        <item name="fontPath">fonts/MONTSERRAT-REGULAR.TTF</item>
+    </style>
+
+    <style name="regularItalic" parent="android:TextAppearance">
+        <!-- Custom Attr-->
+        <item name="fontPath">fonts/MONTSERRAT-ITALIC.TTF</item>
+    </style>
+
+    <style name="medium" parent="android:TextAppearance">
+        <!-- Custom Attr-->
+        <item name="fontPath">fonts/MONTSERRAT-MEDIUM.TTF</item>
+    </style>
+
+    <style name="semiBold" parent="android:TextAppearance">
+        <!-- Custom Attr-->
+        <item name="fontPath">fonts/MONTSERRAT-SEMIBOLD.TTF</item>
+    </style>
+
+
+    <style name="bold" parent="android:TextAppearance">
+        <!-- Custom Attr-->
+        <item name="fontPath">fonts/MONTSERRAT-BOLD.TTF</item>
+    </style>
+
+    <style name="extraBold" parent="android:TextAppearance">
+        <!-- Custom Attr-->
+        <item name="fontPath">fonts/MONTSERRAT-EXTRABOLD.TTF</item>
+    </style>
+
+    <style name="boldItalic" parent="android:TextAppearance">
+        <!-- Custom Attr-->
+        <item name="fontPath">fonts/MONTSERRAT-BOLDITALIC.TTF</item>
+    </style>
+
+    <style name="rock" parent="android:TextAppearance">
+        <!-- Custom Attr-->
+        <item name="fontPath">fonts/rockb.ttf</item>
+    </style>
+
+    <style name="DialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="buttonBarNegativeButtonStyle">@style/fashion_dialog_negative_button_color</item>
+    </style>
+
+    <style name="fashion_dialog_negative_button_color" parent="android:Widget.DeviceDefault.Button.Borderless">
+        <item name="android:textColor">@color/grey_font</item>
+    </style>
+</resources>

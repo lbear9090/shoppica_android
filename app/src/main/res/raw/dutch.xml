@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <messages>
+        <ccp_dialog_title translation="Selecteer een land" />
+        <ccp_dialog_search_hint_message translation="Zoeken" />
+        <ccp_dialog_no_result_ack_message translation='Resultaten niet gevonden' />
+    </messages>
+
+
+    <countries>
+        <country
+            name="Australië"
+            english_name="Australia"
+            name_code="au"
+            phone_code="61" />
+        <country
+            name="België"
+            english_name="Belgium"
+            name_code="be"
+            phone_code="32" />
+        <country
+            name="Canada"
+            english_name="Canada"
+            name_code="ca"
+            phone_code="1" />
+
+        <country
+            name="France"
+            english_name="France"
+            name_code="fr"
+            phone_code="33" />
+
+        <country
+            name="German"
+            english_name="German"
+            name_code="de"
+            phone_code="49" />
+
+        <country
+            name="Hong Kong"
+            english_name="Hong Kong"
+            name_code="hk"
+            phone_code="852" />
+
+        <country
+            name="India"
+            english_name="India"
+            name_code="in"
+            phone_code="91" />
+
+        <country
+            name="Ierland"
+            english_name="Ireland"
+            name_code="ie"
+            phone_code="353" />
+
+        <country
+            name="Italy"
+            english_name="Italy"
+            name_code="it"
+            phone_code="39" />
+
+        <country
+            name="Japan"
+            english_name="Japan"
+            name_code="jp"
+            phone_code="81" />
+
+        <country
+            name="Nederland"
+            english_name="Netherlands"
+            name_code="nl"
+            phone_code="31" />
+
+        <country
+            name="Nieuw-Zeeland"
+            english_name="New Zealand"
+            name_code="nz"
+            phone_code="64" />
+
+        <country
+            name="Singapore"
+            english_name="Singapore"
+            name_code="sg"
+            phone_code="65" />
+
+        <country
+            name="Spain"
+            english_name="Spain"
+            name_code="es"
+            phone_code="34" />
+
+        <country
+            name="Sweden"
+            english_name="Sweden"
+            name_code="se"
+            phone_code="46" />
+
+        <country
+            name="Verenigd Koninkrijk"
+            english_name="United Kingdom"
+            name_code="gb"
+            phone_code="44" />
+
+        <country
+            name="Verenigde Staten"
+            english_name="United States (USA)"
+            name_code="us"
+            phone_code="1" />
+
+    </countries>
+</data>

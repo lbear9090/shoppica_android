@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--AppName-->
+    <string name="app_name">SHOPP!CA</string>
+    <string name="app_name1">SHOP</string>
+    <string name="app_name2">P!CA</string>
+
+
+    <!--Toolbar Titles-->
+    <string name="toolbar_name">Shoppica</string>
+    <string name="toolbar_name_sell">出售</string>
+    <string name="toolbar_name_promote">促销</string>
+    <string name="toolbar_name_extend">续期</string>
+    <string name="toolbar_name_article">商品</string>
+    <string name="toolbar_name_view_articles">浏览全部 %1$d 相片</string>
+
+
+    <!--Action Buttons -->
+    <string name="btn_action_report">举报</string>
+    <string name="btn_action_feed_back">发送反馈</string>
+    <string name="btn_action_send">发送</string>
+    <string name="btn_action_skip">跳过</string>
+    <string name="btn_action_post">发布</string>
+    <string name="btn_action_price">%1$s</string>
+    <string name="btn_action_reset">重置</string>
+    <string name="btn_action_filter">筛选</string>
+    <string name="btn_action_extend">推广</string>
+    <string name="btn_action_extend_active">正在推广中</string>
+    <string name="btn_action_promote">促销</string>
+    <string name="btn_action_delete">删除</string>
+    <string name="btn_action_status">状态...</string>
+    <string name="btn_action_promote_active">正在促销中</string>
+
+    <string name="btn_action_allow">允许</string>
+    <string name="btn_action_profile">您的简介</string>
+    <string name="btn_action_deny">拒绝</string>
+    <string name="btn_action_ok">同意</string>
+    <string name="btn_action_install">安装App</string>
+    <string name="btn_action_logout">退出</string>
+    <string name="btn_action_cancel">返回</string>
+    <string name="btn_action_rate">评价</string>
+    <string name="btn_action_follow">关注</string>
+    <string name="btn_action_continue">继续</string>
+    <string name="btn_action_login">登录</string>
+    <string name="btn_action_show">显示</string>
+
+    <string name="btn_action_settings">设置</string>
+    <string name="btn_action_retry">重试</string>
+    <string name="btn_action_camera">拍照</string>
+    <string name="btn_action_understand">了解</string>
+    <string name="btn_action_country">选择国家</string>
+    <string name="btn_action_ask_me">询问我</string>
+    <string name="btn_action_share">分享在Facebook!</string>
+    <string name="btn_action_unavailable">不可用</string>
+    <string name="btn_action_view_post">浏览您的帖子</string>
+
+    <string name="btn_action_whatsapp">WhatsApp</string>
+    <string name="btn_action_instagram">Instagram</string>
+    <string name="btn_action_email">电子邮箱</string>
+    <string name="btn_action_send_feedback">发送反馈</string>
+    <string name="btn_action_follow_instagram">在Instagram上关注我们!</string>
+
+    <string name="btn_action_back">返回</string>
+    <string name="btn_action_extended">过期</string>
+
+    <!--Intro Screen -->
+    <string name="intro_title">欢饮光临Shoppica!</string>
+    <string name="intro_title_sub">在此为您准备了一些快捷有用的小建议!</string>
+    <string name="intro_search"> 您在这里可以找到所有待售的新款、潮流及促销饰品。</string>
+    <string name="intro_filter"> 您在这里可以按照类别、颜色、品牌、价格等进行筛选。</string>
+    <string name="intro_camera">您在这里可以将您的饰品拍照并放在shoppica上出售。</string>
+    <string name="intro_profile"> 您在这里可以管理您的账户，保存至您的收藏夹并查看您的商品清单。</string>
+
+
+    <!--Different Errors ViewStates -->
+    <string name="state_error_desc">很抱歉!发生错误。您稍后重试!</string>
+    <string name="state_empty_desc">未找到任何商品。请稍后重试!</string>
+    <string name="state_filter_desc">未找到任何商品。您检查您的筛选设置并重试。</string>
+    <string name="state_connection_desc">您检查您的网络连接并重试。</string>
+    <string name="state_error_general_desc">我方出现了一些问题!请查阅我们的Facebook以获取最新消息更新。</string>
+
+    <!--Toast Messages -->
+    <string name="toast_notice_sent">成功发送!</string>
+    <string name="toast_notice_logout_success">成功退出!</string>
+    <string name="toast_notice_login_success">成功登录!</string>
+
+    <string name="toast_error_post">很抱歉!发布过程中发生错误。请稍后重试!</string>
+    <string name="toast_error_no_internet_connection">无网络连接。</string>
+    <string name="toast_error_report_empty">写留言...</string>
+    <string name="toast_error_report_length">您的留言需至少10个字。</string>
+    <string name="toast_error_intent_null">很抱歉!发生错误。请稍后重试!</string>
+    <string name="toast_sen_text_copied">文本已复制!</string>
+
+    <!--Currency Messages -->
+    <string name="currency_symbol">%1$s</string>
+    <string name="currency_symbol_replace_from">,</string>
+    <string name="currency_symbol_replace_to">.</string>
+
+
+    <!--Snackbar Messages -->
+    <string name="snackbar_notice_favorite_added">已添加至您的收藏夹!</string>
+    <string name="snackbar_notice_favorite_removed">已从您的收藏夹移除。</string>
+
+    <string name="snackbar_error_country_pick">请输入一个国家。</string>
+    <string name="snackbar_error_filter_no_value_changed">您当前没有任何筛选项。</string>
+    <string name="snackbar_error_max_5_images">您可以至多选择5张图片。</string>
+    <string name="snackbar_error_max_5_images2">您每件商品可至多添加5张图片。.</string>
+    <string name="snackbar_error_connection">您当前没有网络连接。</string>
+    <string name="snackbar_error_report">您已举报此人。</string>
+    <string name="snackbar_error_report_length">您的留言太长。请尽量简化。</string>
+    <string name="snackbar_error_contact_yourself">您不可以联系自己。</string>
+    <string name="snackbar_error_unavailable">此刻不可用。请稍后重试。</string>
+    <string name="snackbar_error_purchase">很抱歉!发生错误。请稍后重试!</string>
+    <string name="snackbar_error_ready_purchase">支付选项载入中...</string>
+
+    <!--Spannable Messages -->
+
+    <string name="spannable_follow_us_title">关注我们</string>
+    <string name="spannable_follow_username">shoppicacom</string>
+    <string name="spannable_follow_us_desc">Instagram账号以随时了解最新的交易及促销活动!</string>
+
+    <string name="spannable_promote_desc1">您的商品已被促销并</string>
+    <string name="spannable_promote_desc2">正在火热进行中</string>
+    <string name="spannable_promote_desc3">即刻延长您的促销期!</string>
+
+    <string name="spannable_extend_desc1">您的商品依旧</string>
+    <string name="spannable_extend_desc2">有效</string>
+    <string name="spannable_extend_desc3">自此以后，您的商品将到期。</string>
+
+    <string name="spannable_article_offered_by">该商品提供</string>
+    <string name="spannable_article_sold_from">并出售自</string>
+
+    <!--Settings -->
+    <string name="settings">设置</string>
+
+    <string name="settings_facebook_title">关联Facebook</string>
+    <string name="settings_facebook_sub_title">关联Facebook以发布并销售您的商品并将其他商品保存至您的收藏夹。</string>
+    <string name="settings_facebook_button_title_on">您已关联Facebook。</string>
+    <string name="settings_facebook_button_title_off">关联Facebook</string>
+
+    <string name="settings_country_title">国家</string>
+    <string name="settings_country_sub_title">选择您想销售并从其购买商品的国家。</string>
+
+    <string name="settings_contact_title">联系方式</string>
+    <string name="settings_contact_sub_title">添加联系方式并确保潜在的买家可以联系到您。</string>
+
+    <string name="settings_location_title">位置</string>
+    <string name="settings_location_sub_title">让我们获取您的当前位置或者您手动添加。我们将添加位置至您的所售商品中，从而使您的潜在买家了解您的大致区域。您可以在买家联系您时告知其具体位置（地址）。</string>
+
+    <string name="settings_trade_safe_title">安全交易</string>
+    <string name="settings_trade_safe_desc">安全交易始终是重中之重。您发现任何可疑之处了吗？先向买家或卖家询问更多信息。如发现可疑之处，请向我们举报该用户。</string>
+
+    <string name="settings_notifications_title">通知</string>
+    <string name="settings_notifications_desc">您想要接收自您上次访问以来有关所发布商品数量的通知吗？</string>
+    <string name="settings_notifications_switch_on">接收通知</string>
+    <string name="settings_notifications_switch_off">不接收通知</string>
+
+    <string name="settings_feedback_title">Feedback</string>
+    <string name="settings_feedback_desc">我们始终在不断努力提升Shoppica。您有什么反馈或建议吗？我们很愿意聆听!</string>
+
+    <string name="settings_follow_title">Instagram</string>
+    <string name="settings_follow_desc">关注我们的Instagram以实时了解最新的消息及促销活动!</string>
+
+    <string name="settings_logout">退出</string>
+    <string name="settings_logout_desc">您确定要退出吗？</string>
+
+    <string name="settings_version">当前版本： %1$s</string>
+
+    <string name="settings_dialog_feed_back_title">反馈</string>
+    <string name="settings_dialog_feed_back_sub_title">您对我们有什么建议吗？我们很愿意聆听。</string>
+    <string name="settings_dialog_feed_back_hint_message">写留言...</string>
+
+    <string name="settings_dialog_trade_safe_title">安全交易</string>
+    <string name="settings_dialog_trade_safe_sub_title">如有可疑之处，请向我们举报该用户。</string>
+    <string name="settings_dialog_trade_safe_hint_message">写留言...</string>
+
+    <!--View Article -->
+    <string name="view_article_contact_title">感兴趣？</string>
+    <string name="view_article_contact_sub_title">该商品卖家为%1$s来自%2$s. %3$s</string>
+    <string name="view_article_contact_sub_title2">您想要购买此商品吗？请通过下方的联系方式与卖家取得联系!</string>
+
+    <string name="view_article_contact_option_delivery1">你只可从卖家的地点提货。</string>
+    <string name="view_article_contact_option_delivery2">卖家将该商品寄给您。</string>
+    <string name="view_article_contact_option_delivery3">您可以选择在卖家的地址自取或卖家邮寄给您。</string>
+
+    <string name="view_article_login_fb_title">通过Facebook登录</string>
+    <string name="view_article_login_fb_desc">欲将商品保存至您的收藏夹，请用您的Facebook登录。</string>
+
+    <string name="view_article_zoom_title">缩放</string>
+    <string name="view_article_zoom_desc">轻触相片以缩放!</string>
+
+
+    <string name="view_article_condition">状况</string>
+    <string name="view_article_brand">品牌</string>
+    <string name="view_article_color">颜色</string>
+    <string name="view_article_size">尺寸</string>
+    <string name="view_article_gender">性别</string>
+    <string name="view_article_delivery">运送</string>
+    <string name="view_article_value_empty">-</string>
+
+    <string name="view_article_send_email_title">Shoppica - 对%1$感兴趣</string>
+    <string name="view_article_send_email_desc">您好%1$s! 我对您的%2$s感兴趣。我在这里%3$s看到您的商品。请回复!谢谢!</string>
+
+    <string name="view_article_whatsapp_send">您好%1$s!我对您的%2$s感兴趣。我在这里%3$s看到您的商品。请回复!谢谢!</string>
+
+    <string name="view_article_send_error_whatsapp_title">发生错误</string>
+    <string name="view_article_send_error_whatsapp_desc">可能%1$s写错了他的电话号码。请尝试其他的联系方式。或者稍后重试。</string>
+
+    <string name="view_article_instagram_send">您好%1$s!我对您的%2$s感兴趣。我在这里%3$s看到您的商品。请回复!谢谢!</string>
+
+    <string name="view_article_not_installed_error_whatsapp_title">WhatsApp</string>
+    <string name="view_article_not_installed_error_whatsapp_desc">您的手机似乎未安装WhatsApp。欲通过该方式联系%1$s，请先安装WhatsApp。</string>
+    <string name="view_article_not_installed_error_whatsapp_desc2">您的手机似乎未安装WhatsApp。欲添加WhatsApp为联系方式，请先安装WhatsApp。</string>
+
+    <string name="view_article_share_error_title">发生错误</string>
+    <string name="view_article_share_error_desc">分享帖子时发生错误。请稍后重试!</string>
+
+    <string name="view_article_not_installed_error_instagram_title">Instagram</string>
+    <string name="view_article_not_installed_error_instagram_desc">您的手机似乎未安装Instagram。欲通过该方式联系%1$s，请先安装Instagram。</string>
+    <string name="view_article_not_installed_error_instagram_desc2">您的手机似乎未安装Instagram。欲添加Instagram为联系方式，请先安装Instagram。</string>
+
+    <string name="view_article_instagram_error_title">发生错误</string>
+    <string name="view_article_instagram_error_desc">我们无法通过Instagram联系%1$s，请尝试其他联系方式。或者稍后重试。</string>
+
+    <string name="view_article_email_error_title">发生错误</string>
+    <string name="view_article_email_error_desc">我们无法通过电子邮件联系%1$s，请尝试其他联系方式。或者稍后重试。</string>
+    <string name="view_article_send_chooser">从...发送电子邮件</string>
+
+    <string name="view_activitiy_instagram_explain_title">Instagram</string>
+    <string name="view_activitiy_instagram_explain_desc">需要为您介绍如何通过Instagram向卖家发送信息吗？</string>
+
+    <string name="view_article_share_text">我正在以%2$s出售我的%1$s!感兴趣吗？快告诉我!由安卓App驱动的Shoppica。</string>
+    <string name="view_article_share_text_2">快来看看这件由来自 %3$s的 %2$s出售的%1$s，您可以下载安卓App Shoppica了解更多。</string>
+
+    <string name="view_article_post_views_0">0 浏览</string>
+    <string name="view_article_post_views">%1$s浏览</string>
+    <string name="view_article_post_time">%1$s</string>
+
+    <string name="view_article_dialog_report_option_1">图片不适</string>
+    <string name="view_article_dialog_report_option_2">像垃圾邮件</string>
+    <string name="view_article_dialog_report_option_3">其他</string>
+
+    <string name="view_article_dialog_report_title">举报</string>
+    <string name="view_article_dialog_report_sub_title">该用户正在骚扰您？请将其行为告诉我们。</string>
+    <string name="view_article_dialog_report_hint_message">请告诉我们您的困惑...</string>
+
+    <!--Extend Article -->
+    <string name="alert_extend_title">商品续期</string>
+    <string name="alert_extend_desc">您的商品将在%1$s到期。一旦到期，您的商品将被删除。您可以在下方为您的商品续期。</string>
+
+    <!--Alert Edit Photo -->
+    <string name="alert_add_title">添加商品名称</string>
+    <string name="alert_add_title_sub">用3至4个词描述您的商品</string>
+    <string name="alert_add_title_hint">例如：白色毛衣</string>
+
+    <string name="alert_add_brand">品牌</string>
+    <string name="alert_add_brand_sub">请输入您商品的品牌</string>
+    <string name="alert_add_brand_hint">例如ZARA</string>
+
+    <string name="alert_add_color">颜色</string>
+    <string name="alert_add_color_sub">请输入您的商品颜色</string>
+    <string name="alert_add_color_hint">例如红色</string>
+
+    <string name="alert_add_size">尺寸</string>
+    <string name="alert_add_size_sub">请输入您的商品尺寸</string>
+    <string name="alert_add_size_hint">例如S，XL</string>
+
+    <string name="alert_add_gender">性别</string>
+
+    <string name="alert_add_price">价格</string>
+    <string name="alert_add_price_sub">请输入您的商品价格</string>
+    <string name="alert_add_price_hint">例如25</string>
+
+    <string name="alert_add_category">类别</string>
+    <string name="alert_add_condition">状况</string>
+    <string name="alert_add_send">运送：自取</string>
+    <string name="alert_add_contact">联系方式</string>
+
+    <string name="alert_add_whatsapp">Add WhatsApp</string>
+    <string name="alert_add_whatsapp_sub">请输入您的电话号码</string>
+    <string name="alert_add_whatsapp_hint">例如1012345678</string>
+
+    <string name="alert_add_instagram">Add Instagram</string>
+    <string name="alert_add_instagram_sub">请输入您的Instagram用户名</string>
+    <string name="alert_add_instagram_hint">例如Shoppicacom</string>
+
+    <string name="alert_add_email">添加电子邮箱</string>
+    <string name="alert_add_email_sub">请输入您的电子邮箱</string>
+    <string name="alert_add_email_hint">例如：example@email.com </string>
+
+    <string name="alert_add_location">位置</string>
+    <string name="alert_add_location_pick_up">潜在的卖家可以在哪里提取商品？</string>
+    <string name="alert_add_current_location">获取当前位置</string>
+
+    <string name="alert_add_trade_safe">出了什么事？请告诉我们。</string>
+
+    <string name="alert_add_own_location">手动输入位置</string>
+    <string name="alert_add_own_location_sub">输入您的城市名称</string>
+    <string name="alert_add_own_location_sub_hint">例如：纽约</string>
+
+    <string name="alert_category_title">选择一个类别</string>
+    <string name="alert_category_error_title">类别</string>
+    <string name="alert_category_error_desc">请选择一个类别</string>
+
+    <string name="alert_ask_price_error_title">价格</string>
+    <string name="alert_ask_price_error_desc">请输入一个价格</string>
+    <string name="alert_ask_price_error_desc2">您的价格只可包含数字和一个点。例如：20.95</string>
+
+    <string name="alert_article_error_title">标题</string>
+    <string name="alert_article_error_desc">请输入一个标题</string>
+    <string name="alert_article_error_desc2">您的标题太长。请输入一个最多包含四个字的标题。</string>
+
+    <string name="alert_contact_error_title">联系方式</string>
+    <string name="alert_contact_error_desc">请输入至少一个联系方法</string>
+
+    <string name="alert_location_error_title">位置</string>
+    <string name="alert_location_error_title2">发生错误</string>
+    <string name="alert_location_error_desc">请输入一个位置。例如：纽约</string>
+    <string name="alert_location_error_desc2">欲基于位置筛选，我们需要获取您设备的位置。即刻查找位置？</string>
+    <string name="alert_location_error_desc_3">未找到您的位置。请稍后重试。</string>
+
+    <string name="alert_send_title">选择一项运送方式</string>
+    <string name="alert_color_title">选择一种颜色</string>
+    <string name="alert_gender_title">选择商品性别</string>
+    <string name="alert_status_title">选择您的商品状态：</string>
+    <string name="alert_condition_title">选择一种状况</string>
+
+    <string name="article_send_method">运送： %1$s</string>
+
+    <!--Alert General Edit Photo & Settings -->
+    <string name="alert_whatsapp_error_title">WhatsApp</string>
+    <string name="alert_whatsapp_error_desc">您的电话号码只可包含至少10个字。例如：1012345678</string>
+
+    <string name="alert_instagram_error_title">Instagram</string>
+    <string name="alert_instagram_error_desc">您的Instagram用户名不正确。请查验您的用户名并重试。例如：Shoppicacom</string>
+
+    <string name="alert_delete_title">删除商品</string>
+    <string name="alert_delete_desc">您确定要删除该商品吗？</string>
+
+    <!--Edit Post Share Article -->
+    <string name="share_post_fb_title">在Facebook上分享您的商品</string>
+    <string name="share_post_fb_desc">通过将商品分享在Facebook上增加将其售出的机会!</string>
+
+    <!--Promote Article -->
+    <string name="promote_post_title">增加售出的机会</string>
+    <string name="promote_post_sub_title">您想要推广您的产品从而让更多人知晓吗？</string>
+
+    <string name="promote_option_1_title">不</string>
+    <string name="promote_option_1_sub_title">促销</string>
+
+    <string name="promote_option_2_title">6小时</string>
+    <string name="promote_option_2_sub_title">载入中...</string>
+
+    <string name="promote_option_3_title">1天</string>
+    <string name="promote_option_3_sub_title">载入中...</string>
+
+    <string name="promote_option_4_title">3天...</string>
+    <string name="promote_option_4_sub_title">载入中...</string>
+
+    <string name="promote_option_5_title">1星期</string>
+    <string name="promote_option_5_sub_title">载入中...</string>
+
+    <string name="promote_option_6_title">1个月</string>
+    <string name="promote_option_6_sub_title">载入中...</string>
+
+    <!--Extend Article -->
+    <string name="extend_post_title">为您的商品续期</string>
+    <string name="extend_post_sub_title">您的商品已过期且其他用户无法浏览。即刻续期并让其重新上架!</string>
+
+    <string name="extend_option_1_title">不</string>
+    <string name="extend_option_1_sub_title">续期</string>
+
+    <string name="extend_option_2_title">1星期</string>
+    <string name="extend_option_2_sub_title">载入中...</string>
+
+    <string name="extend_option_3_title">1个月</string>
+    <string name="extend_option_3_sub_title">载入中...</string>
+
+    <string name="extend_option_4_title">3个月</string>
+    <string name="extend_option_4_sub_title">载入中...</string>
+
+    <string name="extend_option_5_title">6个月</string>
+    <string name="extend_option_5_sub_title">载入中...</string>
+
+    <string name="extend_option_6_title">1年</string>
+    <string name="extend_option_6_sub_title">载入中...</string>
+
+
+    <!-- Photo Options -->
+    <string name="option_camera">用相机拍照</string>
+    <string name="option_gallery">从图库中选择照片</string>
+
+
+    <!-- Filter Options -->
+    <string name="filter_article_title">筛选</string>
+    <string name="filter_article_gender">性别</string>
+    <string name="filter_article_category">类别</string>
+    <string name="filter_article_condition">状况</string>
+    <string name="filter_article_color">颜色</string>
+    <string name="filter_article_send">运送</string>
+    <string name="filter_article_price_title">价格</string>
+    <string name="filter_article_price">任何价格</string>
+    <string name="filter_article_price_value">%1$s %2$d - %3$s %4$d</string>
+    <string name="filter_distance_title">距离</string>
+    <string name="filter_article_distance">任何距离</string>
+    <string name="filter_article_distance_value">%1$d英里</string>
+
+
+    <!-- Alert Permissions -->
+    <string name="alert_default_permission_title">权限</string>
+    <string name="alert_default_permission_denied_title">权限被拒绝</string>
+    <string name="alert_camera_permission_never_desc">您拒绝了我们的相机权限。请在【设置】->【权限】中修改</string>
+    <string name="alert_camera_permission_desc">需要获取相机权限来拍摄照片及视频。</string>
+
+    <string name="alert_gallery_permission_desc">需要存储权限来存储照片及视频。</string>
+    <string name="alert_gallery_permission_never_desc">您拒绝了我们的存储权限。请在【设置】->【权限】中修改</string>
+
+    <string name="alert_location_permission_never_desc">您拒绝了我们的定位权限。请在【设置】->【权限】中修改</string>
+    <string name="alert_location_permission_desc">需要定位权限来为您定位。</string>
+
+    <!-- Facebook Login Explain -->
+    <string name="login_explain_facebook_desc1">请连接您的Facebook账号以便我们存储您的商品。</string>
+    <string name="login_explain_facebook_desc2">我们绝不会未经您的允许与任何第三方分享您的信息以及发布任何内容。</string>
+
+    <!-- Camera Explain -->
+    <string name="explain_camera_desc">现在是时候来销售您的第一件商品了!</string>
+    <string name="explain_camera_desc1">尽量调整好您商品的位置以使其位于屏幕正中央。然后拍一张或多张照片。</string>
+    <string name="explain_camera_desc2">一旦您满意您的照片效果，您便可以在下一页面描述您的商品了。</string>
+    <string name="explain_camera_desc3"> 就这么简单!</string>
+
+    <!-- Country Explain -->
+    <string name="explain_country_desc">您在哪里？</string>
+    <string name="explain_country_desc1">请选择您的商品售出地。这也将成为我们按照国家搜索当前正在销售的商品时的依据。</string>
+    <string name="explain_country_desc2">您可以在您的设置中随时进行修改。</string>
+
+    <!-- Alert General -->
+    <string name="alert_error_fb_register_title">注册失败</string>
+    <string name="alert_error_network_title">发生错误</string>
+    <string name="alert_error_title">发生错误</string>
+    <string name="alert_error_desc">出错了!请稍后重试!</string>
+    <string name="alert_error_desc2">出错了!请查验您的信息并稍后重试!</string>
+    <string name="alert_error_internet_facebook_desc">您当前没有网络连接。连接Facebook需要有网络连接。</string>
+
+    <string name="alert_error_fb_register_desc_0">Shoppica在连接到Facebook时遇到问题。可能的原因如下：</string>
+    <string name="alert_error_fb_register_desc_1">- 您的注册信息在您的Facebook App已失效。请检查是否为该情况。</string>
+    <string name="alert_error_fb_register_desc_2">- 您手机的时间错误并影响注册进程。如是该情况，您可以在您的手机设置中修改。</string>
+    <string name="alert_error_fb_register_desc_3">-您未安装Facebook App。请安装并重试。 </string>
+
+
+    <!-- Facebook Login Info-->
+    <string name="facebook_app_id">222026065252479</string>
+    <string name="facebook_protocol_scheme">fb222026065252479</string>
+
+    <!-- pager Separator-->
+    <string name="pager_bullet_separator" formatted="false">%s / %s</string>
+
+    <!-- Alert Progress -->
+    <string name="alert_progress_payment_success">成功支付...</string>
+    <string name="alert_progress_uploading">发布中...</string>
+    <string name="alet_progress_searching">获取位置中...</string>
+    <string name="alert_progress_check_connection">检查连接中...</string>
+    <string name="alert_progress_uploading_success">成功发布!</string>
+    <string name="alert_progress_promoted_success">成功推广!</string>
+
+    <!-- Tab Names -->
+    <string name="tab_feed_1">潮流</string>
+    <string name="tab_feed_2">新款</string>
+    <string name="tab_feed_3">促销</string>
+
+    <string name="tab_profile_1">我的商品</string>
+    <string name="tab_profile_2">收藏夹</string>
+
+    <!-- Emoji Drawable Coordinates -->
+    <string name="u1f60e_left_shade_start">M12.45,53.96 C12.05,53.88,11.63,54.01,11.34,54.3 C11.05,54.59,10.92,55,11,55.41 C14.02,70.43,23.36,74.45,23.76,74.61 C23.91,74.67,24.07,74.7,24.23,74.7 C24.66,74.7,25.08,74.47,25.31,74.07 L33.27,59.71 C33.46,59.37,33.47,58.95,33.31,58.6 C33.14,58.25,32.82,57.99,32.43,57.91 L12.45,53.96 Z</string>
+    <string name="u1f60e_left_shade_end">M35.45,58.56 C34.05,59.88,28.34,76.01,28.24,76.8 C28.04,76.8,27.91,76.9,28.5,77.9C35.02,79,43.36,77,44.36,76.1 C44.61,76,44.9,75.74,45.9,75C48.2,72.17,48.81,71.61,49.8,69.17 L50.5,67.87C50.7,67.17,50.9,67,51.5,65 C51,60,44.82,61.3,47.43,61.05L35.45,58.56 Z</string>
+    <string name="u1f60e_right_shade_start">M89.09,60.54 C88.79,60.17,88.31,60.02,87.85,60.13 L75.42,63.14C74.83,63.28,74.44,63.83,74.49,64.43 C74.51,64.74,75.18,72.11,81.66,75.47C81.84,75.56,82.03,75.61,82.23,75.61 C82.37,75.61,82.5,75.59,82.63,75.54C82.95,75.43,83.21,75.19,83.34,74.89 L89.26,61.83C89.46,61.4,89.39,60.89,89.09,60.54 Z</string>
+    <string name="u1f60e_right_shade_end">M120.09,54.54 C119.79,54.17,119.31,54.02,118.85,54.13 L106.42,57.14C102.83,67.28,101.24,68.83,97.83,78.43 C97.83,78.74,104.18,79.11,108.66,74.47C110.84,73.16,109.03,73.61,109.23,73.61 C109.37,74.61,113.5,69.9,113.63,69.54C113.95,69.33,114.21,68.8,114.34,68.89 L120.26,55.83C120.46,55.4,120.39,54.89,120.09,54.54 Z</string>
+
+
+
+    <!-- Rating Dialog -->
+    <string name="rating_dialog_rate_title">请为我们评分？</string>
+    <string name="rating_dialog_form_submit">发送</string>
+    <string name="rating_dialog_form_cancel">返回</string>
+    <string name="rating_dialog_form_positive">以后吧</string>
+    <string name="rating_dialog_form_hint">请告诉我们您不喜欢我们的原因，我们将不断改进！</string>
+
+    <string name="rating_dialog_experience">您目前的体验如何？</string>
+    <string name="rating_dialog_maybe_later">以后吧</string>
+    <string name="rating_dialog_never">从不</string>
+    <string name="rating_dialog_feedback_title">反馈</string>
+    <string name="rating_dialog_submit">发送</string>
+    <string name="rating_dialog_cancel">取消</string>
+    <string name="rating_dialog_suggestions">请告诉我们您对我们App的提升进步有何高见，我们将不断改进!</string>
+
+    <string name="rating_dialog_desc_title">您喜欢我们的app吗？</string>
+    <string name="rating_dialog_desc_title2">在Instagram关注我们!</string>
+    <string name="rating_dialog_desc_rate">我们喜欢购物以及各式饰品。快捷购买或者出售您闲置的衣服或饰品始终是一个冗长的过程。因而我们创建了该app以解决该问题!</string>
+    <string name="rating_dialog_desc_rate2">在 Play Store中为我们评分有机会获得价值1年的会员从而免费推广您的商品!</string>
+
+    <!-- Favorites Fragment -->
+    <string name="state_empty_no_favorites_login">欲浏览您的收藏夹，请通过Facebook登录。</string>
+    <string name="state_empty_no_favorites">您当前没有任何收藏。</string>
+
+    <!-- OwnPosts Fragment -->
+    <string name="state_empty_no_own_posts_login">欲浏览您自己的商品，请通过Facebook登录。</string>
+    <string name="state_empty_no_own_posts">您还没有任何商品。即刻出售一件商品!</string>
+
+    <!-- FeedAdapter -->
+    <string name="adapter_location_article_away_1km"> &lt; 1英里</string>
+    <string name="adapter_location_article_away"> %1$d英里</string>
+    <string name="adapter_reserved">预留</string>
+
+    <!-- Notifications -->
+    <string name="notification_title_type_0">商品马上要到期。</string>
+    <string name="notification_desc_type_0">您的%1$s马上要到期!立即续期从而使所有人均可浏览!</string>
+    <string name="notification_title_type_1">促销马上终止。</string>
+    <string name="notification_desc_type_1">对您%1$s的促销马上终止。立即续期以确保促销继续进行!</string>
+    <string name="notification_new_article_title">新商品New Articles</string>
+
+
+    <!-- Country Picker -->
+    <string name="search_hint">搜索中...</string>
+    <string name="no_result_found">未找到相关结果</string>
+    <string name="select_country">选择一个国家</string>
+
+    <!-- Spannable Times -->
+    <string name="spannable_active_minute_ago">进行1分钟</string>
+    <string name="spannable_active_minutes_ago">进行%1$d分钟</string>
+    <string name="spannable_active_hour_ago">进行1小时</string>
+    <string name="spannable_active_hours_ago">进行%1$d小时</string>
+    <string name="spannable_active_day_ago">进行1天</string>
+    <string name="spannable_active_days_ago">进行%1$d天</string>
+
+    <string name="spannable_time_minute">分钟</string>
+    <string name="spannable_time_and">及</string>
+    <string name="spannable_time_minutes">分钟</string>
+    <string name="spannable_time_hour">小时</string>
+    <string name="spannable_time_hours">小时</string>
+    <string name="spannable_time_day">天</string>
+    <string name="spannable_time_days">天</string>
+    <string name="spannable_time_month">月</string>
+    <string name="spannable_time_months">月</string>
+    <string name="spannable_time_year">年</string>
+    <string name="spannable_time_years">年</string>
+
+    <string name="spannable_time_ago_minute">1分钟前</string>
+    <string name="spannable_time_ago_minutes">分钟前</string>
+    <string name="spannable_time_ago_hour">1小时前</string>
+    <string name="spannable_time_ago_hours">小时前</string>
+    <string name="spannable_time_ago_yesterday">昨天</string>
+    <string name="spannable_time_ago_days">天前</string>
+
+</resources>

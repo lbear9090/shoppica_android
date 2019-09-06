@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.shoppica.com"
+    android:installLocation="internalOnly">
+
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+
+    <application
+        android:name="com.shoppica.com.app.KledingApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name="com.shoppica.com.activities.HomeExplainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/FacebookExplain"
+            android:windowSoftInputMode="adjustResize|stateHidden">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name="com.shoppica.com.activities.ViewArticleActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+
+        <activity
+            android:name="com.shoppica.com.activities.ViewPagerActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/FacebookExplain"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+
+
+        <activity
+            android:name="com.shoppica.com.activities.MainActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+
+        <activity
+            android:name="com.shoppica.com.activities.FacebookExplainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/FacebookExplain"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+
+        <activity
+            android:name="com.shoppica.com.activities.CameraExplainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/CameraExplain"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+
+        <activity
+            android:name="com.shoppica.com.activities.CountryExplainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/CameraExplain"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+
+        <activity
+            android:name="com.shoppica.com.activities.EditPhotoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+
+        <activity
+            android:name="com.shoppica.com.activities.PromoteArticleActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+
+        <activity
+            android:name="com.shoppica.com.activities.ExtendArticleActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+
+
+        <activity
+            android:name="com.shoppica.com.activities.SettingsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+
+        <!--  Facebook provider exported op false gezet begint te conflicten ligt het daaraan. -->
+
+        <provider
+            android:name="com.facebook.FacebookContentProvider"
+            android:authorities="com.facebook.app.FacebookContentProvider222026065252479"
+            android:exported="false" />
+
+        <receiver android:name="com.shoppica.com.broadcasts.MyBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+
+        <meta-data
+            android:name="com.shoppica.com.view.CustomCachingGlideModule"
+            tools:node="remove" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="30a3ab0df60596bf5f3954db51e98dc24cfdbd2c" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/facebook_protocol_scheme" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.shoppica.com.activities.IntroActivity" />
+
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+    </application>
+
+
+</manifest>

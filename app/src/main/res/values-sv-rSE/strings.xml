@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--AppName-->
+    <string name="app_name">SHOPP!CA</string>
+    <string name="app_name1">SHOP</string>
+    <string name="app_name2">P!CA</string>
+
+
+    <!--Toolbar Titles-->
+    <string name="toolbar_name">Shoppica</string>
+    <string name="toolbar_name_sell">Sälj föremål</string>
+    <string name="toolbar_name_promote">Pusha </string>
+    <string name="toolbar_name_extend">Förläng</string>
+    <string name="toolbar_name_article">Föremål</string>
+    <string name="toolbar_name_view_articles">Se alla %1$d bilder</string>
+
+
+    <!--Action Buttons -->
+    <string name="btn_action_report">Anmäl</string>
+    <string name="btn_action_feed_back">Skicka feedback</string>
+    <string name="btn_action_send">Skicka</string>
+    <string name="btn_action_skip">Hoppa över</string>
+    <string name="btn_action_post">Posta</string>
+    <string name="btn_action_price">%1$s</string>
+    <string name="btn_action_reset">Återställ</string>
+    <string name="btn_action_filter">Filter</string>
+    <string name="btn_action_extend">Utöka</string>
+    <string name="btn_action_extend_active">Utvidgning Aktiverad</string>
+    <string name="btn_action_promote">Pusha</string>
+    <string name="btn_action_delete">Ta bort</string>
+    <string name="btn_action_status">Status…</string>
+    <string name="btn_action_promote_active">Push Aktiverad</string>
+
+    <string name="btn_action_allow">tillåt</string>
+    <string name="btn_action_profile">Din profil</string>
+    <string name="btn_action_deny">neka</string>
+    <string name="btn_action_ok">OK</string>
+    <string name="btn_action_install">Installera App</string>
+    <string name="btn_action_logout">Logga Ut</string>
+    <string name="btn_action_cancel">Tillbaka</string>
+    <string name="btn_action_rate">Betygsätt</string>
+    <string name="btn_action_follow">Följ</string>
+    <string name="btn_action_continue">Fortsätt</string>
+    <string name="btn_action_login">Logga In</string>
+    <string name="btn_action_show">Visa</string>
+
+    <string name="btn_action_settings">Inställningar</string>
+    <string name="btn_action_retry">Försök igen</string>
+    <string name="btn_action_camera">Ta Foto</string>
+    <string name="btn_action_understand">Jag förstår</string>
+    <string name="btn_action_country">Välj Land</string>
+    <string name="btn_action_ask_me">fråga mig</string>
+    <string name="btn_action_share">Dela på Facebook!</string>
+    <string name="btn_action_unavailable">Inte tillgänglig.</string>
+    <string name="btn_action_view_post">Sen din post</string>
+
+    <string name="btn_action_whatsapp">WhatsApp</string>
+    <string name="btn_action_instagram">Instagram</string>
+    <string name="btn_action_email">Epost</string>
+    <string name="btn_action_send_feedback">Skicka feedback</string>
+    <string name="btn_action_follow_instagram">Följ oss på Instagram!</string>
+
+    <string name="btn_action_back">Tillbaka</string>
+    <string name="btn_action_extended">Utgången</string>
+
+    <!--Intro Screen -->
+    <string name="intro_title">Välkommen till Shoppica!</string>
+    <string name="intro_title_sub">Här kommer några användbara tips!</string>
+    <string name="intro_search"> Här hittar du alla nya, trendiga och pushade accessoarer som är till salu.</string>
+    <string name="intro_filter"> Här kan du filtrera per kategori, färg, varumärke, pris etc.</string>
+    <string name="intro_camera"> Här kan ta bilder på dina accessoarer och sälja dem på Shoppica.</string>
+    <string name="intro_profile"> Här kan du hantera ditt konto, spara favoriter och se dina listade föremål.</string>
+
+
+    <!--Different Errors ViewStates -->
+    <string name="state_error_desc">Vi beklagar! Ett fel har uppstått. Vänligen försök igen senare!</string>
+    <string name="state_empty_desc">Inga artiklar kunde hittas för närvarande. Vänligen försök igen senare!</string>
+    <string name="state_filter_desc">Inga artiklar hittades. Vänligen kontrollera dina filterinställningar och försök igen.</string>
+    <string name="state_connection_desc">Vänligen kontrollera din internetanslutning och försök igen.</string>
+    <string name="state_error_general_desc">Någonting gick snett på vår sida! Vänligen besök vår Facebooksida för uppdateringar.</string>
+
+    <!--Toast Messages -->
+    <string name="toast_notice_sent">Skickat!</string>
+    <string name="toast_notice_logout_success">Utloggad!</string>
+    <string name="toast_notice_login_success">Inloggad!</string>
+
+    <string name="toast_error_post">Vi beklagar! Ett fel har uppstått under postningen. Vänligen försök igen senare!</string>
+    <string name="toast_error_no_internet_connection">Ingen internetuppkoppling.</string>
+    <string name="toast_error_report_empty">Skriv ett meddelande…</string>
+    <string name="toast_error_report_length">Ditt meddelande behöver bara minst 10 tecken långt.</string>
+    <string name="toast_error_intent_null">Vi beklagar! Ett fel har uppstått. Vänligen försök igen!</string>
+    <string name="toast_sen_text_copied">Texten kopierad!</string>
+
+    <!--Currency Messages -->
+    <string name="currency_symbol">%1$s</string>
+    <string name="currency_symbol_replace_from">,</string>
+    <string name="currency_symbol_replace_to">.</string>
+
+
+    <!--Snackbar Messages -->
+    <string name="snackbar_notice_favorite_added">Adderad till dina favoriters!</string>
+    <string name="snackbar_notice_favorite_removed">Borttagen från favoriter.</string>
+
+    <string name="snackbar_error_country_pick">Vänligen välj ett land.</string>
+    <string name="snackbar_error_filter_no_value_changed">Du har för närvarande inga valda filter.</string>
+    <string name="snackbar_error_max_5_images">Du kan välja maximalt 5 bilder.</string>
+    <string name="snackbar_error_max_5_images2">Du kan lägga till maximalt 5 bilder per föremål.</string>
+    <string name="snackbar_error_connection">Du har ingen internetuppkoppling för närvarande.</string>
+    <string name="snackbar_error_report">Du har redan rapporterat den här personen.</string>
+    <string name="snackbar_error_report_length">Ditt meddelande är för långt. Vänligen försök korta ner det.</string>
+    <string name="snackbar_error_contact_yourself">Du kan inte kontakta dig själv.</string>
+    <string name="snackbar_error_unavailable">Otillgängligt för tillfället. Vänligen försök igen senare.</string>
+    <string name="snackbar_error_purchase">Vi beklagar! Ett fel har uppstått. Vänligen försök igen senare!</string>
+    <string name="snackbar_error_ready_purchase">Laddar betalningsalternativ…</string>
+
+    <!--Spannable Messages -->
+
+    <string name="spannable_follow_us_title">Följ oss</string>
+    <string name="spannable_follow_username">shoppicacom</string>
+    <string name="spannable_follow_us_desc">på Instagram för att hålla dig uppdaterad med de senaste kapen och erbjudandena!</string>
+
+    <string name="spannable_promote_desc1">Din annons är pushad och</string>
+    <string name="spannable_promote_desc2">aktiv</string>
+    <string name="spannable_promote_desc3">Förläng ditt erbjudande nu!</string>
+
+    <string name="spannable_extend_desc1">Din annons är fortfarande</string>
+    <string name="spannable_extend_desc2">aktiv</string>
+    <string name="spannable_extend_desc3">Efter den här perioden kommer din annons att upphöra.</string>
+
+    <string name="spannable_article_offered_by">Den här varan erbjuds av</string>
+    <string name="spannable_article_sold_from">och säljs från</string>
+
+    <!--Settings -->
+    <string name="settings">Inställningar</string>
+
+    <string name="settings_facebook_title">Anslut till Facebook</string>
+    <string name="settings_facebook_sub_title">Anslut till Facebook för att posta och sälja dina varor och för att spara andra annonser till dina favoriter.</string>
+    <string name="settings_facebook_button_title_on">Du är nu ansluten till Facebook.</string>
+    <string name="settings_facebook_button_title_off">Anslut till Facebook</string>
+
+    <string name="settings_country_title">Land</string>
+    <string name="settings_country_sub_title">Välj det land du vill sälja och köpa varor från och i.</string>
+
+    <string name="settings_contact_title">Kontaktmetoder </string>
+    <string name="settings_contact_sub_title">Addera kontaktmetoder så att potentiella köpare kan nå dig.</string>
+
+    <string name="settings_location_title">Plats</string>
+    <string name="settings_location_sub_title">Låt oss hitta din nuvarande plats eller fyll i den manuellt. Vi kommer addera platsen till dina annonser så att potentiella köpare vet ungefär vilket område varan finns i. Det är upp till dig att ge köparen en mer exakt plats (adress) när de kontar dig.</string>
+
+    <string name="settings_trade_safe_title">Trygg  shopping</string>
+    <string name="settings_trade_safe_desc">Trygghet ska alltid komma först. Misstänker du att någonting inte stämmer? Be köparen eller säljaren om mer information innan du går vidare. Om någonting ändå går fel, vänligen rapportera den eller de personer som är involverade till oss.</string>
+
+    <string name="settings_notifications_title">Meddelanden</string>
+    <string name="settings_notifications_desc">Skulle du vilja ta emot meddelanden omantalet annonser som postats sedan ditt förra besökt?</string>
+    <string name="settings_notifications_switch_on">Jag vill ta emot meddelanden</string>
+    <string name="settings_notifications_switch_off">Jag vill inte ta emot meddelanden</string>
+
+    <string name="settings_feedback_title">Feedback</string>
+    <string name="settings_feedback_desc">Vi arbetar alltid hårt för att förbättra Shoppica. Har du någon feedback eller förslag till förbättringar? Vänligen låt oss veta!</string>
+
+    <string name="settings_follow_title">Instagram</string>
+    <string name="settings_follow_desc">Håll dig uppdaterad om de senaste uppdateringarna eller erbjudandena genom att följa oss på Instagram!</string>
+
+    <string name="settings_logout">Logga ut</string>
+    <string name="settings_logout_desc">Är du säker på att du vill logga ut?</string>
+
+    <string name="settings_version">Current version: %1$s</string>
+
+    <string name="settings_dialog_feed_back_title">Feedback</string>
+    <string name="settings_dialog_feed_back_sub_title">Har du några förslag till oss? Vänligen låt oss veta.</string>
+    <string name="settings_dialog_feed_back_hint_message">Skriv ett meddelande…</string>
+
+    <string name="settings_dialog_trade_safe_title">Trygg Shopping</string>
+    <string name="settings_dialog_trade_safe_sub_title">Gick någonting fel? Vänligen rapportera person (en/erna) som varit inblandade till oss.</string>
+    <string name="settings_dialog_trade_safe_hint_message">Skriv ett meddelande…</string>
+
+        <!--View Article -->
+        <string name="view_article_contact_title">Interesserad?</string>
+    <string name="view_article_contact_sub_title">Den är varan säljs av %1$s i %2$s. %3$s</string>
+    <string name="view_article_contact_sub_title2">Skulle du vilja köpa den här varan? Vänligen kontakta säljaren genom en av följande kontaktmetoder nedan!</string>
+
+    <string name="view_article_contact_option_delivery1">Du kan enbart hämta den här varan från säljarens plats.</string>
+    <string name="view_article_contact_option_delivery2">Den här säljaren kommer skicka varan till dig.</string>
+    <string name="view_article_contact_option_delivery3">Du kan välja att antingen hämta eller få denna vara levererad från köparen.</string>
+
+    <string name="view_article_login_fb_title">Logga in med Facebook</string>
+    <string name="view_article_login_fb_desc">För att spara annonser till dina favoriter, vänligen logga in med Facebook.</string>
+
+    <string name="view_article_zoom_title">Zoom</string>
+    <string name="view_article_zoom_desc">Klicka på bilden för att zooma in och ut!</string>
+
+
+    <string name="view_article_condition">Skick</string>
+    <string name="view_article_brand">Varumärke</string>
+    <string name="view_article_color">Färg</string>
+    <string name="view_article_size">Storlek</string>
+    <string name="view_article_gender">Kön</string>
+    <string name="view_article_delivery">Frakt</string>
+    <string name="view_article_value_empty">-</string>
+
+    <string name="view_article_send_email_title">Shoppica – intresserad av %1$s</string>
+    <string name="view_article_send_email_desc">Hej %1$s! Jag är intresserad av %2$s. Jag hittade din annons här: %3$s. Vänligen hör av dig till mig! Tack!</string>
+
+    <string name="view_article_whatsapp_send">Hej %1$s! Jag är intresserad av %2$s. Jag hittade din annons här: %3$s. Vänligen hör av dig till mig! Tack!</string>
+
+    <string name="view_article_send_error_whatsapp_title">Ett fel uppstod</string>
+    <string name="view_article_send_error_whatsapp_desc">Det är möjligt att %1$s råkade skriva in fel telefonnummer. Vänligen försök använda någon annan kontaktmetod eller försök igen senare.</string>
+
+    <string name="view_article_instagram_send">Hej %1$s! Jag är intresserad av %2$s. Jag hittade din annons här: %3$s. Vänligen hör av dig till mig! Tack!</string>
+
+    <string name="view_article_not_installed_error_whatsapp_title">WhatsApp</string>
+    <string name="view_article_not_installed_error_whatsapp_desc">Du verkar inte ha WhatsApp installerad på din telefon. För att kontakta %1$s, vänligen installera WhatsApp först.</string>
+    <string name="view_article_not_installed_error_whatsapp_desc2"> Du verkar inte ha WhatsApp installerad på din telefon. För att kunna använda WhatsApp som kontaktmetod, vänligen installera WhatsApp först.</string>
+
+    <string name="view_article_share_error_title">Ett fel uppstod</string>
+    <string name="view_article_share_error_desc">Någonting gick fel när du delade. Vänligen försök igen senare!</string>
+
+    <string name="view_article_not_installed_error_instagram_title">Instagram</string>
+    <string name="view_article_not_installed_error_instagram_desc">Du verkar inte ha Instagram installerad på din telefon. För att kontakta %1$s, vänligen installera Instagram först.</string>
+    <string name="view_article_not_installed_error_instagram_desc2"> Du verkar inte ha Instagram installerad på din telefon. För att använda Instagram som kontaktmetod, vänligen installera Instagram först</string>
+
+    <string name="view_article_instagram_error_title">Ett fel uppstod</string>
+    <string name="view_article_instagram_error_desc">Om det inte fungerade att kontakta %1$s genom Instagram, vänligen försök använda någon av de andra kontaktmetoderna eller försök igen senare.</string>
+
+    <string name="view_article_email_error_title">Ett fel uppstod</string>
+    <string name="view_article_email_error_desc">Det var inte möjligt att kontakta %1$s genom epost, vänligen försök genom att använda en annan kontaktmetod eller försök igen senare.</string>
+    <string name="view_article_send_chooser">Skicka epost från…</string>
+
+    <string name="view_activitiy_instagram_explain_title">Instagram</string>
+    <string name="view_activitiy_instagram_explain_desc">Skulle du behöva hjälp med en förklaring till hur du kan skicka ett meddelande till säljaren via Instagram?</string>
+
+    <string name="view_article_share_text">Jag säljer min %1$s for %2$s! Interesserad? Låt mig veta! Genom Android-appen Shoppica.</string>
+    <string name="view_article_share_text_2">Kolla på %1$s erbjuden via %2$s från %3$s och finns i Android-appen Shoppica.</string>
+
+    <string name="view_article_post_views_0">0 visningar</string>
+    <string name="view_article_post_views">%1$s visningar </string>
+    <string name="view_article_post_time">%1$s</string>
+
+    <string name="view_article_dialog_report_option_1">Olämplig\a\t foto\'n</string>
+    <string name="view_article_dialog_report_option_2">Känns som spam</string>
+    <string name="view_article_dialog_report_option_3">Annat</string>
+
+    <string name="view_article_dialog_report_title">Rapportera</string>
+    <string name="view_article_dialog_report_sub_title">Besvärar den här personen dig? Låt oss veta vad hen gjorde.</string>
+    <string name="view_article_dialog_report_hint_message">Vänligen berätta för oss vad hen besvärar dig med…</string>
+
+    <!--Extend Article -->
+    <string name="alert_extend_title">Förläng</string>
+    <string name="alert_extend_desc">Din annons kommer att upphöra %1$s. När den har upphört kommer din annons bli raderad. Du kan förlänga annonstiden nedan. </string>
+
+    <!--Alert Edit Photo -->
+    <string name="alert_add_title">Lägg till en rubrik</string>
+    <string name="alert_add_title_sub">Beskriv din vara med 3 till 4 ord.</string>
+    <string name="alert_add_title_hint">Till exempel: Vit tröja</string>
+
+    <string name="alert_add_brand">Varumärke</string>
+    <string name="alert_add_brand_sub">Vänligen skriv vilket varumärke din vara är ifrån.</string>
+    <string name="alert_add_brand_hint">Till exempel Zara</string>
+
+    <string name="alert_add_color">Färg</string>
+    <string name="alert_add_color_sub">Vänligen beskriv vilken  färg din vara har.</string>
+    <string name="alert_add_color_hint">Till exempel Röd</string>
+
+    <string name="alert_add_size">Storlek</string>
+    <string name="alert_add_size_sub">Vänligen fyll I vilken storlek din vara har.</string>
+    <string name="alert_add_size_hint">Till exempel S, XL</string>
+
+    <string name="alert_add_gender">Kön</string>
+
+    <string name="alert_add_price">Pris</string>
+    <string name="alert_add_price_sub">Vänligen fyll i priset för din vara.</string>
+    <string name="alert_add_price_hint">Till exempel 25</string>
+
+    <string name="alert_add_category">Kategori</string>
+    <string name="alert_add_condition">Skick</string>
+    <string name="alert_add_send">Frakt: Hämtas</string>
+    <string name="alert_add_contact">Kontaktmetoder</string>
+
+    <string name="alert_add_whatsapp">Add WhatsApp</string>
+    <string name="alert_add_whatsapp_sub">Vänligen fyll i ditt mobiltelefonnummer.</string>
+    <string name="alert_add_whatsapp_hint">e.g. 1012345678</string>
+
+    <string name="alert_add_instagram">Add Instagram</string>
+    <string name="alert_add_instagram_sub">Vänligen fyll i ditt användarnamn på Instagram.</string>
+    <string name="alert_add_instagram_hint">Till exempel: Shoppicacom</string>
+
+    <string name="alert_add_email">Lägg till Epost</string>
+    <string name="alert_add_email_sub">Vänligen fyll i din epostadress.</string>
+    <string name="alert_add_email_hint">Till exempel: example@email.com</string>
+
+    <string name="alert_add_location">Plats</string>
+    <string name="alert_add_location_pick_up">Var kan potentiella köpare hämta varan?</string>
+    <string name="alert_add_current_location">Hämta nuvarande plats</string>
+
+    <string name="alert_add_trade_safe">Hände någonting? Vänligen berätta för oss.</string>
+
+    <string name="alert_add_own_location">Lägg till plats manuellt</string>
+    <string name="alert_add_own_location_sub">Fyll namnet på din stad.</string>
+    <string name="alert_add_own_location_sub_hint">Till exempel: New York</string>
+
+    <string name="alert_category_title">Välj en kategori</string>
+    <string name="alert_category_error_title">Kategori</string>
+    <string name="alert_category_error_desc">Vänligen välj en kategori.</string>
+
+    <string name="alert_ask_price_error_title">Pris</string>
+    <string name="alert_ask_price_error_desc">Vänligen fyll i ett pris.</string>
+    <string name="alert_ask_price_error_desc2">Priset kan endast innehålla siffror och en punkt. Till exempel: 20.95</string>
+
+    <string name="alert_article_error_title">Rubrik</string>
+    <string name="alert_article_error_desc">Vänligen fyll I en rubrik.</string>
+    <string name="alert_article_error_desc2">Din rubrik är för lång. Vänligen skriv en rubrik med max 4 ord.</string>
+
+    <string name="alert_contact_error_title">Kontaktmetoder</string>
+    <string name="alert_contact_error_desc">Vänligen fyll I minst en kontaktmetod.</string>
+
+    <string name="alert_location_error_title">Plats</string>
+    <string name="alert_location_error_title2">Ett fel uppstod</string>
+    <string name="alert_location_error_desc">Vänligen fyll i en plats. Till exempel: New York</string>
+    <string name="alert_location_error_desc2">För att filtrera baserat på plats behöver vi veta din plats. Vill du söka efter plats?</string>
+    <string name="alert_location_error_desc_3">Din plats kunde inte hittas. Vänligen försök igen senare.</string>
+
+    <string name="alert_send_title">Välj en fraktmetod</string>
+    <string name="alert_color_title">Välj en färg</string>
+    <string name="alert_gender_title">Välj kön</string>
+    <string name="alert_status_title">Välj status för din vara:</string>
+    <string name="alert_condition_title">Välj skick för din vara</string>
+
+    <string name="article_send_method">Frakt: %1$s</string>
+
+    <!--Alert General Edit Photo & Settings -->
+    <string name="alert_whatsapp_error_title">WhatsApp</string>
+    <string name="alert_whatsapp_error_desc">Ditt mobilnummer kan enbart innehålla siffror och vara minst 10 tecken långt. Till exempel: 1012345678</string>
+
+    <string name="alert_instagram_error_title">Instagram</string>
+    <string name="alert_instagram_error_desc">Ditt Instagram användarnamn är inte rätt. Vänligen kontrollera ditt användarnman och försök igen. Till exempel: Shoppicacom</string>
+
+    <string name="alert_delete_title">Ta bort annons</string>
+    <string name="alert_delete_desc">Är du säker på att du vill ta bort annonsen?</string>
+
+    <!--Edit Post Share Article -->
+    <string name="share_post_fb_title">Dela din annons på Facebook</string>
+    <string name="share_post_fb_desc">Öka dina möjligheter att sälja din vara genom att dela den på Facebook!</string>
+
+    <!--Promote Article -->
+    <string name="promote_post_title"> Öka dina möjligheter att sälja</string>
+    <string name="promote_post_sub_title">Skulle du vilja pusha din vara så att den syns bättre?</string>
+
+    <string name="promote_option_1_title">Nej</string>
+    <string name="promote_option_1_sub_title">Erbjudande</string>
+
+    <string name="promote_option_2_title">6 timmar</string>
+    <string name="promote_option_2_sub_title">Laddar…</string>
+
+    <string name="promote_option_3_title">1 dag</string>
+    <string name="promote_option_3_sub_title"> Laddar …</string>
+
+    <string name="promote_option_4_title">3 dagar</string>
+    <string name="promote_option_4_sub_title"> Laddar …</string>
+
+    <string name="promote_option_5_title">1 vecka</string>
+    <string name="promote_option_5_sub_title"> Laddar …</string>
+
+    <string name="promote_option_6_title">1 månad</string>
+    <string name="promote_option_6_sub_title"> Laddar …</string>
+
+    <!--Extend Article -->
+    <string name="extend_post_title">Förläng</string>
+    <string name="extend_post_sub_title">Din annons har utgått och är inte längre synlig för andra användare. Förläng din annons och gör din vara synlig igen!</string>
+
+    <string name="extend_option_1_title">Nej</string>
+    <string name="extend_option_1_sub_title">Förlängning</string>
+
+    <string name="extend_option_2_title">1 vecka</string>
+    <string name="extend_option_2_sub_title"> Laddar …</string>
+
+    <string name="extend_option_3_title">1 månad</string>
+    <string name="extend_option_3_sub_title"> Laddar …</string>
+
+    <string name="extend_option_4_title">3 månader</string>
+    <string name="extend_option_4_sub_title"> Laddar …</string>
+
+    <string name="extend_option_5_title">6 månader</string>
+    <string name="extend_option_5_sub_title"> Laddar …</string>
+
+    <string name="extend_option_6_title">1 år</string>
+    <string name="extend_option_6_sub_title"> Laddar …</string>
+
+
+    <!-- Photo Options -->
+    <string name="option_camera">Ta ett foto med kameran</string>
+    <string name="option_gallery">Välj ett foto</string>
+
+
+    <!-- Filter Options -->
+    <string name="filter_article_title">Filtrera</string>
+    <string name="filter_article_gender">Kön</string>
+    <string name="filter_article_category">Kategori</string>
+    <string name="filter_article_condition">Skick</string>
+    <string name="filter_article_color">Färg</string>
+    <string name="filter_article_send">Frakt</string>
+    <string name="filter_article_price_title">Pris</string>
+    <string name="filter_article_price">Alla priser</string>
+    <string name="filter_article_price_value">%1$s %2$d - %3$s %4$d</string>
+    <string name="filter_distance_title">Avstånd</string>
+    <string name="filter_article_distance">Alla avstånd</string>
+    <string name="filter_article_distance_value">%1$d kilometer</string>
+
+
+    <!-- Alert Permissions -->
+    <string name="alert_default_permission_title">Tillstånd</string>
+    <string name="alert_default_permission_denied_title">Ej tillåtet</string>
+    <string name="alert_camera_permission_never_desc">Du har inte tillåtit tillgång till kameran. Vänligen ändra det I [inställningar] -> [tillåt]</string>
+    <string name="alert_camera_permission_desc">Kamera tillgång är nödvändig för att kunna ta bilder och videos.</string>
+
+    <string name="alert_gallery_permission_desc">Lagringstillstånd är nödvändigt för att kunna spara foton och videos.</string>
+    <string name="alert_gallery_permission_never_desc">Du har nekat tillgång för lagring. Vänligen ändra detta I [inställningar] -> [tillåt]</string>
+
+    <string name="alert_location_permission_never_desc">Du har nekat tillgång till plats. Vänligen ändra detta i [inställningar] -> [tillåt]</string>
+    <string name="alert_location_permission_desc">Tillgång till plats är nödvändigt för att hitta din plats.</string>
+
+    <!-- Facebook Login Explain -->
+    <string name="login_explain_facebook_desc1">Vänligen koppla ditt Facebook konto så att vi kan spara dina annonser.</string>
+    <string name="login_explain_facebook_desc2">Vi kommer aldrig dela din information med någon tredjepart och vi kommer heller aldrig posta någonting utan din tillåtelse.</string>
+
+    <!-- Camera Explain -->
+    <string name="explain_camera_desc">Det är dags att sälja din första vara!</string>
+    <string name="explain_camera_desc1">Försök placera din vara i mitten av din skärm. Ta sedan flera bilder.</string>
+    <string name="explain_camera_desc2">När du är nöjd med dina bilder fortsätt till nästa sida där du kan beskriva din vara.</string>
+    <string name="explain_camera_desc3"> Det är allt!</string>
+
+    <!-- Country Explain -->
+    <string name="explain_country_desc">Var är du?</string>
+    <string name="explain_country_desc1">Vänligen välj det land du kommer sälja dina varor ifrån. Detta kommer också vara det land i vilket vi kommer leta efter varor som är till salu.</string>
+    <string name="explain_country_desc2">Du kan ändra detta när som helst i dina inställningar.</string>
+
+    <!-- Alert General -->
+    <string name="alert_error_fb_register_title">Registreringen misslyckadesd</string>
+    <string name="alert_error_network_title">Ett fel uppstod</string>
+    <string name="alert_error_title">Ett fel uppstod</string>
+    <string name="alert_error_desc">Någonting gick snett! Vänligen försök igen senare!</string>
+    <string name="alert_error_desc2"> Någonting gick snett! Vänligen kontrollera din information och försök igen senare!</string>
+    <string name="alert_error_internet_facebook_desc">Du har ingen internetuppkoppling just nu. Internetuppkoppling är nödvändigt för åtkomst till Facebook.</string>
+
+    <string name="alert_error_fb_register_desc_0">Shoppica hittade fel vid uppkopplingen till Facebook. Här är några möjliga anledningar:</string>
+    <string name="alert_error_fb_register_desc_1">- Uw registrerad information är inte längre giltig I din Facebook app. Om detta är fallet vänligen kontrollera.</string>
+    <string name="alert_error_fb_register_desc_2">- Tiden på din telefon är felaktig och kan påverka registreringsprocessen. Om detta är fallet kan du ändra detta i din telefons inställningar.</string>
+    <string name="alert_error_fb_register_desc_3">- Du har inte Facebook appen installerad. Vänligen installera och försök igen.</string>
+
+
+    <!-- Facebook Login Info-->
+    <string name="facebook_app_id">222026065252479</string>
+    <string name="facebook_protocol_scheme">fb222026065252479</string>
+
+    <!-- pager Separator-->
+    <string name="pager_bullet_separator" formatted="false">%s / %s</string>
+
+    <!-- Alert Progress -->
+    <string name="alert_progress_payment_success">Betalat…</string>
+    <string name="alert_progress_uploading">Postar…</string>
+    <string name="alet_progress_searching">Hämtar plats…</string>
+    <string name="alert_progress_check_connection">Kontrollerar uppkoppling…</string>
+    <string name="alert_progress_uploading_success">Postat!</string>
+    <string name="alert_progress_promoted_success">Pushat!</string>
+
+    <!-- Tab Names -->
+    <string name="tab_feed_1">Trendar</string>
+    <string name="tab_feed_2">Ny</string>
+    <string name="tab_feed_3">Erbjudanden</string>
+
+    <string name="tab_profile_1">Mina annonser</string>
+    <string name="tab_profile_2">Favoriter</string>
+
+    <!-- Emoji Drawable Coordinates -->
+    <string name="u1f60e_left_shade_start">M12.45,53.96 C12.05,53.88,11.63,54.01,11.34,54.3 C11.05,54.59,10.92,55,11,55.41 C14.02,70.43,23.36,74.45,23.76,74.61 C23.91,74.67,24.07,74.7,24.23,74.7 C24.66,74.7,25.08,74.47,25.31,74.07 L33.27,59.71 C33.46,59.37,33.47,58.95,33.31,58.6 C33.14,58.25,32.82,57.99,32.43,57.91 L12.45,53.96 Z</string>
+    <string name="u1f60e_left_shade_end">M35.45,58.56 C34.05,59.88,28.34,76.01,28.24,76.8 C28.04,76.8,27.91,76.9,28.5,77.9C35.02,79,43.36,77,44.36,76.1 C44.61,76,44.9,75.74,45.9,75C48.2,72.17,48.81,71.61,49.8,69.17 L50.5,67.87C50.7,67.17,50.9,67,51.5,65 C51,60,44.82,61.3,47.43,61.05L35.45,58.56 Z</string>
+    <string name="u1f60e_right_shade_start">M89.09,60.54 C88.79,60.17,88.31,60.02,87.85,60.13 L75.42,63.14C74.83,63.28,74.44,63.83,74.49,64.43 C74.51,64.74,75.18,72.11,81.66,75.47C81.84,75.56,82.03,75.61,82.23,75.61 C82.37,75.61,82.5,75.59,82.63,75.54C82.95,75.43,83.21,75.19,83.34,74.89 L89.26,61.83C89.46,61.4,89.39,60.89,89.09,60.54 Z</string>
+    <string name="u1f60e_right_shade_end">M120.09,54.54 C119.79,54.17,119.31,54.02,118.85,54.13 L106.42,57.14C102.83,67.28,101.24,68.83,97.83,78.43 C97.83,78.74,104.18,79.11,108.66,74.47C110.84,73.16,109.03,73.61,109.23,73.61 C109.37,74.61,113.5,69.9,113.63,69.54C113.95,69.33,114.21,68.8,114.34,68.89 L120.26,55.83C120.46,55.4,120.39,54.89,120.09,54.54 Z</string>
+
+
+
+    <!-- Rating Dialog -->
+    <string name="rating_dialog_rate_title">Vilket betyd skulle du ge oss?</string>
+    <string name="rating_dialog_form_submit">Skicka</string>
+    <string name="rating_dialog_form_cancel">Tillbaka</string>
+    <string name="rating_dialog_form_positive">Kanske senare</string>
+    <string name="rating_dialog_form_hint">Vänligen berätta för oss vad du inte gillar så vi kan fixa det!</string>
+
+    <string name="rating_dialog_experience">Hur är din upplevelse så här långt?</string>
+    <string name="rating_dialog_maybe_later"> Kanske senare </string>
+    <string name="rating_dialog_never">Aldrig</string>
+    <string name="rating_dialog_feedback_title">Feedback</string>
+    <string name="rating_dialog_submit">Skicka</string>
+    <string name="rating_dialog_cancel">Avbryt</string>
+    <string name="rating_dialog_suggestions">Vänligen berätta för oss hur vi kan förbättra vår app så fixar vi det!</string>
+
+    <string name="rating_dialog_desc_title">Gillar du vår app?</string>
+    <string name="rating_dialog_desc_title2">Följ oss på Instagram!</string>
+    <string name="rating_dialog_desc_rate">Vi älskar shopping och vi älskar accessoarer. Det har alltid varit en långsam process att sälja kläder och accessoarer på ett snabbt och enkelt sätt. Så vi bestämde oss för att skapa en app för att lösa problemet!</string>
+    <string name="rating_dialog_desc_rate2">Ge oss ett omdöme i Play Store så har du chansen att vinna en årslång prenumeration och kan pusha dina annonser gratis! </string>
+
+    <!-- Favorites Fragment -->
+    <string name="state_empty_no_favorites_login">För att se dina favoriter, vänligen logga in med Facebook.</string>
+    <string name="state_empty_no_favorites">Du har inga favorite för närvarande.</string>
+
+    <!-- OwnPosts Fragment -->
+    <string name="state_empty_no_own_posts_login">För att se dina egna annonser, vänligen logga in med Facebook.</string>
+    <string name="state_empty_no_own_posts">Du har inga annonser ännu. Sälj någonting nu!</string>
+
+    <!-- FeedAdapter -->
+    <string name="adapter_location_article_away_1km"> &lt; 1 kilometer</string>
+    <string name="adapter_location_article_away"> %1$d kilometer</string>
+    <string name="adapter_reserved">Reserverad</string>
+
+    <!-- Notifications -->
+    <string name="notification_title_type_0">Article almost expired.</string>
+    <string name="notification_desc_type_0">Your %1$s has almost expired! Extend it now for it to remain visible for everyone!</string>
+    <string name="notification_title_type_1">Promotion almost ended.</string>
+    <string name="notification_desc_type_1">The promotion of your %1$s has almost ended. Extend your promotion now to make sure you stay on top!</string>
+    <string name="notification_new_article_title">New Articles</string>
+
+
+    <!-- Country Picker -->
+    <string name="search_hint">Sök…</string>
+    <string name="no_result_found">Inga resultat hittade</string>
+    <string name="select_country">Välj ett land</string>
+
+    <!-- Spannable Times -->
+    <string name="spannable_active_minute_ago">aktiv 1 minut</string>
+    <string name="spannable_active_minutes_ago"> aktiv  %1$d minuter</string>
+    <string name="spannable_active_hour_ago"> aktiv 1 timma</string>
+    <string name="spannable_active_hours_ago"> aktiv %1$d timmar</string>
+    <string name="spannable_active_day_ago"> aktiv 1 dag</string>
+    <string name="spannable_active_days_ago"> aktiv %1$d dagar</string>
+
+    <string name="spannable_time_minute">minut</string>
+    <string name="spannable_time_and">och</string>
+    <string name="spannable_time_minutes">minuter</string>
+    <string name="spannable_time_hour">timma</string>
+    <string name="spannable_time_hours">timmar</string>
+    <string name="spannable_time_day">dag</string>
+    <string name="spannable_time_days">dagar</string>
+    <string name="spannable_time_month">month</string>
+    <string name="spannable_time_months">månader</string>
+    <string name="spannable_time_year">år</string>
+    <string name="spannable_time_years">år</string>
+
+    <string name="spannable_time_ago_minute">en minut sen</string>
+    <string name="spannable_time_ago_minutes">minuter sedan</string>
+    <string name="spannable_time_ago_hour">en timma sedan</string>
+    <string name="spannable_time_ago_hours">timmar sedan</string>
+    <string name="spannable_time_ago_yesterday">igår</string>
+    <string name="spannable_time_ago_days">dagar sedan</string>
+
+</resources>

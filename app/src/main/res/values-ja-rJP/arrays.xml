@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="tab_name">
+        <item>フィード</item>
+        <item>カメラ</item>
+        <item>プロフィール</item>
+    </array>
+
+
+    <string-array name="gender">
+        <item>女性</item>
+        <item>男性</item>
+        <item>子供</item>
+        <item>ユニセックス</item>
+    </string-array>
+
+
+    <string-array name="condition">
+        <item>新品</item>
+        <item>ほぼ新品</item>
+        <item>中古</item>
+    </string-array>
+
+    <string-array name="send">
+        <item>商品を受け取る</item>
+        <item>商品を届ける</item>
+        <item>Deliver受け取り&amp;発送</item>
+    </string-array>
+
+    <string-array name="categories">
+        <item>リュック</item>
+        <item>ベルト</item>
+        <item>携帯ケーブル&amp;充電機器</item>
+        <item>携帯ケース</item>
+        <item>コスメ&amp;メイク用品</item>
+        <item>コロン&amp;香水</item>
+        <item>クラッチバッグ&amp;イヴニングバッグ</item>
+        <item>斜めかけカバン</item>
+        <item>ファッション用リュック</item>
+        <item>手袋&amp;ミトン</item>
+        <item>パーティー服</item>
+        <item>帽子&amp;キャップ</item>
+        <item>ヘッドフォン&amp;イヤフォン</item>
+        <item>ホーボーバッグ</item>
+        <item>ジュエリー</item>
+        <item>子供&amp;赤ちゃん用品</item>
+        <item>パソコン用カバン</item>
+        <item>パソコンケース</item>
+        <item>旅行カバン</item>
+        <item>メッセンジャーバッグ</item>
+        <item>ペット用品</item>
+        <item>ポータブル充電器&amp;充電器</item>
+        <item>学生カバン</item>
+        <item>スカーフamp; 首巻</item>
+        <item>靴</item>
+        <item>肩掛けカバン</item>
+        <item>スポーツ靴</item>
+        <item>サングラス&amp;アイウェア</item>
+        <item>タブレットamp; 電子ブックリーダーケース</item>
+        <item>傘</item>
+        <item>ヴィンテージ</item>
+        <item>財布</item>
+        <item>時計</item>
+        <item>ブレスレット</item>
+        <item>雑貨</item>
+    </string-array>
+
+    <string-array name="categories_filter">
+        <item>Backpacks</item>
+        <item>Belts</item>
+        <item>Cell Phone Cables &amp; Chargers</item>
+        <item>Cell Phone Cases</item>
+        <item>Cosmetics &amp; Makeup</item>
+        <item>Cologne &amp; Perfumes</item>
+        <item>Clutch &amp; Evening Bags</item>
+        <item>Crossbody Bags</item>
+        <item>Fashion Backpacks</item>
+        <item>Gloves &amp; Mittens</item>
+        <item>Partywear</item>
+        <item>Hats &amp; Caps</item>
+        <item>Headsets &amp; Earphones</item>
+        <item>Hobo Bags</item>
+        <item>Jewelry</item>
+        <item>Kids &amp; Baby</item>
+        <item>Laptop Bags</item>
+        <item>Laptop Cases</item>
+        <item>Luggage</item>
+        <item>Messenger Bags</item>
+        <item>Pet Accessories </item>
+        <item>Portable Chargers &amp; Powerbanks</item>
+        <item>Satchels</item>
+        <item>Scarves &amp; Wraps</item>
+        <item>Shoes</item>
+        <item>Shoulder Bags</item>
+        <item>Sport Shoes</item>
+        <item>Sunglasses &amp; Eyewear</item>
+        <item>Tablets &amp; E-Reader Cases</item>
+        <item>Umbrellas</item>
+        <item>Vintage</item>
+        <item>Wallets</item>
+        <item>Watches</item>
+        <item>Wristlets</item>
+        <item>Miscellaneous</item>
+    </string-array>
+
+
+    <string-array name="gender_filter">
+        <item>女性</item>
+        <item>男性</item>
+        <item>子供</item>
+        <item>ユニセックス</item>
+        <item>こだわりなし</item>
+    </string-array>
+
+    <string-array name="condition_filter">
+        <item>New</item>
+        <item>Like New</item>
+        <item>Used</item>
+    </string-array>
+
+
+    <string-array name="color_filter">
+        <item>白</item>
+        <item>黒</item>
+        <item>赤</item>
+        <item>オレンジ</item>
+        <item>黄色</item>
+        <item>緑</item>
+        <item>青</item>
+        <item>紫</item>
+        <item>茶色</item>
+        <item>グレー</item>
+        <item>No Preference</item>
+    </string-array>
+
+
+    <string-array name="send_filter">
+        <item>Pickup</item>
+        <item>Delivery</item>
+        <item>Pickup &amp; Delivery</item>
+        <item>No Preference</item>
+
+    </string-array>
+
+
+    <string-array name="status">
+        <item>販売中</item>
+        <item>予約済</item>
+        <item>売却済</item>
+    </string-array>
+
+
+</resources>

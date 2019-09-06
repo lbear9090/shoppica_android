@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <plurals
+        name="send_time_out">
+        <item quantity="one">您可以在%d后再次发送反馈。</item>
+        <item quantity="other">您可以在%d后再次发送反馈。</item>
+    </plurals>
+
+    <plurals
+        name="trade_time_out">
+        <item quantity="one">您可以在%d后再次发送反馈。</item>
+        <item quantity="other">您可以在%d后再次发送反馈。</item>
+    </plurals>
+
+
+    <plurals
+        name="new_articles">
+        <item quantity="one">自您上次访问后有1件新商品被发布。立即浏览! </item>
+        <item quantity="other">自您上次访问后有%d件新商品被发布。立即浏览!</item>
+    </plurals>
+</resources>

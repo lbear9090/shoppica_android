@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <plurals name="send_time_out">
+        <item quantity="one">Sie können das Feedback in %d Sekunde erneut senden.</item>
+        <item quantity="other">Sie können das Feedback innerhalb von %d Sekunden erneut senden</item>
+    </plurals>
+
+    <plurals name="trade_time_out">
+        <item quantity="one">Sie können eine Nachricht in %d Sekunde erneut senden.</item>
+        <item quantity="other">Sie können eine Nachricht erneut in %d Sekunden senden.</item>
+    </plurals>
+
+
+    <plurals name="new_articles">
+        <item quantity="one">Seit Ihrem letzten Besuch wurde %d neuer Artikel gepostet. Schau es Dir jetzt an!</item>
+        <item quantity="other">Seit Ihrem letzten Besuch wurden %d neue Artikel gepostet. Schau sie Dir jetzt an!</item>
+    </plurals>
+</resources>

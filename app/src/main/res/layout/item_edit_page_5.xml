@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="ContentDescription">
+
+
+    <TextView
+        android:id="@+id/chancesTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:includeFontPadding="false"
+        android:text="@string/promote_post_title"
+        android:textAppearance="@style/bold"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/chancesSubTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+       />
+
+    <TextView
+        android:id="@+id/chancesSubTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:lineSpacingExtra="5dp"
+        android:text="@string/promote_post_sub_title"
+        android:textAppearance="@style/medium"
+        android:textColor="#768190"
+        android:textSize="12sp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/option1" />
+
+
+    <ImageButton
+        android:id="@+id/option1"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="7.5dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_box_un_selected"
+        android:clickable="true"
+        android:focusable="true"
+        android:shadowColor="@color/colorTextShadow"
+        android:shadowDx="-1"
+        android:shadowDy="-1"
+
+        android:shadowRadius="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/option2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/option1Done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:src="@drawable/ic_buy_done"
+        android:translationX="5dp"
+        android:translationY="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/option1"
+        app:layout_constraintEnd_toEndOf="@+id/option1" />
+
+
+    <TextView
+        android:id="@+id/option1Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:shadowColor="@color/colorTextShadow"
+        android:shadowDx="-1"
+        android:shadowDy="-1"
+        android:shadowRadius="1"
+        android:text="@string/promote_option_1_title"
+        android:textAppearance="@style/bold"
+        android:textColor="@color/white"
+        android:textSize="11sp"
+        app:layout_constraintBottom_toTopOf="@+id/option1SubTitle"
+        app:layout_constraintEnd_toEndOf="@+id/option1"
+        app:layout_constraintStart_toStartOf="@+id/option1"
+        app:layout_constraintTop_toTopOf="@+id/option1"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:layout_constraintVertical_weight="1" />
+
+    <TextView
+
+
+        android:id="@+id/option1SubTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="@string/promote_option_1_sub_title"
+        android:textAppearance="@style/extraBold"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/option1"
+        app:layout_constraintEnd_toEndOf="@+id/option1"
+        app:layout_constraintStart_toStartOf="@+id/option1"
+        app:layout_constraintTop_toBottomOf="@+id/option1Title"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:layout_constraintVertical_weight="1" />
+
+    <ImageButton
+        android:id="@+id/option2"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="7.5dp"
+        android:layout_marginStart="7.5dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_box_un_selected"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/option3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toEndOf="@+id/option1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/option2Done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_buy_done"
+        android:translationX="5dp"
+        android:translationY="5dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/option2"
+        app:layout_constraintEnd_toEndOf="@+id/option2" />
+
+
+    <TextView
+        android:id="@+id/option2Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:shadowColor="@color/colorTextShadow"
+        android:shadowDx="-1"
+        android:shadowDy="-1"
+        android:shadowRadius="1"
+        android:text="@string/promote_option_2_title"
+        android:textAppearance="@style/bold"
+        android:textColor="@color/white"
+        android:textSize="11sp"
+        app:layout_constraintBottom_toTopOf="@+id/option2SubTitle"
+        app:layout_constraintEnd_toEndOf="@+id/option2"
+        app:layout_constraintStart_toStartOf="@+id/option2"
+        app:layout_constraintTop_toTopOf="@+id/option2"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:layout_constraintVertical_weight="1" />
+
+    <TextView
+        android:id="@+id/option2SubTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="@string/promote_option_2_sub_title"
+        android:textAppearance="@style/extraBold"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/option2"
+        app:layout_constraintEnd_toEndOf="@+id/option2"
+        app:layout_constraintStart_toStartOf="@+id/option2"
+        app:layout_constraintTop_toBottomOf="@+id/option2Title"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:layout_constraintVertical_weight="1" />
+
+
+    <ImageButton
+        android:id="@+id/option3"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="7.5dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_box_un_selected"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toEndOf="@+id/option2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/option3Done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_buy_done"
+        android:translationX="5dp"
+        android:translationY="5dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/option3"
+        app:layout_constraintEnd_toEndOf="@+id/option3" />
+
+    <TextView
+        android:id="@+id/option3Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:shadowColor="@color/colorTextShadow"
+        android:shadowDx="-1"
+        android:shadowDy="-1"
+        android:shadowRadius="1"
+        android:text="@string/promote_option_3_title"
+        android:textAppearance="@style/bold"
+        android:textColor="@color/white"
+        android:textSize="11sp"
+        app:layout_constraintBottom_toTopOf="@+id/option3SubTitle"
+        app:layout_constraintEnd_toEndOf="@+id/option3"
+        app:layout_constraintStart_toStartOf="@+id/option3"
+        app:layout_constraintTop_toTopOf="@+id/option3"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:layout_constraintVertical_weight="1" />
+
+
+
+    <TextView
+        android:id="@+id/option3SubTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="@string/promote_option_3_sub_title"
+        android:textAppearance="@style/extraBold"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/option3"
+        app:layout_constraintEnd_toEndOf="@+id/option3"
+        app:layout_constraintStart_toStartOf="@+id/option3"
+        app:layout_constraintTop_toBottomOf="@+id/option3Title"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:layout_constraintVertical_weight="1" />
+
+    <ImageButton
+        android:id="@+id/option4"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="7.5dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/bg_box_un_selected"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintEnd_toStartOf="@+id/option5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/option1" />
+
+    <TextView
+        android:id="@+id/option4Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:shadowColor="@color/colorTextShadow"
+        android:shadowDx="-1"
+        android:shadowDy="-1"
+        android:shadowRadius="1"
+        android:text="@string/promote_option_4_title"
+        android:textAppearance="@style/bold"
+        android:textColor="@color/white"
+        android:textSize="11sp"
+        app:layout_constraintBottom_toTopOf="@+id/option4SubTitle"
+        app:layout_constraintEnd_toEndOf="@+id/option4"
+        app:layout_constraintStart_toStartOf="@+id/option4"
+        app:layout_constraintTop_toTopOf="@+id/option4"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:layout_constraintVertical_weight="1" />
+
+    <TextView
+        android:id="@+id/option4SubTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="@string/promote_option_4_sub_title"
+        android:textAppearance="@style/extraBold"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/option4"
+        app:layout_constraintEnd_toEndOf="@+id/option4"
+        app:layout_constraintStart_toStartOf="@+id/option4"
+        app:layout_constraintTop_toBottomOf="@+id/option4Title"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:layout_constraintVertical_weight="1" />
+
+    <ImageView
+        android:id="@+id/option4Done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_buy_done"
+        android:translationX="5dp"
+        android:translationY="5dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/option4"
+        app:layout_constraintEnd_toEndOf="@+id/option4" />
+
+    <ImageButton
+        android:id="@+id/option5"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="7.5dp"
+        android:layout_marginStart="7.5dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/bg_box_un_selected"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintEnd_toStartOf="@+id/option6"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toEndOf="@+id/option4"
+        app:layout_constraintTop_toBottomOf="@+id/option1" />
+
+    <TextView
+        android:id="@+id/option5Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:shadowColor="@color/colorTextShadow"
+        android:shadowDx="-1"
+        android:shadowDy="-1"
+        android:shadowRadius="1"
+        android:text="@string/promote_option_5_title"
+        android:textAppearance="@style/bold"
+        android:textColor="@color/white"
+        android:textSize="11sp"
+        app:layout_constraintBottom_toTopOf="@+id/option5SubTitle"
+        app:layout_constraintEnd_toEndOf="@+id/option5"
+        app:layout_constraintStart_toStartOf="@+id/option5"
+        app:layout_constraintTop_toTopOf="@+id/option5"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:layout_constraintVertical_weight="1" />
+
+    <TextView
+        android:id="@+id/option5SubTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="@string/promote_option_5_sub_title"
+        android:textAppearance="@style/extraBold"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/option5"
+        app:layout_constraintEnd_toEndOf="@+id/option5"
+        app:layout_constraintStart_toStartOf="@+id/option5"
+        app:layout_constraintTop_toBottomOf="@+id/option5Title"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:layout_constraintVertical_weight="1" />
+
+    <ImageView
+        android:id="@+id/option5Done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_buy_done"
+        android:translationX="5dp"
+        android:translationY="5dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/option5"
+        app:layout_constraintEnd_toEndOf="@+id/option5" />
+
+
+    <ImageButton
+        android:id="@+id/option6"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="7.5dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/bg_box_un_selected"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toEndOf="@+id/option5"
+        app:layout_constraintTop_toBottomOf="@+id/option1" />
+
+    <TextView
+        android:id="@+id/option6Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:shadowColor="@color/colorTextShadow"
+        android:shadowDx="-1"
+        android:shadowDy="-1"
+        android:shadowRadius="1"
+        android:text="@string/promote_option_6_title"
+        android:textAppearance="@style/bold"
+        android:textColor="@color/white"
+        android:textSize="11sp"
+        app:layout_constraintBottom_toTopOf="@+id/option6SubTitle"
+        app:layout_constraintEnd_toEndOf="@+id/option6"
+        app:layout_constraintStart_toStartOf="@+id/option6"
+        app:layout_constraintTop_toTopOf="@+id/option6"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:layout_constraintVertical_weight="1" />
+
+    <TextView
+        android:id="@+id/option6SubTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="@string/promote_option_6_sub_title"
+        android:textAppearance="@style/extraBold"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/option6"
+        app:layout_constraintEnd_toEndOf="@+id/option6"
+        app:layout_constraintStart_toStartOf="@+id/option6"
+        app:layout_constraintTop_toBottomOf="@+id/option6Title"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:layout_constraintVertical_weight="1" />
+
+    <ImageView
+        android:id="@+id/option6Done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_buy_done"
+        android:translationX="5dp"
+        android:translationY="5dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/option6"
+        app:layout_constraintEnd_toEndOf="@+id/option6" />
+
+</android.support.constraint.ConstraintLayout>

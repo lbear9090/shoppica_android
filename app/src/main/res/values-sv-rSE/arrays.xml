@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <array name="tab_name">
+        <item>Feed</item>
+        <item>Kamera</item>
+        <item>Profil</item>
+    </array>
+
+
+    <string-array name="gender">
+        <item>Kvinnor</item>
+        <item>Män</item>
+        <item>Barn</item>
+        <item>Unisex</item>
+    </string-array>
+
+
+    <string-array name="condition">
+        <item>Nya</item>
+        <item>Gilla</item>
+        <item>Använda</item>
+    </string-array>
+
+    <string-array name="send">
+        <item>Hämta</item>
+        <item>Leverera</item>
+        <item>Hämta &amp; Leverera</item>
+    </string-array>
+
+    <string-array name="categories">
+        <item>Ryggsäckar</item>
+        <item>Skärp</item>
+        <item>Mobil telefon kablar &amp; Laddare</item>
+        <item>Mobil telefon fodral</item>
+        <item>Kosmetika &amp; Smink</item>
+        <item>Cologne &amp; Parfymer</item>
+        <item>Clutch &amp; Aftonväskor</item>
+        <item>Crossbody Väskors</item>
+        <item>Mode Ryggsäckar</item>
+        <item>Handskar &amp; Vantar</item>
+        <item>Festkläder</item>
+        <item>Hattar &amp; Kepsar</item>
+        <item>Headsets &amp; Hörlurar</item>
+        <item>Hobo Väskor</item>
+        <item>Smycken</item>
+        <item>Barn &amp; Baby Accessoarer</item>
+        <item>Laptop Väskor</item>
+        <item>Laptop Fodral</item>
+        <item>Resväskor</item>
+        <item>Messenger Väskor</item>
+        <item>Hudjurstillbehör </item>
+        <item>Portabla Laddare &amp; Powerbank</item>
+        <item>Skolväskor</item>
+        <item>Scarves &amp; Wraps</item>
+        <item>Skor</item>
+        <item>Axelväskor</item>
+        <item>Sportskor</item>
+        <item>Solglasögon &amp; Glasögon</item>
+        <item>Tablets &amp; E-Reader Fodral</item>
+        <item>Paraplyer</item>
+        <item>Vintage</item>
+        <item>Plånböcker</item>
+        <item>Klockor</item>
+        <item>Armbandsklockor</item>
+        <item>Annat</item>
+    </string-array>
+
+    <string-array name="categories_filter">
+        <item>Backpacks</item>
+        <item>Belts</item>
+        <item>Cell Phone Cables &amp; Chargers</item>
+        <item>Cell Phone Cases</item>
+        <item>Cosmetics &amp; Makeup</item>
+        <item>Cologne &amp; Perfumes</item>
+        <item>Clutch &amp; Evening Bags</item>
+        <item>Crossbody Bags</item>
+        <item>Fashion Backpacks</item>
+        <item>Gloves &amp; Mittens</item>
+        <item>Partywear</item>
+        <item>Hats &amp; Caps</item>
+        <item>Headsets &amp; Earphones</item>
+        <item>Hobo Bags</item>
+        <item>Jewelry</item>
+        <item>Kids &amp; Baby</item>
+        <item>Laptop Bags</item>
+        <item>Laptop Cases</item>
+        <item>Luggage</item>
+        <item>Messenger Bags</item>
+        <item>Pet Accessories </item>
+        <item>Portable Chargers &amp; Powerbanks</item>
+        <item>Satchels</item>
+        <item>Scarves &amp; Wraps</item>
+        <item>Shoes</item>
+        <item>Shoulder Bags</item>
+        <item>Sport Shoes</item>
+        <item>Sunglasses &amp; Eyewear</item>
+        <item>Tablets &amp; E-Reader Cases</item>
+        <item>Umbrellas</item>
+        <item>Vintage</item>
+        <item>Wallets</item>
+        <item>Watches</item>
+        <item>Wristlets</item>
+        <item>Miscellaneous</item>
+    </string-array>
+
+
+    <string-array name="gender_filter">
+        <item>Kvinnor</item>
+        <item>Män</item>
+        <item>Barn</item>
+        <item>Unisex</item>
+        <item>Ingen Preferens</item>
+    </string-array>
+
+    <string-array name="condition_filter">
+        <item>New</item>
+        <item>Like New</item>
+        <item>Used</item>
+    </string-array>
+
+
+    <string-array name="color_filter">
+        <item>Vit</item>
+        <item>Svart</item>
+        <item>Röd</item>
+        <item>Orange</item>
+        <item>Gul</item>
+        <item>Grön</item>
+        <item>Blå</item>
+        <item>Lila</item>
+        <item>Brun</item>
+        <item>Grå</item>
+        <item>No Preference</item>
+    </string-array>
+
+
+    <string-array name="send_filter">
+        <item>Pickup</item>
+        <item>Delivery</item>
+        <item>Pickup &amp; Delivery</item>
+        <item>No Preference</item>
+
+    </string-array>
+
+
+    <string-array name="status">
+        <item>Till Salu</item>
+        <item>Reserverad</item>
+        <item>Såld</item>
+    </string-array>
+
+
+</resources>

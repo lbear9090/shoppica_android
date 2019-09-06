@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:wheel="http://schemas.android.com/tools"
+    android:id="@+id/layout_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_dialog"
+    android:paddingStart="15dp"
+    android:paddingEnd="15dp"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textAppearance="@style/bold"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:includeFontPadding="false"
+        app:layout_constraintBottom_toTopOf="@+id/locationSubTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/subTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:layout_marginStart="2dp"
+        android:lineSpacingExtra="3dp"
+        android:textAppearance="@style/medium"
+        android:textColor="#768190"
+        android:textSize="13sp"
+ />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.shoppica.com.country.CountryCodePicker
+            android:id="@+id/ccp"
+            android:visibility="visible"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/bg_edit_dialog"
+            app:ccpDialog_allowSearch="true"
+            app:ccpDialog_backgroundColor="@color/white"
+            app:ccpDialog_textColor="@color/black"
+            app:ccp_arrowSize="30dp"
+            app:ccp_contentColor="@color/black"
+            app:ccp_showArrow="true"
+            app:ccp_showFullName="false"
+            app:ccp_showNameCode="false"
+            app:ccp_showPhoneCode="true"
+            app:ccp_textGravity="CENTER"
+            app:ccp_autoDetectCountry="true"
+            app:ccp_textSize="15sp"/>
+
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_edit_dialog"
+            android:gravity="center|start"
+            android:imeOptions="actionDone"
+            android:singleLine="true"
+            android:maxLength="50"
+            android:inputType="numberDecimal|number"
+            android:digits="0123456789,."
+            android:paddingBottom="20dp"
+            android:paddingEnd="20dp"
+            android:paddingStart="20dp"
+            android:paddingTop="20dp"
+            android:textAppearance="@style/regular"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black_30"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

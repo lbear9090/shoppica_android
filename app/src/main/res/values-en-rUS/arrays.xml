@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="tab_name">
+        <item>Feed</item>
+        <item>Camera</item>
+        <item>Profile</item>
+    </array>
+
+
+    <string-array name="gender">
+        <item>Women</item>
+        <item>Men</item>
+        <item>Kids</item>
+        <item>Unisex</item>
+    </string-array>
+
+
+    <string-array name="condition">
+        <item>New</item>
+        <item>As good as new</item>
+        <item>Used</item>
+    </string-array>
+
+    <string-array name="send">
+        <item>Pickup</item>
+        <item>Delivery</item>
+        <item>Pickup &amp; Delivery</item>
+    </string-array>
+
+    <string-array name="categories">
+        <item>Backpacks</item>
+        <item>Belts</item>
+        <item>Cell Phone Cables &amp; Chargers</item>
+        <item>Cell Phone Cases</item>
+        <item>Cosmetics &amp; Makeup</item>
+        <item>Cologne &amp; Perfumes</item>
+        <item>Clutch &amp; Evening Bags</item>
+        <item>Crossbody Bags</item>
+        <item>Fashion Backpacks</item>
+        <item>Gloves &amp; Mittens</item>
+        <item>Partywear</item>
+        <item>Hats &amp; Caps</item>
+        <item>Headsets &amp; Earphones</item>
+        <item>Hobo Bags</item>
+        <item>Jewelry</item>
+        <item>Kids &amp; Baby</item>
+        <item>Laptop Bags</item>
+        <item>Laptop Cases</item>
+        <item>Luggage</item>
+        <item>Messenger Bags</item>
+        <item>Pet Accessories </item>
+        <item>Portable Chargers &amp; Powerbanks</item>
+        <item>Satchels</item>
+        <item>Scarves &amp; Wraps</item>
+        <item>Shoes</item>
+        <item>Shoulder Bags</item>
+        <item>Sport Shoes</item>
+        <item>Sunglasses &amp; Eyewear</item>
+        <item>Tablets &amp; E-Reader Cases</item>
+        <item>Umbrellas</item>
+        <item>Vintage</item>
+        <item>Wallets</item>
+        <item>Watches</item>
+        <item>Wristlets</item>
+        <item>Miscellaneous</item>
+    </string-array>
+
+    <string-array name="categories_filter">
+        <item>Backpacks</item>
+        <item>Belts</item>
+        <item>Cell Phone Cables &amp; Chargers</item>
+        <item>Cell Phone Cases</item>
+        <item>Cosmetics &amp; Makeup</item>
+        <item>Cologne &amp; Perfumes</item>
+        <item>Clutch &amp; Evening Bags</item>
+        <item>Crossbody Bags</item>
+        <item>Fashion Backpacks</item>
+        <item>Gloves &amp; Mittens</item>
+        <item>Partywear</item>
+        <item>Hats &amp; Caps</item>
+        <item>Headsets &amp; Earphones</item>
+        <item>Hobo Bags</item>
+        <item>Jewelry</item>
+        <item>Kids &amp; Baby</item>
+        <item>Laptop Bags</item>
+        <item>Laptop Cases</item>
+        <item>Luggage</item>
+        <item>Messenger Bags</item>
+        <item>Pet Accessories </item>
+        <item>Portable Chargers &amp; Powerbanks</item>
+        <item>Satchels</item>
+        <item>Scarves &amp; Wraps</item>
+        <item>Shoes</item>
+        <item>Shoulder Bags</item>
+        <item>Sport Shoes</item>
+        <item>Sunglasses &amp; Eyewear</item>
+        <item>Tablets &amp; E-Reader Cases</item>
+        <item>Umbrellas</item>
+        <item>Vintage</item>
+        <item>Wallets</item>
+        <item>Watches</item>
+        <item>Wristlets</item>
+        <item>Miscellaneous</item>
+        <item>No preference</item>
+    </string-array>
+
+
+    <string-array name="gender_filter">
+        <item>Women</item>
+        <item>Men</item>
+        <item>Kids</item>
+        <item>Unisex</item>
+        <item>No Preference</item>
+    </string-array>
+
+    <string-array name="condition_filter">
+        <item>New</item>
+        <item>As good as new</item>
+        <item>Used</item>
+        <item>No Preference</item>
+    </string-array>
+
+
+    <string-array name="color_filter">
+        <item>White</item>
+        <item>Black</item>
+        <item>Red</item>
+        <item>Orange</item>
+        <item>Yellow</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Purple</item>
+        <item>Brown</item>
+        <item>Gray</item>
+        <item>No Preference</item>
+    </string-array>
+
+
+    <string-array name="send_filter">
+        <item>Pickup</item>
+        <item>Delivery</item>
+        <item>Pickup &amp; Delivery</item>
+        <item>No Preference</item>
+
+    </string-array>
+
+
+    <string-array name="status">
+        <item>For Sale</item>
+        <item>Reserved</item>
+        <item>Sold</item>
+    </string-array>
+
+
+</resources>

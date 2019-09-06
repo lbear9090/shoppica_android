@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <dimen name="pager_bullet_indicator_active_dot_diameter">8dp</dimen>
+    <dimen name="pager_bullet_indicator_inactive_dot_diameter">6dp</dimen>
+    <dimen name="pager_bullet_indicator_height">48dp</dimen>
+    <dimen name="pager_bullet_indicator_dot_margin">3dp</dimen>
+    <dimen name="thumb_width">18dp</dimen>
+    <dimen name="thumb_height">18dp</dimen>
+    <dimen name="bubble_thumb_width">20dp</dimen>
+    <dimen name="bubble_thumb_height">20dp</dimen>
+    <dimen name="google_1x">8dp</dimen>
+</resources>

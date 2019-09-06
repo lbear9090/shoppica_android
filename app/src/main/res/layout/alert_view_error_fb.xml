@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/fashion_title_error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        android:includeFontPadding="false"
+        android:text="@string/alert_error_fb_register_title"
+        android:textAppearance="@style/bold"
+        android:textColor="#3f3f3f"
+        android:textSize="18sp" />
+
+    <ScrollView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fadeScrollbars="false"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:scrollbars="vertical">
+
+
+
+            <TextView
+                android:id="@+id/fashion_desc_error0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginStart="25dp"
+                android:lineSpacingExtra="3dp"
+                android:text="@string/alert_error_fb_register_desc_0"
+                android:includeFontPadding="false"
+                android:textAppearance="@style/regular"
+                android:textColor="#3f3f3f"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/fashion_desc_error1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="15dp"
+                android:lineSpacingExtra="3dp"
+                android:text="@string/alert_error_fb_register_desc_1"
+                android:textAppearance="@style/regular"
+                android:textColor="#3f3f3f"
+                android:includeFontPadding="false"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:id="@+id/fashion_desc_error2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="15dp"
+                android:lineSpacingExtra="3dp"
+                android:text="@string/alert_error_fb_register_desc_2"
+                android:textAppearance="@style/regular"
+                android:textColor="#3f3f3f"
+                android:includeFontPadding="false"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/fashion_desc_error3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="15dp"
+                android:lineSpacingExtra="3dp"
+                android:text="@string/alert_error_fb_register_desc_3"
+                android:textAppearance="@style/regular"
+                android:textColor="#3f3f3f"
+                android:includeFontPadding="false"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+
